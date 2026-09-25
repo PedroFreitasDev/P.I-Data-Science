@@ -13,7 +13,7 @@ from .config import (DEFASAGEM_INFLACAO_MESES, DESCONTINUADOS_2_SEMESTRE,
                      DIAS_ESTOQUE_REMANESCENTE, NOVOS_2_SEMESTRE, PRODUTOS,
                      PRODUTOS_1_SEMESTRE, ProdutoBase)
 from .inflacao import acumulado
-from .utils import arredondar_preco, salvar_excel, sortear_indices
+from .utils import arredondar_preco, rng_para, salvar_excel, sortear_indices
 
 FONTE = "cardapio"
 COLUNAS = ["id_produto", "nome_produto", "categoria", "preco_venda", "custo_unitario"]
@@ -81,8 +81,12 @@ def gerar_cardapios(vigencia_1: date, vigencia_2: date, inflacao: dict, rng) -> 
     return Cardapios([Cardapio(vigencia_1, v1, set()), Cardapio(vigencia_2, v2, nao_reajustados)])
 
 
-def publicar_cardapios(cardapios: Cardapios, pasta, gabarito, taxa, rng):
+def publicar_cardapios(cardapios: Cardapios, pasta, gabarito, taxa, seed, hoje: date):
+    """Publica as versões do cardápio que já entraram em vigor até `hoje`."""
     for versao in cardapios.versoes:
+        if versao.vigencia > hoje:
+            continue
+        rng = rng_para(seed, "falha_cardapio", versao.vigencia)
         arquivo = f"cardapio_vigencia_{versao.vigencia.isoformat()}.xlsx"
         linhas = [[pid, it.produto.nome, it.produto.categoria, it.preco, it.custo]
                   for pid, it in sorted(versao.itens.items())]

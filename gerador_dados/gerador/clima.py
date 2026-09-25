@@ -9,7 +9,7 @@ dias e um bloco de dias com fuso horário divergente.
 from datetime import date, datetime, timedelta
 
 from .config import CIDADE, PROB_CHUVA_MES, TEMP_MEDIA_MES
-from .utils import intervalo_datas, salvar_json, sortear_indices
+from .utils import intervalo_datas, rng_para, salvar_json
 
 FONTE = "clima"
 
@@ -62,19 +62,19 @@ def _registros_horarios(d: date, c: dict, rng) -> list[dict]:
     return regs
 
 
-def publicar_clima(clima: dict, pasta, gabarito, taxa, rng, ano):
+def publicar_clima(clima: dict, pasta, gabarito, taxa, seed, ano, ate: date):
+    """Publica as leituras de 01/01 até `ate` (a API não tem dados do futuro)."""
     arquivo = f"clima_{ano}.json"
-    datas = sorted(clima)
+    datas = sorted(d for d in clima if d <= ate)
 
     # Bloco de 5 dias em que a API devolveu datas convertidas de UTC para -03:00
     fuso = set()
     if taxa > 0:
-        ini = rng.randrange(30, len(datas) - 10)
-        fuso = set(datas[ini:ini + 5])
+        ini = rng_para(seed, "clima_fuso", ano).randrange(30, 350)
+        fuso = {date(ano, 1, 1) + timedelta(days=ini + i) for i in range(5)}
 
-    falhas = sortear_indices(rng, len(datas), taxa, minimo=5)
     registros = []
-    for i, d in enumerate(datas):
+    for d in datas:
         c = dict(clima[d])
         reg = {"data": d.isoformat(), **c}
         if d in fuso:
@@ -84,7 +84,8 @@ def publicar_clima(clima: dict, pasta, gabarito, taxa, rng, ano):
                                "Meia-noite UTC convertida para -03:00 cai no dia anterior")
             registros.append(reg)
             continue
-        if i not in falhas:
+        rng = rng_para(seed, "falha_clima", d)
+        if rng.random() >= taxa:
             registros.append(reg)
             continue
 

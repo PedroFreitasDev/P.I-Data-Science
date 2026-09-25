@@ -2,11 +2,17 @@
 
 Cada falha injetada nos arquivos da camada bronze é anotada aqui, permitindo
 conferir depois se a camada silver do pipeline detectou/tratou cada caso.
+
+Fontes acumulativas (vendas, perdas) têm suas falhas acrescentadas ao gabarito a
+cada execução. Fontes republicadas por inteiro (devedores, cardápio, clima...)
+têm suas linhas do gabarito substituídas a cada execução.
 """
 
 import csv
 from collections import Counter
 from pathlib import Path
+
+FONTES_ACUMULATIVAS = {"vendas", "perdas"}
 
 
 class Gabarito:
@@ -30,10 +36,17 @@ class Gabarito:
         })
 
     def salvar(self, caminho: Path):
+        """Mantém o histórico das fontes acumulativas e substitui o das demais."""
         caminho.parent.mkdir(parents=True, exist_ok=True)
+        anteriores = []
+        if caminho.exists():
+            with open(caminho, newline="", encoding="utf-8") as f:
+                anteriores = [l for l in csv.DictReader(f, delimiter=";")
+                              if l["fonte"] in FONTES_ACUMULATIVAS]
         with open(caminho, "w", newline="", encoding="utf-8") as f:
             w = csv.DictWriter(f, fieldnames=self.CAMPOS, delimiter=";")
             w.writeheader()
+            w.writerows(anteriores)
             w.writerows(self.linhas)
 
     def resumo(self) -> Counter:
