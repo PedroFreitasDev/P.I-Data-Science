@@ -9,7 +9,7 @@ from datetime import date
 
 from .config import (CATEGORIAS, DEFASAGEM_INFLACAO_MESES, INFLACAO_MEDIA_CATEGORIA,
                      NOME_CATEGORIA_API)
-from .utils import salvar_json, sortear_indices
+from .utils import rng_para, salvar_json
 
 FONTE = "inflacao"
 
@@ -32,8 +32,10 @@ def acumulado(inflacao: dict, categoria: str, meses: range) -> float:
     return fator
 
 
-def publicar_inflacao(inflacao: dict, pasta, gabarito, taxa, rng, ano, mes_final: int):
+def publicar_inflacao(inflacao: dict, pasta, gabarito, taxa, seed, ano, hoje: date):
+    """Publica os meses já divulgados até `hoje` (com a defasagem de publicação)."""
     arquivo = f"inflacao_{ano}.json"
+    mes_final = hoje.month
     ultimo_publicado = mes_final - DEFASAGEM_INFLACAO_MESES
     for mes in range(ultimo_publicado + 1, mes_final + 1):
         gabarito.registrar(FONTE, arquivo, f"{ano}-{mes:02d}", "*", "defasagem_publicacao",
@@ -52,9 +54,11 @@ def publicar_inflacao(inflacao: dict, pasta, gabarito, taxa, rng, ano, mes_final
         for cat in CATEGORIAS
     ]
 
-    for i in sortear_indices(rng, len(registros), taxa, minimo=3):
-        r = registros[i]
+    for r in registros:
         chave = f"{r['mes_referencia']}|{r['categoria_produto']}"
+        rng = rng_para(seed, "falha_inflacao", chave)
+        if rng.random() >= taxa:
+            continue
         tipo = rng.choice(["indice_nulo", "indice_sem_virgula", "categoria_digitada_errada",
                            "formato_mes_divergente"])
         if tipo == "indice_nulo":
@@ -82,6 +86,6 @@ def publicar_inflacao(inflacao: dict, pasta, gabarito, taxa, rng, ano, mes_final
     salvar_json(pasta / arquivo, {
         "fonte": "API de índices de preços (simulada)",
         "descricao": "Variação percentual mensal por categoria de produto",
-        "consultado_em": date(ano, mes_final, 28).isoformat(),
+        "consultado_em": hoje.isoformat(),
         "dados": registros,
     })

@@ -1,4 +1,10 @@
-"""1.1 Vendas (Excel, consolidado em planilhas semanais).
+"""1.1 Vendas (Excel).
+
+Cada execução gera apenas vendas do próprio dia, entre 75 e 150 no total. O
+conjunto de vendas do dia é determinístico (depende só da semente e da data), e
+cada execução grava somente as que já aconteceram até o horário atual e ainda
+não foram registradas. Assim, uma execução às 13h registra a manhã e outra às
+19h registra a tarde, sem duplicar nada.
 
 A simulação respeita:
 - só há vendas em dias em que realmente houve aula (greve = sem vendas;
@@ -13,6 +19,7 @@ A simulação respeita:
 import math
 from dataclasses import dataclass
 from datetime import datetime, time, timedelta
+from pathlib import Path
 
 from .config import ITENS_MULTIPLOS
 from .utils import escolha_ponderada, salvar_excel
@@ -20,6 +27,8 @@ from .utils import escolha_ponderada, salvar_excel
 FONTE = "vendas"
 COLUNAS = ["id_venda", "data_hora", "id_aluno", "id_produto", "quantidade",
            "valor_unitario", "valor_total", "forma_pagamento"]
+ARQUIVO_HISTORICO = "historico_vendas.xlsx"
+VENDAS_MIN_DIA, VENDAS_MAX_DIA = 75, 150
 
 FATOR_DIA_SEMANA = {0: 0.95, 1: 1.0, 2: 1.0, 3: 1.02, 4: 1.15, 5: 1.0}
 JANELAS = {
@@ -41,6 +50,13 @@ class Venda:
     forma_pagamento: str
 
 
+def fim_expediente(dia) -> time:
+    """Horário a partir do qual não há mais vendas no dia (fechamento da cantina)."""
+    if dia.sabado_letivo:
+        return time(12, 30)
+    return time(18, 30) if dia.aula_tarde else time(13, 0)
+
+
 def _horario(d, janela, rng) -> datetime:
     (h1, m1), (h2, m2), _ = janela
     ini = datetime.combine(d, time(h1, m1))
@@ -58,100 +74,87 @@ def _peso_produto(item, clima_dia) -> float:
     return w
 
 
-def simular_vendas(dias, clima, turmas, cardapios, rng) -> list[Venda]:
-    alunos = [a for t in turmas for a in t.alunos]
-    brutas = []
-    for dia in dias:
-        if not dia.tem_aula:
-            continue
-        c = clima[dia.data]
-        chuva = c["condicao"] in ("chuva", "tempestade")
-        itens = cardapios.disponiveis(dia.data)
-        pesos_base = {pid: _peso_produto(it, c) for pid, it in itens.items()}
+def simular_dia(dia, clima_dia, turmas, itens, primeiro_id: int, rng) -> list[Venda]:
+    """Todas as vendas do dia, em ordem cronológica, com ids a partir de `primeiro_id`."""
+    if not dia.tem_aula:
+        return []
+    chuva = clima_dia["condicao"] in ("chuva", "tempestade")
+    presenca = 0.87 if chuva else 0.93
+    if dia.sabado_letivo:
+        presenca = 0.75 if dia.evento == "festa_junina" else 0.85
 
-        fator = FATOR_DIA_SEMANA[dia.data.weekday()]
-        if dia.data.day <= 7:
-            fator *= 1.1  # início do mês: mesada/salário
-        if dia.evento == "festa_junina":
-            fator *= 1.8
-        presenca = 0.87 if chuva else 0.93
+    presentes = []
+    for aluno in (a for t in turmas for a in t.alunos):
         if dia.sabado_letivo:
-            presenca = 0.75 if dia.evento == "festa_junina" else 0.85
+            janelas = JANELAS["sabado"]
+        elif (aluno.turno == "manha" and dia.aula_manha) or (aluno.turno == "tarde" and dia.aula_tarde):
+            janelas = JANELAS[aluno.turno]
+        else:
+            continue
+        if rng.random() < presenca:
+            presentes.append((aluno, janelas))
+    if not presentes:
+        return []
 
-        for aluno in alunos:
-            if dia.sabado_letivo:
-                janelas = JANELAS["sabado"]
-            elif (aluno.turno == "manha" and dia.aula_manha) or \
-                 (aluno.turno == "tarde" and dia.aula_tarde):
-                janelas = JANELAS[aluno.turno]
-            else:
-                continue
-            if rng.random() > presenca:
-                continue
-            if rng.random() > min(0.95, aluno.propensao * fator):
-                continue
+    # Volume do dia: clima, dia da semana, início do mês (mesada) e eventos
+    fator = FATOR_DIA_SEMANA[dia.data.weekday()] * (0.9 if chuva else 1.0)
+    if dia.data.day <= 7:
+        fator *= 1.1
+    if dia.evento == "festa_junina":
+        fator *= 1.5
+    if not (dia.aula_manha and dia.aula_tarde) and not dia.sabado_letivo:
+        fator *= 0.8  # só um turno com aula
+    alvo = max(VENDAS_MIN_DIA, min(VENDAS_MAX_DIA, round(rng.randint(85, 125) * fator)))
 
-            permitidos = {pid: w for pid, w in pesos_base.items()
-                          if not (itens[pid].produto.tags & aluno.tags_proibidas)
-                          and aluno.serie >= itens[pid].produto.serie_min}
-            if not permitidos:
-                continue
-            max_itens = 2 if aluno.turma.segmento == "EF1" else 3
-            n_itens = min(len(permitidos), rng.choices([1, 2, 3][:max_itens],
-                                                       weights=[60, 30, 10][:max_itens])[0])
-            momento = _horario(dia.data, rng.choices(janelas, weights=[j[2] for j in janelas])[0], rng)
-            forma = escolha_ponderada(rng, aluno.pesos_pagamento)
-
-            escolhidos = []
-            for _ in range(n_itens):
-                pid = escolha_ponderada(rng, permitidos)
-                escolhidos.append(pid)
-                del permitidos[pid]
-            for pid in escolhidos:
-                qtd = 1
-                if pid in ITENS_MULTIPLOS:
-                    qtd = rng.choices([1, 2, 3], weights=[75, 20, 5])[0]
-                preco = itens[pid].preco
-                brutas.append((momento, aluno.id, pid, qtd, preco, round(qtd * preco, 2), forma))
-                momento += timedelta(seconds=rng.randint(2, 15))
+    pesos_base = {pid: _peso_produto(it, clima_dia) for pid, it in itens.items()}
+    pesos_alunos = [a.propensao for a, _ in presentes]
+    brutas = []
+    while len(brutas) < alvo:
+        aluno, janelas = rng.choices(presentes, weights=pesos_alunos)[0]
+        permitidos = {pid: w for pid, w in pesos_base.items()
+                      if not (itens[pid].produto.tags & aluno.tags_proibidas)
+                      and aluno.serie >= itens[pid].produto.serie_min}
+        if not permitidos:
+            continue
+        max_itens = 2 if aluno.turma.segmento == "EF1" else 3
+        n_itens = rng.choices([1, 2, 3][:max_itens], weights=[60, 30, 10][:max_itens])[0]
+        n_itens = min(n_itens, len(permitidos), alvo - len(brutas))
+        momento = _horario(dia.data, rng.choices(janelas, weights=[j[2] for j in janelas])[0], rng)
+        forma = escolha_ponderada(rng, aluno.pesos_pagamento)
+        for _ in range(n_itens):
+            pid = escolha_ponderada(rng, permitidos)
+            del permitidos[pid]
+            qtd = rng.choices([1, 2, 3], weights=[75, 20, 5])[0] if pid in ITENS_MULTIPLOS else 1
+            preco = itens[pid].preco
+            brutas.append((momento, aluno.id, pid, qtd, preco, round(qtd * preco, 2), forma))
+            momento += timedelta(seconds=rng.randint(2, 15))
 
     brutas.sort(key=lambda v: v[0])
-    return [Venda(i, *v) for i, v in enumerate(brutas, start=1)]
+    return [Venda(i, *v) for i, v in enumerate(brutas, start=primeiro_id)]
 
 
-def publicar_vendas(vendas: list[Venda], pasta, gabarito, taxa, rng):
-    semanas = {}
-    for v in vendas:
-        a, s, _ = v.data_hora.isocalendar()
-        semanas.setdefault((a, s), []).append(v)
+def gravar_lote(lote: list[Venda], caminho: Path, gabarito, taxa, rng):
+    """Grava o arquivo do lote (vendas desta execução), já com as falhas propositais."""
+    rotulo = caminho.stem
+    # Alguns lotes são digitados por outro operador, que escreve a data como texto
+    data_como_texto = taxa > 0 and rng.random() < 0.15
+    if data_como_texto:
+        gabarito.registrar(FONTE, ARQUIVO_HISTORICO, f"ids {lote[0].id}-{lote[-1].id}", "data_hora",
+                           "formato_data_divergente", "datetime", "texto dd/mm/aaaa hh:mm",
+                           f"Lote {rotulo} inteiro com datas digitadas como texto")
+    linhas = []
+    for v in lote:
+        dh = v.data_hora.strftime("%d/%m/%Y %H:%M") if data_como_texto else v.data_hora
+        linhas.append([v.id, dh, f"ALU{v.id_aluno:05d}", f"P{v.id_produto:03d}", v.quantidade,
+                       v.valor_unitario, v.valor_total, v.forma_pagamento])
 
-    for (a, s), lista in sorted(semanas.items()):
-        arquivo = f"vendas_{a}-S{s:02d}.xlsx"
-        # Algumas semanas foram consolidadas por outro operador, que digita a data como texto
-        data_como_texto = taxa > 0 and rng.random() < 0.15
-        if data_como_texto:
-            gabarito.registrar(FONTE, arquivo, "*", "data_hora", "formato_data_divergente",
-                               "datetime", "texto dd/mm/aaaa hh:mm",
-                               "Planilha inteira com datas digitadas como texto")
-        linhas = []
-        for v in lista:
-            dh = v.data_hora.strftime("%d/%m/%Y %H:%M") if data_como_texto else v.data_hora
-            linha = [v.id, dh, f"ALU{v.id_aluno:05d}", f"P{v.id_produto:03d}", v.quantidade,
-                     v.valor_unitario, v.valor_total, v.forma_pagamento]
-            linhas.append(linha)
-
-        extras = []
-        for i in sorted(_indices_falha(rng, len(linhas), taxa)):
-            extras += _aplicar_falha(linhas, i, arquivo, gabarito, rng)
-        for pos, linha in sorted(extras, key=lambda e: -e[0]):
-            linhas.insert(pos, linha)
-        salvar_excel(pasta / arquivo, COLUNAS, linhas, aba="vendas")
-
-
-def _indices_falha(rng, total, taxa):
-    if taxa <= 0:
-        return set()
-    return {i for i in range(total) if rng.random() < taxa}
+    extras = []
+    for i in range(len(linhas)):
+        if taxa > 0 and rng.random() < taxa:
+            extras += _aplicar_falha(linhas, i, ARQUIVO_HISTORICO, gabarito, rng)
+    for pos, linha in sorted(extras, key=lambda e: -e[0]):
+        linhas.insert(pos, linha)
+    salvar_excel(caminho, COLUNAS, linhas, aba="vendas")
 
 
 def _aplicar_falha(linhas, i, arquivo, gabarito, rng):
