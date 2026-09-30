@@ -14,7 +14,6 @@ from pathlib import Path
 
 from .utils import salvar_excel
 
-FONTE = "perdas"
 COLUNAS = ["id_perda", "data", "id_produto", "quantidade", "motivo", "valor_prejuizo"]
 ARQUIVO_HISTORICO = "historico_perdas.xlsx"
 DIAS_MEDIA = 5
@@ -60,39 +59,28 @@ def gerar_perdas_dia(d: date, vendas_dia, itens, historico: dict, primeiro_id: i
     return [Perda(i, *p) for i, p in enumerate(brutas, start=primeiro_id)]
 
 
-def gravar_lote(lote: list[Perda], caminho: Path, gabarito, taxa, rng):
+def gravar_lote(lote: list[Perda], caminho: Path, taxa, rng):
     """Grava a planilha de perdas do dia, já com as falhas propositais."""
-    arquivo = ARQUIVO_HISTORICO
     linhas = [[p.id, p.data, p.id_produto, p.quantidade, p.motivo, p.valor_prejuizo]
               for p in lote]
     for linha in linhas:
         if not (taxa > 0 and rng.random() < taxa * 1.5):
             continue
-        id_p = linha[0]
         tipo = rng.choices(["motivo_vazio", "produto_sem_correspondencia",
                             "quantidade_invalida", "valor_prejuizo_divergente",
                             "formato_data_divergente"], weights=[4, 2, 3, 2, 1])[0]
         if tipo == "motivo_vazio":
-            gabarito.registrar(FONTE, arquivo, id_p, "motivo", "valor_nulo", linha[4], None)
             linha[4] = None
         elif tipo == "produto_sem_correspondencia":
             novo = rng.choice([99, 0, linha[2] + 100, linha[2] * 11 if linha[2] > 2 else 99])
-            gabarito.registrar(FONTE, arquivo, id_p, "id_produto", "produto_ausente_cardapio",
-                               linha[2], novo)
             linha[2] = novo
         elif tipo == "quantidade_invalida":
             novo = rng.choice([0, -linha[3]])
-            gabarito.registrar(FONTE, arquivo, id_p, "quantidade", "quantidade_zerada_negativa",
-                               linha[3], novo)
             linha[3] = novo
         elif tipo == "valor_prejuizo_divergente":
             novo = rng.choice([round(linha[5] * 10, 2), -linha[5], round(linha[5] + 5, 2)])
-            gabarito.registrar(FONTE, arquivo, id_p, "valor_prejuizo",
-                               "valor_divergente_calculo", linha[5], novo)
             linha[5] = novo
         else:
             novo = linha[1].strftime(rng.choice(["%d/%m/%Y", "%d-%m-%y", "%Y/%m/%d"]))
-            gabarito.registrar(FONTE, arquivo, id_p, "data", "formato_data_divergente",
-                               linha[1].isoformat(), novo)
             linha[1] = novo
     salvar_excel(caminho, COLUNAS, linhas, aba="perdas")

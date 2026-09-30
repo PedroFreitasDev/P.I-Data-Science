@@ -13,7 +13,6 @@ from .config import (NOMES_FEMININOS, NOMES_MASCULINOS, PESOS_PAGAMENTO, RESTRIC
                      SOBRENOMES, TAGS_POR_RESTRICAO)
 from .utils import salvar_json, sortear_indices
 
-FONTE = "turmas_alunos"
 
 
 @dataclass
@@ -109,7 +108,7 @@ def gerar_turmas(ano: int, rng, min_alunos: int, max_alunos: int) -> list[Turma]
     return turmas
 
 
-def publicar_turmas(turmas: list[Turma], pasta, gabarito, taxa, rng, ano):
+def publicar_turmas(turmas: list[Turma], pasta, taxa, rng, ano):
     arquivo = f"turmas_alunos_{ano}.json"
     turmas_json = []
     alunos_json = []
@@ -123,18 +122,8 @@ def publicar_turmas(turmas: list[Turma], pasta, gabarito, taxa, rng, ano):
             alunos_json.append(aj)
         turmas_json.append(tj)
 
-    # Homônimos (não é erro de digitação, mas exige cuidado no pipeline)
-    vistos = {}
-    for aj in alunos_json:
-        if aj["nome"] in vistos:
-            gabarito.registrar(FONTE, arquivo, aj["id_aluno"], "nome", "nome_duplicado",
-                               observacao=f"Mesmo nome do aluno {vistos[aj['nome']]}")
-        vistos.setdefault(aj["nome"], aj["id_aluno"])
-
     for i in sortear_indices(rng, len(turmas_json), taxa, minimo=1):
         tj = turmas_json[i]
-        gabarito.registrar(FONTE, arquivo, tj["turma"], "turno", "campo_aninhado_ausente",
-                           tj["turno"], None)
         del tj["turno"]
 
     for i in sortear_indices(rng, len(alunos_json), taxa, minimo=3):
@@ -145,28 +134,21 @@ def publicar_turmas(turmas: list[Turma], pasta, gabarito, taxa, rng, ano):
         id_ = aj["id_aluno"]
         if tipo == "id_formato_divergente":
             novo = rng.choice([f"{id_:06d}", f"ALU{id_:05d}", str(id_)])
-            gabarito.registrar(FONTE, arquivo, id_, "id_aluno", tipo, id_, novo)
             aj["id_aluno"] = novo
         elif tipo == "campo_ausente":
             campo = rng.choice(["data_nascimento", "restricao_alimentar"])
-            gabarito.registrar(FONTE, arquivo, id_, campo, "campo_aninhado_ausente", aj[campo], None)
             del aj[campo]
         elif tipo == "data_nascimento_invalida":
             # erros evidentes de digitação/sistema, nunca uma idade "quase plausível"
             novo = rng.choice(["1900-01-01", f"{ano + 1}-{aj['data_nascimento'][5:]}",
                                "0" + aj["data_nascimento"][1:]])
-            gabarito.registrar(FONTE, arquivo, id_, "data_nascimento", tipo,
-                               aj["data_nascimento"], novo)
             aj["data_nascimento"] = novo
         elif tipo == "data_formato_divergente":
             a, m, d = aj["data_nascimento"].split("-")
             novo = f"{d}/{m}/{a}"
-            gabarito.registrar(FONTE, arquivo, id_, "data_nascimento", tipo,
-                               aj["data_nascimento"], novo)
             aj["data_nascimento"] = novo
         else:
             novo = rng.choice([aj["nome"].upper(), f" {aj['nome']}  ", aj["nome"].lower()])
-            gabarito.registrar(FONTE, arquivo, id_, "nome", "texto_fora_do_padrao", aj["nome"], novo)
             aj["nome"] = novo
 
     salvar_json(pasta / arquivo, {

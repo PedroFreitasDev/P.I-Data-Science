@@ -1,54 +1,51 @@
 """1.2 Devedores (Excel).
 
-Cada venda "Fiado" gera (ou aumenta) o débito do aluno naquele dia. Os débitos
-ficam guardados no estado do gerador e a planilha é republicada a cada execução
-com o status calculado na data de hoje. A quitação depende do perfil oculto do
-responsável (pontual, atrasa ou inadimplente) e é sempre a mesma para um mesmo
-débito, então o status só "anda para frente" com o passar dos dias.
+Cada dia em que um aluno compra "Fiado" gera um débito (a soma do fiado dele no
+dia). A planilha é recalculada a cada execução a partir das vendas já
+registradas no histórico, com o status do dia de hoje. A quitação depende do
+perfil oculto do responsável (pontual, atrasa ou inadimplente) e é sempre a
+mesma para um mesmo débito, então o status só "anda para frente" com o tempo.
 
-As falhas de cada débito são sorteadas uma única vez, quando ele é criado, e
-ficam gravadas no estado. Assim a mesma falha aparece em todas as versões da planilha.
+Os ids e as falhas de cada débito dependem apenas da ordem cronológica dos
+débitos, que nunca muda (débitos novos entram sempre no fim). Assim a mesma
+falha aparece no mesmo débito em todas as versões da planilha.
 """
 
 from datetime import date, timedelta
 
 from .utils import rng_para, salvar_excel
 
-FONTE = "devedores"
 COLUNAS = ["id_devedor", "id_aluno", "data_divida", "valor_devido", "status", "data_quitacao"]
 ARQUIVO = "devedores_atualizado.xlsx"
 TIPOS_FALHA = ["id_aluno_inexistente", "status_desatualizado", "quitacao_anterior_divida",
                "registro_duplicado", "valor_invalido", "status_digitacao"]
 
 
-def registrar_fiado(estado: dict, lote_vendas, seed, taxa):
-    """Acrescenta ao estado os débitos gerados pelas vendas fiado do lote."""
-    dividas = estado["dividas"]
-    por_chave = {(d["id_aluno"], d["data"]): d for d in dividas}
-    for v in lote_vendas:
-        if v.forma_pagamento != "Fiado":
-            continue
-        chave = (v.id_aluno, v.data_hora.date().isoformat())
+def montar_dividas(vendas_fiado, seed, taxa) -> list[dict]:
+    """Agrupa o fiado por (aluno, dia) na ordem em que os débitos surgiram."""
+    dividas, por_chave = [], {}
+    proximo_id = 1
+    for v in sorted(vendas_fiado, key=lambda v: (v.data_hora, v.id)):
+        chave = (v.id_aluno, v.data_hora.date())
         if chave in por_chave:
             por_chave[chave]["valor"] = round(por_chave[chave]["valor"] + v.valor_total, 2)
             continue
-        id_d = estado["proximo_id_devedor"]
-        estado["proximo_id_devedor"] += 1
-        divida = {"id": id_d, "id_aluno": v.id_aluno, "data": chave[1],
+        divida = {"id": proximo_id, "id_aluno": v.id_aluno, "data": chave[1],
                   "valor": v.valor_total, "falha": None}
-        rng = rng_para(seed, "falha_devedor", id_d)
+        proximo_id += 1
+        rng = rng_para(seed, "falha_devedor", divida["id"])
         if taxa > 0 and rng.random() < taxa * 2:
-            falha = {"tipo": rng.choice(TIPOS_FALHA), "sorteio": rng.random()}
-            if falha["tipo"] == "registro_duplicado":
-                falha["id_duplicata"] = estado["proximo_id_devedor"]
-                estado["proximo_id_devedor"] += 1
-            divida["falha"] = falha
+            divida["falha"] = {"tipo": rng.choice(TIPOS_FALHA), "sorteio": rng.random()}
+            if divida["falha"]["tipo"] == "registro_duplicado":
+                divida["falha"]["id_duplicata"] = proximo_id
+                proximo_id += 1
         dividas.append(divida)
         por_chave[chave] = divida
+    return dividas
 
 
 def _situacao(divida: dict, pagador: str, seed, hoje: date):
-    data = date.fromisoformat(divida["data"])
+    data = divida["data"]
     rng = rng_para(seed, "quitacao", divida["id"])
     if pagador == "pontual":
         quitacao = data + timedelta(days=rng.randint(1, 15))
@@ -63,63 +60,42 @@ def _situacao(divida: dict, pagador: str, seed, hoje: date):
     return ("Atrasado" if (hoje - data).days > 30 else "Em aberto"), None
 
 
-def publicar_devedores(estado: dict, alunos_por_id: dict, pasta, gabarito, seed, hoje: date):
+def publicar_devedores(dividas: list[dict], pagador_de, ids_validos: set, pasta, seed,
+                       hoje: date) -> bool:
+    """`pagador_de(id_aluno, data)` devolve o perfil de pagamento do aluno."""
     linhas, duplicatas = [], []
-    for d in estado["dividas"]:
-        # débitos de anos anteriores podem ser de alunos que não estão mais na base
-        aluno = alunos_por_id.get(d["id_aluno"])
-        status, quitacao = _situacao(d, aluno.pagador if aluno else "atrasa", seed, hoje)
-        linha = [d["id"], d["id_aluno"], date.fromisoformat(d["data"]), d["valor"], status, quitacao]
-        falha = d["falha"]
-        if falha:
-            dup = _aplicar_falha(linha, falha, set(alunos_por_id), gabarito)
+    for d in dividas:
+        status, quitacao = _situacao(d, pagador_de(d["id_aluno"], d["data"]), seed, hoje)
+        linha = [d["id"], d["id_aluno"], d["data"], d["valor"], status, quitacao]
+        if d["falha"]:
+            dup = _aplicar_falha(linha, d["falha"], ids_validos)
             if dup:
                 duplicatas.append(dup)
         linhas.append(linha)
+    return salvar_excel(pasta / ARQUIVO, COLUNAS, linhas + duplicatas, aba="devedores")
 
-    salvar_excel(pasta / ARQUIVO, COLUNAS, linhas + duplicatas, aba="devedores")
 
-
-def _aplicar_falha(linha, falha, ids_validos, gabarito):
-    """Aplica a falha sorteada na criação do débito. Devolve a linha duplicada, se houver."""
-    id_d = linha[0]
+def _aplicar_falha(linha, falha, ids_validos):
+    """Aplica a falha sorteada para o débito. Devolve a linha duplicada, se houver."""
     s = falha["sorteio"]  # valor fixo que escolhe a variante da falha
-
-    def reg(campo, tipo, antes=None, depois=None, obs=""):
-        gabarito.registrar(FONTE, ARQUIVO, id_d, campo, tipo, antes, depois, obs)
-
     tipo = falha["tipo"]
     quitado = linha[5] is not None
     if tipo == "id_aluno_inexistente":
         novo = [900 + int(s * 100), linha[1] * 10, 99999][int(s * 3)]
-        if novo in ids_validos:
-            novo = 99999
-        reg("id_aluno", "id_aluno_nao_localizado", linha[1], novo)
-        linha[1] = novo
+        linha[1] = 99999 if novo in ids_validos else novo
     elif tipo == "status_desatualizado" and linha[4] != "Em aberto":
-        obs = ("Pagamento registrado mas status não atualizado" if quitado else
-               "Dívida vencida há mais de 30 dias ainda marcada como em aberto")
-        reg("status", "status_desatualizado", linha[4], "Em aberto", obs)
+        # pago (ou vencido há mais de 30 dias), mas o status não foi atualizado
         linha[4] = "Em aberto"
     elif tipo == "quitacao_anterior_divida" and quitado:
-        novo = linha[2] - timedelta(days=3 + int(s * 37))
-        reg("data_quitacao", "quitacao_anterior_divida", linha[5], novo)
-        linha[5] = novo
+        linha[5] = linha[2] - timedelta(days=3 + int(s * 37))
     elif tipo == "registro_duplicado":
         dup = list(linha)
         dup[0] = falha["id_duplicata"]
-        gabarito.registrar(FONTE, ARQUIVO, dup[0], "*", "registro_duplicado",
-                           observacao=f"Mesmo débito do id_devedor {id_d}")
         return dup
     elif tipo == "valor_invalido":
-        novo = [-linha[3], None, round(linha[3] * 100, 2)][int(s * 3)]
-        reg("valor_devido", "valor_nulo" if novo is None else
-            "valor_negativo" if novo < 0 else "valor_absurdo", linha[3], novo)
-        linha[3] = novo
+        linha[3] = [-linha[3], None, round(linha[3] * 100, 2)][int(s * 3)]
     elif tipo == "status_digitacao":
-        novo = [linha[4].lower(), linha[4].upper(), linha[4] + " "][int(s * 3)]
-        reg("status", "categoria_digitada_errada", linha[4], novo)
-        linha[4] = novo
+        linha[4] = [linha[4].lower(), linha[4].upper(), linha[4] + " "][int(s * 3)]
     # status_desatualizado / quitacao_anterior_divida só se manifestam quando o
     # status do débito permite; até lá a linha sai correta.
     return None

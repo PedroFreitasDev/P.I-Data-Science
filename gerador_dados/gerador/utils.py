@@ -58,7 +58,37 @@ def _formatar(ws, colunas, primeira_linha: int):
                 cel.number_format = "dd/mm/yyyy"
 
 
-def salvar_excel(caminho: Path, colunas: list[str], linhas: list[list], aba: str = "dados"):
+def _normalizar(valor):
+    """Deixa valores comparáveis com o que o openpyxl lê de volta da planilha."""
+    if isinstance(valor, datetime):
+        return valor
+    if isinstance(valor, date):
+        return datetime(valor.year, valor.month, valor.day)
+    if isinstance(valor, (int, float)) and not isinstance(valor, bool):
+        return float(valor)
+    return valor
+
+
+def _mesmo_conteudo(caminho: Path, colunas: list[str], linhas: list[list]) -> bool:
+    if not caminho.exists():
+        return False
+    try:
+        atuais_colunas, atuais = ler_excel(caminho)
+    except Exception:
+        return False
+    novas = [[_normalizar(v) for v in linha] for linha in linhas]
+    return list(atuais_colunas) == colunas and \
+        [[_normalizar(v) for v in linha] for linha in atuais] == novas
+
+
+def salvar_excel(caminho: Path, colunas: list[str], linhas: list[list], aba: str = "dados") -> bool:
+    """Grava a planilha somente se o conteúdo mudou. Devolve True se gravou.
+
+    O openpyxl carimba a data de modificação dentro do arquivo; regravar um
+    conteúdo idêntico faria o git enxergar uma alteração que não existe.
+    """
+    if _mesmo_conteudo(caminho, colunas, linhas):
+        return False
     caminho.parent.mkdir(parents=True, exist_ok=True)
     wb = Workbook()
     ws = wb.active
@@ -70,6 +100,7 @@ def salvar_excel(caminho: Path, colunas: list[str], linhas: list[list], aba: str
         ws.append(linha)
     _formatar(ws, colunas, 2)
     wb.save(caminho)
+    return True
 
 
 def ler_excel(caminho: Path) -> tuple[list[str], list[list]]:
@@ -101,7 +132,11 @@ def consolidar_lote(arquivo_lote: Path, historico: Path, aba: str, manter_lote: 
     return len(linhas)
 
 
-def salvar_json(caminho: Path, conteudo):
+def salvar_json(caminho: Path, conteudo) -> bool:
+    """Grava o JSON somente se o conteúdo mudou. Devolve True se gravou."""
+    texto = json.dumps(conteudo, ensure_ascii=False, indent=2, default=str) + "\n"
+    if caminho.exists() and caminho.read_text(encoding="utf-8") == texto:
+        return False
     caminho.parent.mkdir(parents=True, exist_ok=True)
-    with open(caminho, "w", encoding="utf-8") as f:
-        json.dump(conteudo, f, ensure_ascii=False, indent=2, default=str)
+    caminho.write_text(texto, encoding="utf-8")
+    return True

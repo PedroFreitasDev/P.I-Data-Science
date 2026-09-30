@@ -11,7 +11,6 @@ from datetime import date, timedelta
 from .config import NOME_ESCOLA
 from .utils import intervalo_datas, salvar_json, sortear_indices
 
-FONTE = "calendario_escolar"
 
 
 @dataclass
@@ -161,7 +160,7 @@ def _simular_greve_e_reposicao(dias: list[Dia], rng):
         s.evento = "reposicao"
 
 
-def publicar_calendario(dias: list[Dia], pasta, gabarito, taxa, rng, ano):
+def publicar_calendario(dias: list[Dia], pasta, taxa, rng, ano):
     arquivo = f"calendario_escolar_{ano}.json"
     registros = [
         {"data": d.data.isoformat(), "tipo_dia": d.tipo_dia,
@@ -169,17 +168,8 @@ def publicar_calendario(dias: list[Dia], pasta, gabarito, taxa, rng, ano):
         for d in dias
     ]
 
-    # Inconsistências "estruturais" (acontecem mesmo com taxa baixa)
-    for d in dias:
-        if d.evento == "greve":
-            gabarito.registrar(FONTE, arquivo, d.data.isoformat(), "tipo_dia",
-                               "calendario_desatualizado", "sem_aula (greve)", d.tipo_dia,
-                               "Greve não refletida no calendário publicado")
-        elif d.evento == "reposicao":
-            gabarito.registrar(FONTE, arquivo, d.data.isoformat(), "tipo_dia",
-                               "calendario_desatualizado", "sabado_letivo (reposição)",
-                               d.tipo_dia, "Reposição de aulas não refletida no calendário")
-
+    # Greve e reposição (d.evento) não são refletidas aqui: o calendário publicado
+    # fica desatualizado de propósito.
     if taxa > 0:
         # Conflito: feriado nacional marcado como dia letivo
         feriados_uteis = [i for i, d in enumerate(dias)
@@ -187,8 +177,6 @@ def publicar_calendario(dias: list[Dia], pasta, gabarito, taxa, rng, ano):
                           and d.data.month not in (1, 12)]
         for i in rng.sample(feriados_uteis, min(2, len(feriados_uteis))):
             r = registros[i]
-            gabarito.registrar(FONTE, arquivo, r["data"], "tipo_dia", "conflito_feriado_letivo",
-                               "feriado", "letivo", f"Feriado nacional: {r['descricao']}")
             r.update(tipo_dia="letivo", descricao="Dia letivo", turno_letivo="integral")
 
     variacoes = {"letivo": ["Letivo", "letivo ", "LETIVO", "letivos"],
@@ -200,12 +188,8 @@ def publicar_calendario(dias: list[Dia], pasta, gabarito, taxa, rng, ano):
         r = registros[i]
         if rng.random() < 0.6 and r["tipo_dia"] in variacoes:
             novo = rng.choice(variacoes[r["tipo_dia"]])
-            gabarito.registrar(FONTE, arquivo, r["data"], "tipo_dia", "categoria_digitada_errada",
-                               r["tipo_dia"], novo)
             r["tipo_dia"] = novo
         else:
-            gabarito.registrar(FONTE, arquivo, r["data"], "turno_letivo", "campo_ausente",
-                               r["turno_letivo"], None)
             del r["turno_letivo"]
 
     salvar_json(pasta / arquivo, {

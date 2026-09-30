@@ -4,8 +4,8 @@ __pycache__/
 .venv/
 *.egg-info/
 
-# Dados gerados
-gerador_dados/saida/
+# Lotes temporários do gerador (os dados em dados/ são versionados)
+gerador_dados/lotes/
 
 # OpenTofu / Terraform
 .terraform/

@@ -24,7 +24,6 @@ from pathlib import Path
 from .config import ITENS_MULTIPLOS
 from .utils import escolha_ponderada, salvar_excel
 
-FONTE = "vendas"
 COLUNAS = ["id_venda", "data_hora", "id_aluno", "id_produto", "quantidade",
            "valor_unitario", "valor_total", "forma_pagamento"]
 ARQUIVO_HISTORICO = "historico_vendas.xlsx"
@@ -133,15 +132,10 @@ def simular_dia(dia, clima_dia, turmas, itens, primeiro_id: int, rng) -> list[Ve
     return [Venda(i, *v) for i, v in enumerate(brutas, start=primeiro_id)]
 
 
-def gravar_lote(lote: list[Venda], caminho: Path, gabarito, taxa, rng):
+def gravar_lote(lote: list[Venda], caminho: Path, taxa, rng):
     """Grava o arquivo do lote (vendas desta execução), já com as falhas propositais."""
-    rotulo = caminho.stem
     # Alguns lotes são digitados por outro operador, que escreve a data como texto
     data_como_texto = taxa > 0 and rng.random() < 0.15
-    if data_como_texto:
-        gabarito.registrar(FONTE, ARQUIVO_HISTORICO, f"ids {lote[0].id}-{lote[-1].id}", "data_hora",
-                           "formato_data_divergente", "datetime", "texto dd/mm/aaaa hh:mm",
-                           f"Lote {rotulo} inteiro com datas digitadas como texto")
     linhas = []
     for v in lote:
         dh = v.data_hora.strftime("%d/%m/%Y %H:%M") if data_como_texto else v.data_hora
@@ -151,27 +145,23 @@ def gravar_lote(lote: list[Venda], caminho: Path, gabarito, taxa, rng):
     extras = []
     for i in range(len(linhas)):
         if taxa > 0 and rng.random() < taxa:
-            extras += _aplicar_falha(linhas, i, ARQUIVO_HISTORICO, gabarito, rng)
+            extras += _aplicar_falha(linhas, i, rng)
     for pos, linha in sorted(extras, key=lambda e: -e[0]):
         linhas.insert(pos, linha)
     salvar_excel(caminho, COLUNAS, linhas, aba="vendas")
 
 
-def _aplicar_falha(linhas, i, arquivo, gabarito, rng):
+def _aplicar_falha(linhas, i, rng):
     """Altera linhas[i] in-place; devolve linhas extras [(posição, linha)] a inserir."""
     linha = linhas[i]
-    id_v = linha[0]
     tipo = rng.choices(
         ["forma_pagamento_nula", "forma_pagamento_digitacao", "valor_total_divergente",
          "registro_duplicado", "id_venda_repetido", "formato_data_divergente",
          "preco_negativo", "quantidade_invalida", "valor_unitario_sem_virgula",
          "produto_inexistente", "id_aluno_vazio"],
         weights=[14, 8, 12, 10, 5, 8, 8, 8, 6, 5, 6])[0]
-    def reg(campo, tipo_, antes=None, depois=None, obs=""):
-        gabarito.registrar(FONTE, arquivo, id_v, campo, tipo_, antes, depois, obs)
 
     if tipo == "forma_pagamento_nula":
-        reg("forma_pagamento", "valor_nulo", linha[7], None)
         linha[7] = None
     elif tipo == "forma_pagamento_digitacao":
         variacoes = {"Dinheiro": ["dinheiro", "Dinhero", "DINHEIRO"], "Pix": ["pix", "PIX", "Pix "],
@@ -179,21 +169,17 @@ def _aplicar_falha(linhas, i, arquivo, gabarito, rng):
                      "Cartão de crédito": ["Cartao credito", "crédito", "Credito"],
                      "Fiado": ["fiado", "Fiado ", "Anotado"]}
         novo = rng.choice(variacoes[linha[7]])
-        reg("forma_pagamento", "categoria_digitada_errada", linha[7], novo)
         linha[7] = novo
     elif tipo == "valor_total_divergente":
         novo = round(linha[6] + rng.choice([-1, 1]) * rng.choice([0.5, 1, 2, 5, 10]), 2)
         if novo <= 0 or novo == linha[6]:
             novo = round(linha[6] * 10, 2)
-        reg("valor_total", "valor_total_divergente_calculo", linha[6], novo)
         linha[6] = novo
     elif tipo == "registro_duplicado":
-        reg("id_venda", "registro_duplicado", obs="Linha lançada duas vezes")
         return [(i + 1, list(linha))]
-    elif tipo == "id_venda_repetido" and i > 0:
+    elif tipo == "id_venda_repetido" and 0 < i < len(linhas) - 1:
+        # nunca na última linha do lote: o maior id do dia indica até onde o dia foi registrado
         novo = linhas[i - 1][0]
-        reg("id_venda", "id_venda_duplicado", id_v, novo,
-            "Venda distinta lançada com o id da venda anterior")
         linha[0] = novo
     elif tipo == "formato_data_divergente":
         dh = linha[1]
@@ -201,27 +187,21 @@ def _aplicar_falha(linhas, i, arquivo, gabarito, rng):
             novo = dh.strftime("%Y-%m-%d %H:%M:%S")
         else:
             novo = datetime.strptime(dh, "%d/%m/%Y %H:%M").strftime("%Y-%m-%d %H:%M")
-        reg("data_hora", "formato_data_divergente", str(dh), novo)
         linha[1] = novo
     elif tipo == "preco_negativo":
-        reg("valor_unitario", "valor_negativo", linha[5], -linha[5])
         linha[5] = -linha[5]
         linha[6] = -linha[6]
     elif tipo == "quantidade_invalida":
         novo = rng.choice([0, -linha[4], linha[4] * 100, linha[4] * 10 + linha[4]])
-        reg("quantidade", "quantidade_invalida", linha[4], novo)
         linha[4] = novo
     elif tipo == "valor_unitario_sem_virgula":
         novo = round(linha[5] * 100, 2)
-        reg("valor_unitario", "valor_absurdo", linha[5], novo, "Separador decimal esquecido")
         linha[5] = novo
     elif tipo == "produto_inexistente":
         novo = rng.choice(["P999", "P000", "P" + linha[3][1:][::-1], "P099"])
         if novo == linha[3]:
             novo = "P999"
-        reg("id_produto", "produto_ausente_cardapio", linha[3], novo)
         linha[3] = novo
     elif tipo == "id_aluno_vazio":
-        reg("id_aluno", "valor_nulo", linha[2], None)
         linha[2] = None
     return []
