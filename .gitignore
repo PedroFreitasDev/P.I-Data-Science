@@ -1,3 +1,29 @@
+# Python
 __pycache__/
 *.pyc
+.venv/
+*.egg-info/
+
+# Dados gerados
 gerador_dados/saida/
+
+# OpenTofu / Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Chaves SSH
+*.pem
+id_rsa
+id_rsa.pub
+devops_lab
+devops_lab.pub
+
+# Discos de máquinas virtuais
+*.qcow2
+
+# Arquivos temporários
+*.swp
+*~

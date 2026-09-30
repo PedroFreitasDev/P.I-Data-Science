@@ -1,0 +1,54 @@
+---
+- name: Preparar ambiente para o simulador de dados
+  hosts: devops-1
+  become: true
+
+  tasks:
+    - name: Atualizar lista de pacotes
+      apt:
+        update_cache: true
+        cache_valid_time: 3600
+
+    - name: Instalar dependencias do Python
+      apt:
+        name:
+          - python3
+          - python3-pip
+          - python3-venv
+        state: present
+
+    - name: Criar diretorio do projeto
+      file:
+        path: /home/aluno/projeto-data-science
+        state: directory
+        owner: aluno
+        group: aluno
+        mode: '0755'
+
+    - name: Criar diretorio do simulador
+      file:
+        path: /home/aluno/projeto-data-science/gerador_dados
+        state: directory
+        owner: aluno
+        group: aluno
+        mode: '0755'
+
+    - name: Criar diretorio dos dados
+      file:
+        path: /home/aluno/projeto-data-science/dados
+        state: directory
+        owner: aluno
+        group: aluno
+        mode: '0755'
+
+    - name: Criar ambiente virtual Python
+      become_user: aluno
+      command:
+        cmd: python3 -m venv /home/aluno/projeto-data-science/gerador_dados/.venv
+        creates: /home/aluno/projeto-data-science/gerador_dados/.venv/bin/python
+
+    - name: Instalar dependencias do simulador
+      become_user: aluno
+      pip:
+        requirements: /home/aluno/projeto-data-science/gerador_dados/requirements.txt
+        virtualenv: /home/aluno/projeto-data-science/gerador_dados/.venv
