@@ -11,7 +11,6 @@ from datetime import date, datetime, timedelta
 from .config import CIDADE, PROB_CHUVA_MES, TEMP_MEDIA_MES
 from .utils import intervalo_datas, rng_para, salvar_json
 
-FONTE = "clima"
 
 
 def gerar_clima(ano: int, rng) -> dict[date, dict]:
@@ -62,7 +61,7 @@ def _registros_horarios(d: date, c: dict, rng) -> list[dict]:
     return regs
 
 
-def publicar_clima(clima: dict, pasta, gabarito, taxa, seed, ano, ate: date):
+def publicar_clima(clima: dict, pasta, taxa, seed, ano, ate: date):
     """Publica as leituras de 01/01 até `ate` (a API não tem dados do futuro)."""
     arquivo = f"clima_{ano}.json"
     datas = sorted(d for d in clima if d <= ate)
@@ -79,9 +78,6 @@ def publicar_clima(clima: dict, pasta, gabarito, taxa, seed, ano, ate: date):
         reg = {"data": d.isoformat(), **c}
         if d in fuso:
             reg["data"] = (datetime(d.year, d.month, d.day) - timedelta(hours=3)).isoformat() + "-03:00"
-            gabarito.registrar(FONTE, arquivo, d.isoformat(), "data", "fuso_horario_divergente",
-                               d.isoformat(), reg["data"],
-                               "Meia-noite UTC convertida para -03:00 cai no dia anterior")
             registros.append(reg)
             continue
         rng = rng_para(seed, "falha_clima", d)
@@ -94,32 +90,22 @@ def publicar_clima(clima: dict, pasta, gabarito, taxa, seed, ano, ate: date):
              "temperatura_absurda", "precipitacao_negativa"],
             weights=[3, 3, 2, 2, 1])[0]
         if tipo == "requisicao_sem_registro":
-            gabarito.registrar(FONTE, arquivo, d.isoformat(), "*", "falha_requisicao_dado_ausente",
-                               observacao="Dia ausente da resposta da API")
             continue
         if tipo == "requisicao_valores_nulos":
             campos = rng.sample(["temperatura_media", "temperatura_max", "condicao",
                                  "precipitacao_mm"], rng.randint(1, 4))
             for campo in campos:
-                gabarito.registrar(FONTE, arquivo, d.isoformat(), campo,
-                                   "falha_requisicao_valor_nulo", reg[campo], None)
                 reg[campo] = None
             registros.append(reg)
         elif tipo == "granularidade_horaria":
-            gabarito.registrar(FONTE, arquivo, d.isoformat(), "data", "granularidade_diferente",
-                               "1 registro diário", "24 registros horários")
             registros.extend(_registros_horarios(d, c, rng))
         elif tipo == "temperatura_absurda":
             campo = rng.choice(["temperatura_media", "temperatura_max"])
             novo = rng.choice([round(reg[campo] * 10, 1), -reg[campo], 999.9])
-            gabarito.registrar(FONTE, arquivo, d.isoformat(), campo, "valor_absurdo",
-                               reg[campo], novo)
             reg[campo] = novo
             registros.append(reg)
         else:
             novo = -round(rng.uniform(1, 30), 1)
-            gabarito.registrar(FONTE, arquivo, d.isoformat(), "precipitacao_mm", "valor_negativo",
-                               reg["precipitacao_mm"], novo)
             reg["precipitacao_mm"] = novo
             registros.append(reg)
 

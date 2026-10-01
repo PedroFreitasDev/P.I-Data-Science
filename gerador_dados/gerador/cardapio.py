@@ -15,7 +15,6 @@ from .config import (DEFASAGEM_INFLACAO_MESES, DESCONTINUADOS_2_SEMESTRE,
 from .inflacao import acumulado
 from .utils import arredondar_preco, rng_para, salvar_excel, sortear_indices
 
-FONTE = "cardapio"
 COLUNAS = ["id_produto", "nome_produto", "categoria", "preco_venda", "custo_unitario"]
 
 
@@ -81,7 +80,7 @@ def gerar_cardapios(vigencia_1: date, vigencia_2: date, inflacao: dict, rng) -> 
     return Cardapios([Cardapio(vigencia_1, v1, set()), Cardapio(vigencia_2, v2, nao_reajustados)])
 
 
-def publicar_cardapios(cardapios: Cardapios, pasta, gabarito, taxa, seed, hoje: date):
+def publicar_cardapios(cardapios: Cardapios, pasta, taxa, seed, hoje: date):
     """Publica as versões do cardápio que já entraram em vigor até `hoje`."""
     for versao in cardapios.versoes:
         if versao.vigencia > hoje:
@@ -91,16 +90,9 @@ def publicar_cardapios(cardapios: Cardapios, pasta, gabarito, taxa, seed, hoje: 
         linhas = [[pid, it.produto.nome, it.produto.categoria, it.preco, it.custo]
                   for pid, it in sorted(versao.itens.items())]
 
-        for pid in sorted(versao.nao_reajustados):
-            gabarito.registrar(FONTE, arquivo, pid, "preco_venda",
-                               "preco_desatualizado_inflacao", observacao=
-                               "Preço mantido do 1º semestre apesar da inflação acumulada")
-
         # "Custo_unitario ausente" é a falha mais comum desta planilha
         for i in sortear_indices(rng, len(linhas), taxa * 2, minimo=2):
             linha = linhas[i]
-            gabarito.registrar(FONTE, arquivo, linha[0], "custo_unitario", "valor_nulo",
-                               linha[4], None)
             linha[4] = None
 
         for i in sortear_indices(rng, len(linhas), taxa, minimo=2):
@@ -109,22 +101,14 @@ def publicar_cardapios(cardapios: Cardapios, pasta, gabarito, taxa, seed, hoje: 
                                "categoria_digitacao"])
             if tipo == "preco_sem_virgula":
                 novo = round(linha[3] * 100, 2)
-                gabarito.registrar(FONTE, arquivo, linha[0], "preco_venda", "valor_absurdo",
-                                   linha[3], novo, "Separador decimal esquecido")
                 linha[3] = novo
             elif tipo == "custo_negativo" and linha[4] is not None:
-                gabarito.registrar(FONTE, arquivo, linha[0], "custo_unitario", "valor_negativo",
-                                   linha[4], -linha[4])
                 linha[4] = -linha[4]
             elif tipo == "nome_digitacao":
                 novo = rng.choice([linha[1].upper(), "  " + linha[1], linha[1] + "  "])
-                gabarito.registrar(FONTE, arquivo, linha[0], "nome_produto",
-                                   "texto_fora_do_padrao", linha[1], novo)
                 linha[1] = novo
             else:
                 novo = rng.choice([linha[2].lower(), linha[2][:-1], linha[2].upper()])
-                gabarito.registrar(FONTE, arquivo, linha[0], "categoria",
-                                   "categoria_digitada_errada", linha[2], novo)
                 linha[2] = novo
 
         salvar_excel(pasta / arquivo, COLUNAS, linhas, aba="cardapio")
