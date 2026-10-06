@@ -1,0 +1,2193 @@
+{
+  "escola": "Colégio Fictício Horizonte",
+  "ano": 2026,
+  "publicado_em": "2025-12-10",
+  "dias": [
+    {
+      "data": "2026-01-01",
+      "tipo_dia": "feriado",
+      "descricao": "Confraternização Universal",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-01-02",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-01-03",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-01-04",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-01-05",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-01-06",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-01-07",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-01-08",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-01-09",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-01-10",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-01-11",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-01-12",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-01-13",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-01-14",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-01-15",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-01-16",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-01-17",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-01-18",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-01-19",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-01-20",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-01-21",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-01-22",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-01-23",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-01-24",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-01-25",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-01-26",
+      "tipo_dia": "planejamento",
+      "descricao": "Planejamento pedagógico (sem alunos)",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-01-27",
+      "tipo_dia": "planejamento",
+      "descricao": "Planejamento pedagógico (sem alunos)",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-01-28",
+      "tipo_dia": "planejamento",
+      "descricao": "Planejamento pedagógico (sem alunos)",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-01-29",
+      "tipo_dia": "planejamento",
+      "descricao": "Planejamento pedagógico (sem alunos)",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-01-30",
+      "tipo_dia": "planejamento",
+      "descricao": "Planejamento pedagógico (sem alunos)"
+    },
+    {
+      "data": "2026-01-31",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-02-01",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-02-02",
+      "tipo_dia": "letivo",
+      "descricao": "Início do ano letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-02-03",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-02-04",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-02-05",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-02-06",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo"
+    },
+    {
+      "data": "2026-02-07",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-02-08",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-02-09",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-02-10",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-02-11",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-02-12",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-02-13",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-02-14",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-02-15",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-02-16",
+      "tipo_dia": "recesso",
+      "descricao": "Carnaval (ponto facultativo)",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-02-17",
+      "tipo_dia": "recesso",
+      "descricao": "Carnaval (ponto facultativo)",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-02-18",
+      "tipo_dia": "letivo",
+      "descricao": "Quarta-feira de Cinzas - aulas somente à tarde",
+      "turno_letivo": "tarde"
+    },
+    {
+      "data": "2026-02-19",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-02-20",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-02-21",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-02-22",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-02-23",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-02-24",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-02-25",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-02-26",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-02-27",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-02-28",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-03-01",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-03-02",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-03-03",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-03-04",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-03-05",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-03-06",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-03-07",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-03-08",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-03-09",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-03-10",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-03-11",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-03-12",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-03-13",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-03-14",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-03-15",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-03-16",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-03-17",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-03-18",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-03-19",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-03-20",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-03-21",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-03-22",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-03-23",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-03-24",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-03-25",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-03-26",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-03-27",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-03-28",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-03-29",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-03-30",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-03-31",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-04-01",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-04-02",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-04-03",
+      "tipo_dia": "feriado",
+      "descricao": "Sexta-feira Santa",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-04-04",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-04-05",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-04-06",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-04-07",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-04-08",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-04-09",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-04-10",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-04-11",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-04-12",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-04-13",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-04-14",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-04-15",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-04-16",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-04-17",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-04-18",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-04-19",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-04-20",
+      "tipo_dia": "recesso",
+      "descricao": "Emenda de feriado (Tiradentes)",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-04-21",
+      "tipo_dia": "feriado",
+      "descricao": "Tiradentes",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-04-22",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-04-23",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-04-24",
+      "tipo_dia": "letivo",
+      "descricao": "Conselho de classe - sem aulas à tarde",
+      "turno_letivo": "manha"
+    },
+    {
+      "data": "2026-04-25",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-04-26",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-04-27",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-04-28",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-04-29",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-04-30",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-05-01",
+      "tipo_dia": "feriado",
+      "descricao": "Dia do Trabalho",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-05-02",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-05-03",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-05-04",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-05-05",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-05-06",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-05-07",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-05-08",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-05-09",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-05-10",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-05-11",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-05-12",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo"
+    },
+    {
+      "data": "2026-05-13",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-05-14",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo"
+    },
+    {
+      "data": "2026-05-15",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-05-16",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-05-17",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-05-18",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-05-19",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-05-20",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-05-21",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-05-22",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-05-23",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-05-24",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-05-25",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-05-26",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-05-27",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-05-28",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-05-29",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-05-30",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-05-31",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-06-01",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-06-02",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-06-03",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-06-04",
+      "tipo_dia": "recesso",
+      "descricao": "Corpus Christi (ponto facultativo)",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-06-05",
+      "tipo_dia": "recesso",
+      "descricao": "Emenda de feriado (Corpus Christi)",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-06-06",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-06-07",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-06-08",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-06-09",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-06-10",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-06-11",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-06-12",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-06-13",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-06-14",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-06-15",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-06-16",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-06-17",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-06-18",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-06-19",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-06-20",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-06-21",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-06-22",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-06-23",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-06-24",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-06-25",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-06-26",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-06-27",
+      "tipo_dia": "sabado_letivo",
+      "descricao": "Festa Junina",
+      "turno_letivo": "manha"
+    },
+    {
+      "data": "2026-06-28",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-06-29",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-06-30",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-07-01",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-07-02",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-07-03",
+      "tipo_dia": "letivo",
+      "descricao": "Conselho de classe - sem aulas à tarde",
+      "turno_letivo": "manha"
+    },
+    {
+      "data": "2026-07-04",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-07-05",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-07-06",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares de julho",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-07-07",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares de julho",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-07-08",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares de julho",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-07-09",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares de julho",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-07-10",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares de julho",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-07-11",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-07-12",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-07-13",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares de julho",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-07-14",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares de julho",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-07-15",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares de julho",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-07-16",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares de julho",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-07-17",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares de julho",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-07-18",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-07-19",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-07-20",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares de julho",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-07-21",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares de julho",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-07-22",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares de julho",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-07-23",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares de julho",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-07-24",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares de julho",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-07-25",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-07-26",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-07-27",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-07-28",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-07-29",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-07-30",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-07-31",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-08-01",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-08-02",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-08-03",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-08-04",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-08-05",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-08-06",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-08-07",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-08-08",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-08-09",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-08-10",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-08-11",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-08-12",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-08-13",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-08-14",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-08-15",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-08-16",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-08-17",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-08-18",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-08-19",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-08-20",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-08-21",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-08-22",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-08-23",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-08-24",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-08-25",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-08-26",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-08-27",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-08-28",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-08-29",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-08-30",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-08-31",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-09-01",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-09-02",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-09-03",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-09-04",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-09-05",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-09-06",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-09-07",
+      "tipo_dia": "feriado",
+      "descricao": "Independência do Brasil",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-09-08",
+      "tipo_dia": "letivos",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-09-09",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-09-10",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-09-11",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-09-12",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-09-13",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-09-14",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-09-15",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-09-16",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-09-17",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-09-18",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-09-19",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-09-20",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-09-21",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-09-22",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-09-23",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-09-24",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-09-25",
+      "tipo_dia": "letivo",
+      "descricao": "Conselho de classe - sem aulas à tarde",
+      "turno_letivo": "manha"
+    },
+    {
+      "data": "2026-09-26",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-09-27",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-09-28",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-09-29",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-09-30",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-10-01",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-10-02",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-10-03",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-10-04",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-10-05",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-10-06",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-10-07",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-10-08",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-10-09",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-10-10",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-10-11",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-10-12",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-10-13",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-10-14",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-10-15",
+      "tipo_dia": "recesso",
+      "descricao": "Dia do Professor",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-10-16",
+      "tipo_dia": "recesso",
+      "descricao": "Emenda de feriado (Dia do Professor)",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-10-17",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-10-18",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-10-19",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-10-20",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-10-21",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-10-22",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-10-23",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-10-24",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-10-25",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-10-26",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-10-27",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-10-28",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-10-29",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-10-30",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-10-31",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-11-01",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-11-02",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-11-03",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-11-04",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-11-05",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-11-06",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-11-07",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-11-08",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-11-09",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-11-10",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-11-11",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-11-12",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-11-13",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-11-14",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-11-15",
+      "tipo_dia": "feriado",
+      "descricao": "Proclamação da República",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-11-16",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-11-17",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-11-18",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-11-19",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-11-20",
+      "tipo_dia": "feriado",
+      "descricao": "Dia Nacional de Zumbi e da Consciência Negra",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-11-21",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-11-22",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-11-23",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-11-24",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-11-25",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-11-26",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-11-27",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-11-28",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-11-29",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-11-30",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-12-01",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-12-02",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-12-03",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-12-04",
+      "tipo_dia": "letivo",
+      "descricao": "Conselho de classe - sem aulas à tarde",
+      "turno_letivo": "manha"
+    },
+    {
+      "data": "2026-12-05",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-12-06",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-12-07",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-12-08",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-12-09",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-12-10",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-12-11",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-12-12",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-12-13",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-12-14",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-12-15",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-12-16",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-12-17",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-12-18",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2026-12-19",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-12-20",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-12-21",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-12-22",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-12-23",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-12-24",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-12-25",
+      "tipo_dia": "feriado",
+      "descricao": "Natal",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-12-26",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-12-27",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-12-28",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-12-29",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-12-30",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2026-12-31",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    }
+  ]
+}
