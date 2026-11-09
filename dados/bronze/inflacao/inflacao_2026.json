@@ -1,7 +1,7 @@
 {
   "fonte": "API de índices de preços (simulada)",
   "descricao": "Variação percentual mensal por categoria de produto",
-  "ultimo_mes_publicado": "2026-08",
+  "ultimo_mes_publicado": "2026-09",
   "dados": [
     {
       "mes_referencia": "2026-01",
@@ -201,6 +201,31 @@
     {
       "mes_referencia": "2026-08",
       "indice_inflacao": 0.48,
+      "categoria_produto": "Sobremesas e sorvetes"
+    },
+    {
+      "mes_referencia": "2026-09",
+      "indice_inflacao": 0.49,
+      "categoria_produto": "Salgados"
+    },
+    {
+      "mes_referencia": "2026-09",
+      "indice_inflacao": 0.58,
+      "categoria_produto": "Lanches"
+    },
+    {
+      "mes_referencia": "2026-09",
+      "indice_inflacao": 0.38,
+      "categoria_produto": "Bebidas não alcoólicas"
+    },
+    {
+      "mes_referencia": "2026-09",
+      "indice_inflacao": 0.57,
+      "categoria_produto": "Doces"
+    },
+    {
+      "mes_referencia": "2026-09",
+      "indice_inflacao": 0.15,
       "categoria_produto": "Sobremesas e sorvetes"
     }
   ]
