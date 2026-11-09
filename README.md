@@ -23,6 +23,7 @@ OpenTofu ──▶ VM (Libvirt/QEMU + cloud-init) ──▶ Ansible ──▶ cr
   - [Arquivos gerados](#arquivos-gerados)
   - [Coerência dos dados](#coerência-dos-dados)
   - [Inconsistências simuladas](#inconsistências-simuladas)
+- [Limpeza (Bronze → Silver) em R](#limpeza-bronze--silver-em-r)
 - [Infraestrutura (VM)](#infraestrutura-vm)
 - [Observações e limitações](#observações-e-limitações)
 
@@ -51,12 +52,16 @@ P.I-Data-Science/
 │       ├── alunos.py            # 1.7 Turmas e Alunos
 │       ├── inflacao.py          # 1.8 Índice de Inflação
 │       └── utils.py
+├── limpeza_dados/
+│   └── limpeza_silver.R         # limpeza em R: dados/bronze -> dados/silver
 ├── infraestrutura/
 │   ├── main.tf                  # VMs com OpenTofu + Libvirt
 │   ├── cloud_init.cfg           # usuário e chave SSH das VMs
 │   └── ansible/
 │       ├── inventory.ini
 │       └── playbook.yml         # prepara Python e ambiente virtual na VM
+├── Projeto_Cantina_BigData.ipynb  # notebook do Colab: camada Gold, Hadoop, modelos e Spark
+├── Explicacao_do_Notebook.md      # explicação do notebook em linguagem simples
 ├── .gitignore
 └── README.md
 ```
@@ -217,6 +222,36 @@ impossível. O gerador nunca cria dados "plausíveis porém errados", como um al
 Os IDs têm formatos diferentes entre as fontes, como previsto na especificação: `id_aluno` é
 `"ALU01234"` nas vendas e `1234` nos devedores e alunos, e `id_produto` é `"P012"` nas vendas e
 `12` no cardápio e nas perdas. Esse mapeamento de chaves fica a cargo da camada Silver.
+
+## Limpeza (Bronze → Silver) em R
+
+O script `limpeza_dados/limpeza_silver.R` lê `dados/bronze/`, corrige as inconsistências da tabela
+acima e grava uma tabela limpa por fonte em `dados/silver/`. Esse é o formato que o notebook
+`Projeto_Cantina_BigData.ipynb` espera, e com ele o ciclo fica completo:
+
+```text
+gerador (Python) ──▶ dados/bronze ──▶ limpeza_silver.R ──▶ dados/silver ──▶ notebook (Gold, modelos)
+```
+
+```bash
+Rscript limpeza_dados/limpeza_silver.R            # na raiz do projeto
+Rscript limpeza_dados/limpeza_silver.R <raiz>     # ou informando a pasta do projeto
+```
+
+Requer R 4.1 ou superior. Os pacotes que faltarem (`readxl`, `jsonlite`, `dplyr`, `tidyr`,
+`stringr`, `lubridate`, `readr`, `purrr`) são instalados na primeira execução.
+
+| Etapa (especificação 2.4) | O que o script faz |
+|---|---|
+| Padronização de schema | Datas em `aaaa-mm-dd` (inclusive texto `dd/mm/aaaa`, fuso divergente e leituras horárias do clima); categorias, status, formas de pagamento, nomes e `tipo_dia` com uma grafia só |
+| Deduplicação | Remove linhas e débitos repetidos e renumera `id_venda` repetido com o id que faltava na sequência |
+| Mapeamento de chaves | `ALU01234`, `001234` → `1234`; `P012` → `12`; categorias da API de inflação → categorias do cardápio |
+| Nulos e outliers | Valores sem a vírgula ÷ 100; sinais trocados; quantidade e totais recalculados pela conta; forma de pagamento vazia copiada dos outros itens da mesma compra; custo ausente estimado; clima interpolado; o que não tem como recuperar é removido |
+| Conciliação temporal | Reposições aparecem como dias letivos pelas vendas; dias letivos sem venda ficam sinalizados; status do fiado atualizado; `disponivel_em` indica quando cada índice de inflação é publicado |
+
+Cada correção entra em `dados/silver/relatorio_limpeza.csv` (tabela, problema, número de linhas e
+ação tomada). Colunas extras como `custo_imputado`, `imputado`, `fora_cardapio_vigente` e
+`houve_vendas` sinalizam valores estimados ou suspeitos sem descartar a linha.
 
 ## Infraestrutura (VM)
 
