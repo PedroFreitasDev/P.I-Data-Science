@@ -136,7 +136,7 @@
         {
           "id_aluno": 1874,
           "nome": "Matheus Santos Mendes",
-          "data_nascimento": "0019-04-15",
+          "data_nascimento": "2019-04-15",
           "restricao_alimentar": "Nenhuma"
         },
         {
@@ -195,7 +195,7 @@
           "restricao_alimentar": "Nenhuma"
         },
         {
-          "id_aluno": "001890",
+          "id_aluno": 1890,
           "nome": "Samuel Cavalcanti Alves",
           "data_nascimento": "2019-10-11",
           "restricao_alimentar": "Nenhuma"
@@ -366,7 +366,7 @@
         {
           "id_aluno": 1778,
           "nome": "Luiza Martins Lima",
-          "data_nascimento": "0018-04-01",
+          "data_nascimento": "2018-04-01",
           "restricao_alimentar": "Intolerância à lactose"
         },
         {
@@ -390,11 +390,11 @@
         {
           "id_aluno": 1784,
           "nome": "Davi Toledo Cardoso",
-          "data_nascimento": "02/06/2018",
+          "data_nascimento": "2018-06-02",
           "restricao_alimentar": "Nenhuma"
         },
         {
-          "id_aluno": "001785",
+          "id_aluno": 1785,
           "nome": "Eduardo Santana Barros",
           "data_nascimento": "2019-02-09",
           "restricao_alimentar": "Nenhuma"
@@ -523,7 +523,7 @@
         {
           "id_aluno": 1813,
           "nome": "Vicente Miranda Almeida",
-          "data_nascimento": "02/06/2018",
+          "data_nascimento": "2018-06-02",
           "restricao_alimentar": "Intolerância à lactose"
         },
         {
@@ -595,7 +595,8 @@
         {
           "id_aluno": 1829,
           "nome": "Antônio Fernandes",
-          "data_nascimento": "2018-12-12"
+          "data_nascimento": "2018-12-12",
+          "restricao_alimentar": "Nenhuma"
         },
         {
           "id_aluno": 1832,
@@ -673,7 +674,7 @@
         {
           "id_aluno": 1706,
           "nome": "Yuri Duarte Rodrigues",
-          "data_nascimento": "2027-10-20",
+          "data_nascimento": "2017-10-20",
           "restricao_alimentar": "Nenhuma"
         },
         {
@@ -1294,7 +1295,7 @@
         },
         {
           "id_aluno": 1565,
-          "nome": "beatriz vieira",
+          "nome": "Beatriz Vieira",
           "data_nascimento": "2015-07-18",
           "restricao_alimentar": "Nenhuma"
         },
@@ -1372,7 +1373,7 @@
           "restricao_alimentar": "Nenhuma"
         },
         {
-          "id_aluno": "1580",
+          "id_aluno": 1580,
           "nome": "Samuel Cardoso Barbosa",
           "data_nascimento": "2015-10-24",
           "restricao_alimentar": "Nenhuma"
@@ -1555,7 +1556,8 @@
         {
           "id_aluno": 1492,
           "nome": "Melissa Souza Martins",
-          "data_nascimento": "2014-03-19"
+          "data_nascimento": "2014-03-19",
+          "restricao_alimentar": "Nenhuma"
         },
         {
           "id_aluno": 1493,
@@ -1987,7 +1989,7 @@
           "restricao_alimentar": "Intolerância à lactose"
         },
         {
-          "id_aluno": "001454",
+          "id_aluno": 1454,
           "nome": "Fernanda Rezende Dias",
           "data_nascimento": "2013-05-16",
           "restricao_alimentar": "Nenhuma"
@@ -2139,7 +2141,7 @@
         },
         {
           "id_aluno": 1341,
-          "nome": "henrique carvalho dias",
+          "nome": "Henrique Carvalho Dias",
           "data_nascimento": "2012-04-17",
           "restricao_alimentar": "Nenhuma"
         },
@@ -2603,7 +2605,7 @@
           "restricao_alimentar": "Nenhuma"
         },
         {
-          "id_aluno": "001295",
+          "id_aluno": 1295,
           "nome": "Davi Duarte Costa",
           "data_nascimento": "2012-03-25",
           "restricao_alimentar": "Vegetariano"
@@ -2713,7 +2715,8 @@
         {
           "id_aluno": 1325,
           "nome": "Arthur Gonçalves Santos",
-          "data_nascimento": "2011-12-16"
+          "data_nascimento": "2011-12-16",
+          "restricao_alimentar": "Nenhuma"
         }
       ]
     },
@@ -2827,7 +2830,7 @@
         {
           "id_aluno": 1186,
           "nome": "Guilherme Machado",
-          "data_nascimento": "30/04/2009",
+          "data_nascimento": "2009-04-30",
           "restricao_alimentar": "Intolerância à lactose"
         },
         {
@@ -3034,6 +3037,7 @@
     {
       "turma": "2ª série EM A",
       "ano_letivo": 2026,
+      "turno": "manha",
       "alunos": [
         {
           "id_aluno": 1070,
@@ -3200,7 +3204,7 @@
         },
         {
           "id_aluno": 1119,
-          "nome": "heloísa rezende nunes",
+          "nome": "Heloísa Rezende Nunes",
           "data_nascimento": "2009-12-30",
           "restricao_alimentar": "Nenhuma"
         },

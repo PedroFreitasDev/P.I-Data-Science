@@ -286,10 +286,10 @@
     },
     {
       "data": "2026-02-10",
-      "temperatura_media": null,
-      "temperatura_max": null,
-      "condicao": null,
-      "precipitacao_mm": null
+      "temperatura_media": 28.1,
+      "temperatura_max": 32.9,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.0
     },
     {
       "data": "2026-02-11",
@@ -546,7 +546,7 @@
     {
       "data": "2026-03-19",
       "temperatura_media": 21.0,
-      "temperatura_max": 244.0,
+      "temperatura_max": 24.4,
       "condicao": "chuva",
       "precipitacao_mm": 23.2
     },
@@ -710,6 +710,13 @@
       "temperatura_max": 24.9,
       "condicao": "ensolarado",
       "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2026-04-12",
+      "temperatura_media": 18.5,
+      "temperatura_max": 22.1,
+      "condicao": "chuva",
+      "precipitacao_mm": 4.2
     },
     {
       "data": "2026-04-13",
@@ -1022,7 +1029,7 @@
     {
       "data": "2026-05-27",
       "temperatura_media": 17.3,
-      "temperatura_max": -19.4,
+      "temperatura_max": 19.4,
       "condicao": "chuva",
       "precipitacao_mm": 11.4
     },
@@ -1036,7 +1043,7 @@
     {
       "data": "2026-05-29",
       "temperatura_media": 18.5,
-      "temperatura_max": -24.1,
+      "temperatura_max": 24.1,
       "condicao": "ensolarado",
       "precipitacao_mm": 0.0
     },
@@ -1153,35 +1160,35 @@
       "precipitacao_mm": 0.0
     },
     {
-      "data": "2026-06-14T21:00:00-03:00",
+      "data": "2026-06-15",
       "temperatura_media": 17.9,
       "temperatura_max": 24.2,
       "condicao": "ensolarado",
       "precipitacao_mm": 0.0
     },
     {
-      "data": "2026-06-15T21:00:00-03:00",
+      "data": "2026-06-16",
       "temperatura_media": 16.5,
       "temperatura_max": 20.6,
       "condicao": "parcialmente_nublado",
       "precipitacao_mm": 0.0
     },
     {
-      "data": "2026-06-16T21:00:00-03:00",
+      "data": "2026-06-17",
       "temperatura_media": 15.5,
       "temperatura_max": 23.0,
       "condicao": "parcialmente_nublado",
       "precipitacao_mm": 0.0
     },
     {
-      "data": "2026-06-17T21:00:00-03:00",
+      "data": "2026-06-18",
       "temperatura_media": 15.5,
       "temperatura_max": 17.9,
       "condicao": "chuva",
       "precipitacao_mm": 5.2
     },
     {
-      "data": "2026-06-18T21:00:00-03:00",
+      "data": "2026-06-19",
       "temperatura_media": 16.4,
       "temperatura_max": 21.0,
       "condicao": "ensolarado",
@@ -1209,170 +1216,9 @@
       "precipitacao_mm": 0.0
     },
     {
-      "data": "2026-06-23T00:00:00",
-      "temperatura_media": 12.3,
-      "temperatura_max": 12.6,
-      "condicao": "ensolarado",
-      "precipitacao_mm": 0.0
-    },
-    {
-      "data": "2026-06-23T01:00:00",
-      "temperatura_media": 12.1,
-      "temperatura_max": 12.5,
-      "condicao": "ensolarado",
-      "precipitacao_mm": 0.0
-    },
-    {
-      "data": "2026-06-23T02:00:00",
-      "temperatura_media": 12.3,
-      "temperatura_max": 12.7,
-      "condicao": "ensolarado",
-      "precipitacao_mm": 0.0
-    },
-    {
-      "data": "2026-06-23T03:00:00",
-      "temperatura_media": 12.1,
-      "temperatura_max": 12.6,
-      "condicao": "ensolarado",
-      "precipitacao_mm": 0.0
-    },
-    {
-      "data": "2026-06-23T04:00:00",
-      "temperatura_media": 12.3,
-      "temperatura_max": 12.9,
-      "condicao": "ensolarado",
-      "precipitacao_mm": 0.0
-    },
-    {
-      "data": "2026-06-23T05:00:00",
-      "temperatura_media": 11.8,
-      "temperatura_max": 11.9,
-      "condicao": "ensolarado",
-      "precipitacao_mm": 0.0
-    },
-    {
-      "data": "2026-06-23T06:00:00",
-      "temperatura_media": 13.6,
-      "temperatura_max": 14.0,
-      "condicao": "ensolarado",
-      "precipitacao_mm": 0.0
-    },
-    {
-      "data": "2026-06-23T07:00:00",
-      "temperatura_media": 14.9,
-      "temperatura_max": 15.4,
-      "condicao": "ensolarado",
-      "precipitacao_mm": 0.0
-    },
-    {
-      "data": "2026-06-23T08:00:00",
-      "temperatura_media": 16.5,
-      "temperatura_max": 16.9,
-      "condicao": "ensolarado",
-      "precipitacao_mm": 0.0
-    },
-    {
-      "data": "2026-06-23T09:00:00",
-      "temperatura_media": 17.9,
-      "temperatura_max": 17.9,
-      "condicao": "ensolarado",
-      "precipitacao_mm": 0.0
-    },
-    {
-      "data": "2026-06-23T10:00:00",
-      "temperatura_media": 19.8,
-      "temperatura_max": 20.1,
-      "condicao": "ensolarado",
-      "precipitacao_mm": 0.0
-    },
-    {
-      "data": "2026-06-23T11:00:00",
-      "temperatura_media": 20.9,
-      "temperatura_max": 21.0,
-      "condicao": "ensolarado",
-      "precipitacao_mm": 0.0
-    },
-    {
-      "data": "2026-06-23T12:00:00",
-      "temperatura_media": 22.6,
-      "temperatura_max": 22.6,
-      "condicao": "ensolarado",
-      "precipitacao_mm": 0.0
-    },
-    {
-      "data": "2026-06-23T13:00:00",
-      "temperatura_media": 23.7,
-      "temperatura_max": 23.9,
-      "condicao": "ensolarado",
-      "precipitacao_mm": 0.0
-    },
-    {
-      "data": "2026-06-23T14:00:00",
-      "temperatura_media": 25.6,
-      "temperatura_max": 25.8,
-      "condicao": "ensolarado",
-      "precipitacao_mm": 0.0
-    },
-    {
-      "data": "2026-06-23T15:00:00",
-      "temperatura_media": 27.2,
-      "temperatura_max": 27.4,
-      "condicao": "ensolarado",
-      "precipitacao_mm": 0.0
-    },
-    {
-      "data": "2026-06-23T16:00:00",
-      "temperatura_media": 25.3,
-      "temperatura_max": 25.4,
-      "condicao": "ensolarado",
-      "precipitacao_mm": 0.0
-    },
-    {
-      "data": "2026-06-23T17:00:00",
-      "temperatura_media": 24.2,
-      "temperatura_max": 24.5,
-      "condicao": "ensolarado",
-      "precipitacao_mm": 0.0
-    },
-    {
-      "data": "2026-06-23T18:00:00",
-      "temperatura_media": 22.3,
-      "temperatura_max": 22.3,
-      "condicao": "ensolarado",
-      "precipitacao_mm": 0.0
-    },
-    {
-      "data": "2026-06-23T19:00:00",
-      "temperatura_media": 20.7,
-      "temperatura_max": 20.9,
-      "condicao": "ensolarado",
-      "precipitacao_mm": 0.0
-    },
-    {
-      "data": "2026-06-23T20:00:00",
-      "temperatura_media": 19.4,
-      "temperatura_max": 19.4,
-      "condicao": "ensolarado",
-      "precipitacao_mm": 0.0
-    },
-    {
-      "data": "2026-06-23T21:00:00",
-      "temperatura_media": 18.1,
-      "temperatura_max": 18.5,
-      "condicao": "ensolarado",
-      "precipitacao_mm": 0.0
-    },
-    {
-      "data": "2026-06-23T22:00:00",
-      "temperatura_media": 16.3,
-      "temperatura_max": 16.4,
-      "condicao": "ensolarado",
-      "precipitacao_mm": 0.0
-    },
-    {
-      "data": "2026-06-23T23:00:00",
-      "temperatura_media": 15.2,
-      "temperatura_max": 15.3,
+      "data": "2026-06-23",
+      "temperatura_media": 19.5,
+      "temperatura_max": 26.9,
       "condicao": "ensolarado",
       "precipitacao_mm": 0.0
     },
@@ -1407,7 +1253,7 @@
     {
       "data": "2026-06-28",
       "temperatura_media": 22.3,
-      "temperatura_max": 280.0,
+      "temperatura_max": 28.0,
       "condicao": "ensolarado",
       "precipitacao_mm": 0.0
     },
