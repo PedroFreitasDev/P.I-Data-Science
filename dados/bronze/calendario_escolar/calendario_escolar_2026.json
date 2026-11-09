@@ -180,8 +180,7 @@
     {
       "data": "2026-01-30",
       "tipo_dia": "planejamento",
-      "descricao": "Planejamento pedagógico (sem alunos)",
-      "turno_letivo": "nenhum"
+      "descricao": "Planejamento pedagógico (sem alunos)"
     },
     {
       "data": "2026-01-31",
@@ -222,8 +221,7 @@
     {
       "data": "2026-02-06",
       "tipo_dia": "letivo",
-      "descricao": "Dia letivo",
-      "turno_letivo": "integral"
+      "descricao": "Dia letivo"
     },
     {
       "data": "2026-02-07",
@@ -792,8 +790,7 @@
     {
       "data": "2026-05-12",
       "tipo_dia": "letivo",
-      "descricao": "Dia letivo",
-      "turno_letivo": "integral"
+      "descricao": "Dia letivo"
     },
     {
       "data": "2026-05-13",
@@ -804,8 +801,7 @@
     {
       "data": "2026-05-14",
       "tipo_dia": "letivo",
-      "descricao": "Dia letivo",
-      "turno_letivo": "integral"
+      "descricao": "Dia letivo"
     },
     {
       "data": "2026-05-15",
@@ -1505,7 +1501,7 @@
     },
     {
       "data": "2026-09-08",
-      "tipo_dia": "letivo",
+      "tipo_dia": "letivos",
       "descricao": "Dia letivo",
       "turno_letivo": "integral"
     },
@@ -1709,9 +1705,9 @@
     },
     {
       "data": "2026-10-12",
-      "tipo_dia": "feriado",
-      "descricao": "Nossa Senhora Aparecida",
-      "turno_letivo": "nenhum"
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
     },
     {
       "data": "2026-10-13",
@@ -1835,9 +1831,9 @@
     },
     {
       "data": "2026-11-02",
-      "tipo_dia": "feriado",
-      "descricao": "Finados",
-      "turno_letivo": "nenhum"
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
     },
     {
       "data": "2026-11-03",
