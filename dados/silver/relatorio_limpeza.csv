@@ -1,0 +1,30 @@
+tabela,problema,linhas,acao
+cardapio,categoria fora do padrão,2,padronizada
+cardapio,custo_unitario ausente,4,estimado pela proporção custo/preço da categoria (coluna custo_imputado = TRUE)
+cardapio,preço não reajustado na troca de cardápio (desatualizado em relação à inflação),3,mantido e sinalizado na coluna preco_sem_reajuste
+vendas,linha duplicada,2,removida
+vendas,id_venda repetido em vendas diferentes,1,renumerado com o id que faltava na sequência
+vendas,id_aluno/id_produto em formato texto (ALU01234 / P012),195,"convertidos para número, como em alunos, devedores e cardápio"
+vendas,id_aluno vazio,1,"mantida (entra no faturamento, mas fica sem turma)"
+vendas,"produto inexistente no cardápio (P999, P000...)",1,removida
+vendas,preço/valor negativo,2,sinal corrigido
+vendas,"valor_unitario sem a vírgula (450 em vez de 4,50)",1,dividido por 100
+alunos,"id_aluno em formato diferente (001234, ALU01234)",4,convertido para número
+alunos,nome fora do padrão (caixa ou espaços),3,padronizado
+alunos,data de nascimento em outro formato (dd/mm/aaaa),3,convertida para aaaa-mm-dd
+alunos,"data de nascimento inválida (1900, ano futuro, ano 0016)",3,deixada vazia (o notebook preenche a idade pela mediana)
+alunos,restricao_alimentar ausente (campo aninhado),3,preenchida com 'Não informado'
+alunos,turno da turma ausente (campo aninhado) - contagem em turmas,1,deduzido pelo horário das compras dos alunos da turma
+alunos,homônimos (alunos diferentes com o mesmo nome),12,mantidos (a chave é id_aluno); sinalizados em nome_repetido
+calendario,tipo_dia digitado fora do padrão,1,padronizado
+calendario,feriado nacional marcado como dia letivo,2,corrigido para feriado
+calendario,turno_letivo ausente,4,deduzido do tipo do dia e da descrição
+calendario,dia letivo sem nenhuma venda (possível greve ou dia sem registro),19,mantido como letivo e sinalizado em houve_vendas = FALSE
+clima,data com fuso horário divergente,5,convertida para o dia correto
+clima,dia com 24 leituras horárias (granularidade diferente) - contagem em dias,1,"agregado: média das temperaturas, máxima das máximas e soma da chuva"
+clima,"temperatura absurda (999,9, sinal trocado, ×10)",4,descartada e interpolada
+clima,dia ausente (falha de requisição),1,incluído e preenchido (imputado = TRUE)
+clima,dia com campos nulos ou descartados,6,temperaturas interpoladas entre os dias vizinhos; condição e chuva estimadas
+inflacao,categoria diferente da usada no cardápio (nome da API ou digitação),27,mapeada para a categoria do cardápio
+inflacao,índice absurdo (sem a vírgula),1,dividido por 100
+inflacao,"meses com vendas e sem índice publicado (defasagem): 2026-10, 2026-11",2,não inventados; a coluna disponivel_em indica quando cada índice sai

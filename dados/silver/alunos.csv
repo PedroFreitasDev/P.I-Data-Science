@@ -1,0 +1,575 @@
+turma,ano_letivo,turno,id_aluno,nome,data_nascimento,restricao_alimentar,nome_repetido
+3ª série EM A,2026,manha,1001,Felipe Ferreira,2009-03-25,Intolerância à lactose,FALSE
+3ª série EM A,2026,manha,1002,Thiago Andrade,2008-12-22,Nenhuma,FALSE
+3ª série EM A,2026,manha,1003,Nicole Barros Azevedo,2008-08-22,Nenhuma,FALSE
+3ª série EM A,2026,manha,1004,Lívia Fernandes,2008-05-12,Nenhuma,FALSE
+3ª série EM A,2026,manha,1005,Lorenzo Souza Machado,2008-12-02,Nenhuma,FALSE
+3ª série EM A,2026,manha,1007,Gabriel Moraes Moreira,2007-07-19,Nenhuma,TRUE
+3ª série EM A,2026,manha,1009,Camila Ramos,2008-08-06,Nenhuma,FALSE
+3ª série EM A,2026,manha,1010,Lara Santana,2008-06-17,Nenhuma,FALSE
+3ª série EM A,2026,manha,1012,Esther Alves Castro,2008-06-30,Intolerância à lactose,FALSE
+3ª série EM A,2026,manha,1014,Lucas Barbosa,2009-01-20,Nenhuma,FALSE
+3ª série EM A,2026,manha,1015,Luana Almeida Lopes,2008-10-03,Intolerância à lactose,FALSE
+3ª série EM A,2026,manha,1016,Heitor Castro Ferreira,2008-09-25,Nenhuma,FALSE
+3ª série EM A,2026,manha,1017,Ana Pinto Vieira,2007-04-06,Nenhuma,FALSE
+3ª série EM A,2026,manha,1018,Isaac Andrade,2008-01-17,Nenhuma,FALSE
+3ª série EM A,2026,manha,1019,Giovanna Lima Alves,2008-09-24,Nenhuma,FALSE
+3ª série EM A,2026,manha,1021,Emanuel Castro Moraes,2008-11-26,Nenhuma,FALSE
+3ª série EM A,2026,manha,1024,Emanuel Dias Monteiro,2009-02-21,Intolerância à lactose,FALSE
+3ª série EM A,2026,manha,1026,Emanuel Santos,2008-06-24,Nenhuma,FALSE
+3ª série EM A,2026,manha,1027,Antônio Almeida,2008-05-16,Alergia a amendoim,FALSE
+3ª série EM A,2026,manha,1028,Yuri Oliveira,2009-03-03,Nenhuma,FALSE
+3ª série EM A,2026,manha,1029,Enzo Duarte Monteiro,2008-12-12,Nenhuma,FALSE
+3ª série EM B,2026,manha,1032,Rodrigo Miranda Moreira,2007-10-23,Nenhuma,FALSE
+3ª série EM B,2026,manha,1035,Débora Barros Rocha,2009-03-18,Nenhuma,FALSE
+3ª série EM B,2026,manha,1036,Eduarda Santana,2008-11-20,Nenhuma,FALSE
+3ª série EM B,2026,manha,1037,Matheus Martins Correia,2008-10-02,Nenhuma,FALSE
+3ª série EM B,2026,manha,1038,Emanuelly Silva Pinto,2007-10-07,Nenhuma,FALSE
+3ª série EM B,2026,manha,1039,Heitor Araújo Gomes,2008-06-26,Intolerância à lactose,FALSE
+3ª série EM B,2026,manha,1041,Isaac Martins Lopes,2009-02-09,Intolerância à lactose,FALSE
+3ª série EM B,2026,manha,1042,João Mendes Almeida,2008-06-12,Vegetariano,FALSE
+3ª série EM B,2026,manha,1043,Esther Fernandes,2008-06-13,Nenhuma,FALSE
+3ª série EM B,2026,manha,1044,Emanuel Freitas Fragoso,2007-08-07,Nenhuma,FALSE
+3ª série EM B,2026,manha,1045,Daniel Barros,2008-04-30,Nenhuma,FALSE
+3ª série EM B,2026,manha,1048,Gabriela Duarte,2008-08-26,Nenhuma,FALSE
+3ª série EM B,2026,manha,1049,Nicolas Monteiro Campos,2008-06-15,Nenhuma,FALSE
+3ª série EM B,2026,manha,1051,Enzo Machado,2008-12-15,Nenhuma,FALSE
+3ª série EM B,2026,manha,1052,Matheus Ribeiro,2008-09-24,Nenhuma,FALSE
+3ª série EM B,2026,manha,1053,Lara Martins Cavalcanti,2008-05-21,Intolerância à lactose,FALSE
+3ª série EM B,2026,manha,1056,Heloísa Barros Araújo,2008-10-29,Nenhuma,FALSE
+3ª série EM B,2026,manha,1057,Camila Costa Lopes,2008-11-29,Nenhuma,FALSE
+3ª série EM B,2026,manha,1060,Gustavo Ribeiro Gonçalves,2008-06-13,Nenhuma,FALSE
+3ª série EM B,2026,manha,1061,Olívia Vieira Barros,2008-12-09,Nenhuma,FALSE
+3ª série EM B,2026,manha,1062,Matheus Rodrigues Barbosa,2008-10-13,Diabetes tipo 1,FALSE
+3ª série EM B,2026,manha,1063,Leonardo Pinto,2008-07-21,Nenhuma,FALSE
+3ª série EM B,2026,manha,1064,Emanuelly Machado,2008-12-10,Nenhuma,FALSE
+3ª série EM B,2026,manha,1067,Luana Castro Correia,2008-06-24,Nenhuma,FALSE
+3ª série EM B,2026,manha,1069,Bryan Teixeira Soares,2008-12-19,Nenhuma,FALSE
+2ª série EM A,2026,manha,1070,Enzo Fragoso,2009-10-09,Nenhuma,FALSE
+2ª série EM A,2026,manha,1073,Manuela Teixeira Andrade,2010-03-10,Nenhuma,FALSE
+2ª série EM A,2026,manha,1074,Cauã Marques Ferreira,2009-05-26,Nenhuma,FALSE
+2ª série EM A,2026,manha,1076,Pietro Monteiro,2009-07-22,Nenhuma,FALSE
+2ª série EM A,2026,manha,1079,Camila Nascimento,2009-08-31,Nenhuma,FALSE
+2ª série EM A,2026,manha,1080,Guilherme Pinto Soares,2010-03-08,Nenhuma,FALSE
+2ª série EM A,2026,manha,1083,Benício Fragoso Santos,2009-07-09,Nenhuma,FALSE
+2ª série EM A,2026,manha,1084,Olívia Nascimento Barbosa,2009-11-11,Nenhuma,FALSE
+2ª série EM A,2026,manha,1085,Ravi Martins Duarte,2009-12-07,Nenhuma,FALSE
+2ª série EM A,2026,manha,1088,Luana Gomes,2010-01-30,Nenhuma,FALSE
+2ª série EM A,2026,manha,1089,Camila Santos Fragoso,2009-06-20,Nenhuma,FALSE
+2ª série EM A,2026,manha,1090,João Santana Cavalcanti,2009-08-19,Nenhuma,FALSE
+2ª série EM A,2026,manha,1093,Guilherme Rodrigues Azevedo,2010-02-25,Nenhuma,FALSE
+2ª série EM A,2026,manha,1094,Sarah Mendes Cardoso,2010-03-26,Nenhuma,FALSE
+2ª série EM A,2026,manha,1096,Lavínia Mendes Lima,2009-06-10,Nenhuma,FALSE
+2ª série EM A,2026,manha,1099,Maria Silva Ramos,2009-11-22,Nenhuma,FALSE
+2ª série EM A,2026,manha,1102,Larissa Toledo Teixeira,2009-09-23,Nenhuma,FALSE
+2ª série EM A,2026,manha,1103,Lívia Ribeiro Barros,2009-12-22,Nenhuma,FALSE
+2ª série EM A,2026,manha,1105,Felipe Souza,2009-09-16,Nenhuma,FALSE
+2ª série EM A,2026,manha,1106,Helena Lopes Andrade,2010-03-29,Diabetes tipo 1,FALSE
+2ª série EM A,2026,manha,1109,Bernardo Lopes,2010-02-24,Nenhuma,FALSE
+2ª série EM A,2026,manha,1112,Gabriela Souza,2009-12-22,Nenhuma,FALSE
+2ª série EM A,2026,manha,1113,Heitor Toledo,2009-09-02,Nenhuma,FALSE
+2ª série EM B,2026,manha,1114,Ana Barbosa Alves,2009-10-25,Nenhuma,FALSE
+2ª série EM B,2026,manha,1115,Agatha Nunes,2008-12-31,Nenhuma,FALSE
+2ª série EM B,2026,manha,1118,Emanuelly Rocha Alves,2009-09-19,Intolerância à lactose,FALSE
+2ª série EM B,2026,manha,1119,Heloísa Rezende Nunes,2009-12-30,Nenhuma,FALSE
+2ª série EM B,2026,manha,1120,Rebeca Martins,2009-12-19,Nenhuma,FALSE
+2ª série EM B,2026,manha,1123,Benício Pereira Araújo,2009-11-23,Nenhuma,FALSE
+2ª série EM B,2026,manha,1124,Giovanna Monteiro,2010-01-09,Intolerância à lactose,FALSE
+2ª série EM B,2026,manha,1125,Lorenzo Souza Oliveira,2009-06-21,Nenhuma,FALSE
+2ª série EM B,2026,manha,1126,Ravi Mendes,2009-11-10,Nenhuma,FALSE
+2ª série EM B,2026,manha,1127,Ravi Cardoso Araújo,2009-04-21,Nenhuma,TRUE
+2ª série EM B,2026,manha,1128,Alice Santana Araújo,2009-08-26,Doença celíaca,FALSE
+2ª série EM B,2026,manha,1130,Joaquim Teixeira,2009-10-18,Nenhuma,FALSE
+2ª série EM B,2026,manha,1131,Catarina Fragoso Ribeiro,2009-06-08,Intolerância à lactose,FALSE
+2ª série EM B,2026,manha,1133,Arthur Azevedo,2010-01-29,Nenhuma,FALSE
+2ª série EM B,2026,manha,1136,Alice Freitas Costa,2009-09-03,Nenhuma,FALSE
+2ª série EM B,2026,manha,1137,Maria Lopes Pereira,2009-07-02,Alergia a amendoim,FALSE
+2ª série EM B,2026,manha,1140,Felipe Miranda Marques,2009-12-02,Nenhuma,FALSE
+2ª série EM B,2026,manha,1141,Antônio Almeida Fernandes,2009-12-08,Intolerância à lactose,FALSE
+2ª série EM B,2026,manha,1144,Guilherme Ferreira,2010-01-05,Nenhuma,FALSE
+2ª série EM B,2026,manha,1146,Vicente Miranda Barbosa,2009-08-23,Alergia a amendoim,FALSE
+2ª série EM B,2026,manha,1147,Davi Dias Moraes,2009-06-07,Nenhuma,FALSE
+2ª série EM B,2026,manha,1148,Vitória Martins Toledo,2009-11-18,Nenhuma,FALSE
+2ª série EM B,2026,manha,1149,Natália Ribeiro Moraes,2009-04-12,Nenhuma,FALSE
+1ª série EM A,2026,manha,1152,Lavínia Pereira Barbosa,2010-10-08,Nenhuma,FALSE
+1ª série EM A,2026,manha,1155,Juliana Carvalho Rezende,2010-04-22,Nenhuma,FALSE
+1ª série EM A,2026,manha,1157,Isadora Ribeiro Barbosa,2010-06-18,Diabetes tipo 1,FALSE
+1ª série EM A,2026,manha,1158,Yuri Dias,2011-03-09,Alergia a amendoim,FALSE
+1ª série EM A,2026,manha,1159,Agatha Duarte Soares,2011-03-14,Diabetes tipo 1,FALSE
+1ª série EM A,2026,manha,1160,José Araújo Oliveira,2009-05-09,Nenhuma,FALSE
+1ª série EM A,2026,manha,1163,Catarina Mendes Almeida,2010-09-25,Nenhuma,FALSE
+1ª série EM A,2026,manha,1164,Maria Lopes Machado,2010-04-04,Intolerância à lactose,FALSE
+1ª série EM A,2026,manha,1167,Emanuelly Martins,2009-07-07,Nenhuma,FALSE
+1ª série EM A,2026,manha,1170,Nicole Fernandes Cavalcanti,2010-11-12,Nenhuma,FALSE
+1ª série EM A,2026,manha,1173,Giovanna Monteiro Nascimento,2010-09-28,Nenhuma,FALSE
+1ª série EM A,2026,manha,1176,Kaique Machado Ferreira,2011-02-11,Nenhuma,FALSE
+1ª série EM A,2026,manha,1177,Vitor Pereira Dias,2010-04-28,Nenhuma,FALSE
+1ª série EM A,2026,manha,1180,Vicente Fragoso Freitas,2010-04-13,Nenhuma,FALSE
+1ª série EM A,2026,manha,1181,Sofia Moreira Ramos,2010-07-12,Alergia a amendoim,FALSE
+1ª série EM A,2026,manha,1182,Isadora Martins Carvalho,2011-02-10,Nenhuma,FALSE
+1ª série EM A,2026,manha,1185,Catarina Barbosa Almeida,2010-04-07,Intolerância à lactose,FALSE
+1ª série EM A,2026,manha,1186,Guilherme Machado,2009-04-30,Intolerância à lactose,FALSE
+1ª série EM A,2026,manha,1187,Bryan Rodrigues Cavalcanti,2011-02-09,Vegetariano,FALSE
+1ª série EM A,2026,manha,1190,Valentina Marques Vieira,2010-11-16,Nenhuma,FALSE
+1ª série EM A,2026,manha,1193,Luiz Gonçalves,2010-08-23,Nenhuma,FALSE
+1ª série EM A,2026,manha,1194,Davi Vieira,2010-06-07,Nenhuma,FALSE
+1ª série EM A,2026,manha,1195,Gabriela Machado Rodrigues,2011-02-14,Nenhuma,FALSE
+1ª série EM A,2026,manha,1197,Miguel Miranda Barbosa,2010-09-02,Nenhuma,FALSE
+1ª série EM A,2026,manha,1198,Samuel Moraes Dias,2010-10-09,Nenhuma,FALSE
+1ª série EM A,2026,manha,1199,José Moraes Correia,2011-02-12,Nenhuma,FALSE
+1ª série EM A,2026,manha,1200,Arthur Fernandes,2010-12-01,Nenhuma,FALSE
+1ª série EM B,2026,manha,1202,Elisa Rocha,2010-09-28,Nenhuma,FALSE
+1ª série EM B,2026,manha,1205,Olívia Castro Soares,2010-12-25,Nenhuma,FALSE
+1ª série EM B,2026,manha,1206,Helena Pinto Lopes,2010-05-22,Nenhuma,FALSE
+1ª série EM B,2026,manha,1207,Luana Gonçalves Gomes,2010-08-03,Nenhuma,FALSE
+1ª série EM B,2026,manha,1210,Igor Toledo Azevedo,2011-03-25,Nenhuma,FALSE
+1ª série EM B,2026,manha,1213,Mariana Pinto Carvalho,2011-03-12,Nenhuma,FALSE
+1ª série EM B,2026,manha,1214,Vicente Cavalcanti Rezende,2011-01-19,Nenhuma,FALSE
+1ª série EM B,2026,manha,1217,Valentina Pinto Freitas,2010-04-04,Alergia a amendoim,FALSE
+1ª série EM B,2026,manha,1218,Emanuelly Pereira,2010-04-04,Nenhuma,FALSE
+1ª série EM B,2026,manha,1220,Maria Oliveira Santos,2010-08-28,Nenhuma,FALSE
+1ª série EM B,2026,manha,1222,Mateus Oliveira Soares,2011-03-26,Nenhuma,FALSE
+1ª série EM B,2026,manha,1224,Bruno Lopes Souza,2010-05-12,Nenhuma,FALSE
+1ª série EM B,2026,manha,1225,Emanuel Nascimento Freitas,2010-06-08,Nenhuma,FALSE
+1ª série EM B,2026,manha,1226,Luana Lopes Souza,2010-08-27,Nenhuma,FALSE
+1ª série EM B,2026,manha,1227,Igor Machado Rodrigues,2010-06-08,Alergia a amendoim,FALSE
+1ª série EM B,2026,manha,1230,Pedro Barros Correia,2010-09-19,Nenhuma,FALSE
+1ª série EM B,2026,manha,1231,Débora Cavalcanti Moreira,2011-02-18,Nenhuma,FALSE
+1ª série EM B,2026,manha,1232,Letícia Ferreira Moraes,2011-03-21,Intolerância à lactose,FALSE
+1ª série EM B,2026,manha,1235,Vitória Freitas Ferreira,2010-06-05,Nenhuma,FALSE
+1ª série EM B,2026,manha,1236,Rodrigo Santana Ramos,2010-08-11,Nenhuma,FALSE
+1ª série EM B,2026,manha,1237,Pedro Ribeiro,2010-07-26,Nenhuma,FALSE
+1ª série EM B,2026,manha,1239,Vicente Lima,2010-05-23,Nenhuma,FALSE
+1ª série EM B,2026,manha,1240,Natália Cardoso Freitas,2010-09-24,Nenhuma,FALSE
+9º ano A,2026,manha,1243,Olívia Moraes Cavalcanti,2012-01-15,Nenhuma,FALSE
+9º ano A,2026,manha,1245,Larissa Ferreira Costa,2010-12-08,Nenhuma,FALSE
+9º ano A,2026,manha,1246,Letícia Monteiro Lima,2011-12-27,Nenhuma,FALSE
+9º ano A,2026,manha,1247,Esther Teixeira,2011-08-17,Intolerância à lactose,FALSE
+9º ano A,2026,manha,1250,Marina Marques,2011-05-31,Nenhuma,FALSE
+9º ano A,2026,manha,1251,Cauã Moraes,2011-06-08,Intolerância à lactose,FALSE
+9º ano A,2026,manha,1253,Heitor Pinto Duarte,2011-11-11,Nenhuma,FALSE
+9º ano A,2026,manha,1254,Fernanda Rocha,2011-06-08,Nenhuma,FALSE
+9º ano A,2026,manha,1257,Miguel Teixeira Ramos,2011-10-18,Nenhuma,FALSE
+9º ano A,2026,manha,1258,Helena Vieira Toledo,2012-03-06,Nenhuma,FALSE
+9º ano A,2026,manha,1261,Rafaela Moreira,2011-04-20,Nenhuma,FALSE
+9º ano A,2026,manha,1262,Theo Machado,2010-08-25,Intolerância à lactose,FALSE
+9º ano A,2026,manha,1263,Juliana Pinto,2012-03-13,Nenhuma,FALSE
+9º ano A,2026,manha,1264,Beatriz Barros Dias,2012-03-07,Nenhuma,FALSE
+9º ano A,2026,manha,1265,Letícia Souza,2011-10-11,Nenhuma,FALSE
+9º ano A,2026,manha,1266,Marina Miranda Toledo,2011-07-25,Nenhuma,FALSE
+9º ano A,2026,manha,1267,Maria Almeida Fernandes,2011-09-12,Nenhuma,FALSE
+9º ano A,2026,manha,1269,Lavínia Araújo Santana,2012-02-28,Nenhuma,FALSE
+9º ano A,2026,manha,1271,Emanuel Costa Moraes,2011-04-10,Nenhuma,FALSE
+9º ano A,2026,manha,1272,Yasmin Barros Miranda,2011-08-04,Vegetariano,FALSE
+9º ano A,2026,manha,1273,Cecília Pinto,2011-08-29,Nenhuma,FALSE
+9º ano A,2026,manha,1276,Larissa Ramos Ribeiro,2011-08-24,Nenhuma,FALSE
+9º ano A,2026,manha,1277,Fernanda Moraes Barbosa,2011-07-04,Nenhuma,FALSE
+9º ano A,2026,manha,1278,Joaquim Rodrigues Freitas,2011-12-12,Nenhuma,FALSE
+9º ano A,2026,manha,1279,Lavínia Rezende,2011-05-30,Nenhuma,FALSE
+9º ano A,2026,manha,1280,Eduardo Rodrigues,2011-07-07,Nenhuma,FALSE
+9º ano A,2026,manha,1281,Lavínia Marques,2012-03-18,Nenhuma,FALSE
+9º ano B,2026,manha,1283,Fernando Gomes Fragoso,2011-12-12,Nenhuma,FALSE
+9º ano B,2026,manha,1284,Olívia Pereira,2010-08-12,Nenhuma,FALSE
+9º ano B,2026,manha,1286,Mirella Duarte,2012-02-11,Nenhuma,FALSE
+9º ano B,2026,manha,1287,Agatha Miranda Azevedo,2011-07-27,Nenhuma,FALSE
+9º ano B,2026,manha,1290,João Santos,2011-12-28,Nenhuma,FALSE
+9º ano B,2026,manha,1291,Juliana Rocha Teixeira,2012-02-05,Nenhuma,FALSE
+9º ano B,2026,manha,1292,Elisa Fernandes Mendes,2011-08-31,Nenhuma,FALSE
+9º ano B,2026,manha,1293,Matheus Alves Monteiro,2012-01-19,Nenhuma,FALSE
+9º ano B,2026,manha,1295,Davi Duarte Costa,2012-03-25,Vegetariano,FALSE
+9º ano B,2026,manha,1296,Eduarda Vieira,2012-02-29,Nenhuma,FALSE
+9º ano B,2026,manha,1297,Lucas Silva Miranda,2012-01-19,Nenhuma,FALSE
+9º ano B,2026,manha,1299,Lorenzo Nunes,2011-05-23,Nenhuma,FALSE
+9º ano B,2026,manha,1300,Vinícius Dias Azevedo,2011-11-13,Nenhuma,FALSE
+9º ano B,2026,manha,1302,Rodrigo Freitas Andrade,2011-04-08,Intolerância à lactose,FALSE
+9º ano B,2026,manha,1304,Theo Araújo Cardoso,2011-12-10,Intolerância à lactose,FALSE
+9º ano B,2026,manha,1305,Eduardo Ribeiro Castro,2012-01-23,Nenhuma,FALSE
+9º ano B,2026,manha,1308,Melissa Miranda,2012-03-13,Nenhuma,FALSE
+9º ano B,2026,manha,1309,Melissa Rocha,2011-12-21,Nenhuma,FALSE
+9º ano B,2026,manha,1312,Gabriela Rezende,2012-02-17,Intolerância à lactose,TRUE
+9º ano B,2026,manha,1315,Laura Miranda,2010-09-06,Nenhuma,FALSE
+9º ano B,2026,manha,1318,Yasmin Campos Rezende,2011-06-17,Nenhuma,FALSE
+9º ano B,2026,manha,1319,Henrique Soares,2011-12-14,Nenhuma,FALSE
+9º ano B,2026,manha,1320,Isabela Vieira Carvalho,2012-02-18,Nenhuma,FALSE
+9º ano B,2026,manha,1322,Lívia Rocha,2010-09-02,Nenhuma,FALSE
+9º ano B,2026,manha,1323,Cecília Barbosa Almeida,2011-12-15,Nenhuma,FALSE
+9º ano B,2026,manha,1324,Isadora Machado Cardoso,2012-02-07,Nenhuma,FALSE
+9º ano B,2026,manha,1325,Arthur Gonçalves Santos,2011-12-16,Não informado,FALSE
+8º ano A,2026,manha,1326,Pedro Marques,2012-11-26,Nenhuma,FALSE
+8º ano A,2026,manha,1328,Letícia Vieira,2012-06-26,Alergia a amendoim,FALSE
+8º ano A,2026,manha,1329,Isadora Ramos Castro,2012-04-26,Nenhuma,FALSE
+8º ano A,2026,manha,1330,Benício Gomes,2013-03-05,Nenhuma,FALSE
+8º ano A,2026,manha,1332,Lívia Nascimento,2012-06-01,Nenhuma,TRUE
+8º ano A,2026,manha,1333,Carolina Martins,2013-02-22,Nenhuma,FALSE
+8º ano A,2026,manha,1336,Fernando Moraes,2012-08-17,Nenhuma,FALSE
+8º ano A,2026,manha,1338,José Correia Duarte,2013-03-28,Nenhuma,FALSE
+8º ano A,2026,manha,1339,Débora Silva Miranda,2012-04-24,Diabetes tipo 1,FALSE
+8º ano A,2026,manha,1340,Clara Marques,2012-10-12,Nenhuma,FALSE
+8º ano A,2026,manha,1341,Henrique Carvalho Dias,2012-04-17,Nenhuma,FALSE
+8º ano A,2026,manha,1342,Juliana Marques,2012-08-12,Nenhuma,FALSE
+8º ano A,2026,manha,1345,Laura Campos Costa,2013-01-04,Nenhuma,FALSE
+8º ano A,2026,manha,1346,Ana Silva,2011-11-01,Nenhuma,FALSE
+8º ano A,2026,manha,1347,Caio Fragoso Martins,2012-10-06,Nenhuma,FALSE
+8º ano A,2026,manha,1348,Valentina Machado,2011-06-25,Nenhuma,FALSE
+8º ano A,2026,manha,1349,Nicolas Marques Gonçalves,2012-09-22,Nenhuma,FALSE
+8º ano A,2026,manha,1350,Eduardo Teixeira,2012-02-08,Diabetes tipo 1,FALSE
+8º ano A,2026,manha,1353,Rodrigo Andrade,2013-03-16,Nenhuma,FALSE
+8º ano A,2026,manha,1354,Theo Araújo Lima,2013-03-15,Intolerância à lactose,FALSE
+8º ano A,2026,manha,1355,Lívia Gomes Marques,2013-03-06,Doença celíaca,FALSE
+8º ano A,2026,manha,1356,Matheus Monteiro,2012-11-05,Nenhuma,FALSE
+8º ano A,2026,manha,1357,Joaquim Barbosa Ramos,2012-08-06,Vegetariano,FALSE
+8º ano A,2026,manha,1358,Pedro Cardoso,2012-08-26,Nenhuma,FALSE
+8º ano A,2026,manha,1359,Camila Oliveira Lopes,2012-09-20,Nenhuma,FALSE
+8º ano A,2026,manha,1362,Vinícius Rodrigues Monteiro,2011-10-20,Nenhuma,FALSE
+8º ano B,2026,manha,1363,Alice Campos Lopes,2013-01-12,Nenhuma,FALSE
+8º ano B,2026,manha,1364,Bianca Toledo,2013-01-07,Nenhuma,FALSE
+8º ano B,2026,manha,1366,Cecília Rezende Moreira,2012-06-27,Intolerância à lactose,FALSE
+8º ano B,2026,manha,1367,José Pinto Campos,2012-06-15,Nenhuma,FALSE
+8º ano B,2026,manha,1369,Ravi Alves Carvalho,2012-05-21,Nenhuma,FALSE
+8º ano B,2026,manha,1370,Daniel Souza,2012-04-03,Vegetariano,FALSE
+8º ano B,2026,manha,1372,Bruno Pinto,2012-10-23,Nenhuma,FALSE
+8º ano B,2026,manha,1373,Lorenzo Alves Pereira,2013-01-22,Nenhuma,FALSE
+8º ano B,2026,manha,1374,Débora Dias Rodrigues,2012-11-13,Nenhuma,FALSE
+8º ano B,2026,manha,1375,Vicente Martins Rezende,2012-08-31,Vegetariano,FALSE
+8º ano B,2026,manha,1376,Kaique Castro Martins,2012-07-13,Nenhuma,FALSE
+8º ano B,2026,manha,1377,Lavínia Lima Santos,2012-11-12,Nenhuma,FALSE
+8º ano B,2026,manha,1380,Lara Toledo Fernandes,2012-07-14,Nenhuma,FALSE
+8º ano B,2026,manha,1381,Eduardo Machado Pereira,2012-07-17,Nenhuma,FALSE
+8º ano B,2026,manha,1382,Marina Santana Rodrigues,2012-06-29,Nenhuma,FALSE
+8º ano B,2026,manha,1383,Luiza Andrade,2012-06-13,Nenhuma,FALSE
+8º ano B,2026,manha,1384,Vinícius Ribeiro,2012-05-23,Nenhuma,FALSE
+8º ano B,2026,manha,1386,Beatriz Rezende Lima,2012-06-24,Nenhuma,FALSE
+8º ano B,2026,manha,1387,Isadora Gonçalves Gomes,2012-12-04,Nenhuma,FALSE
+8º ano B,2026,manha,1388,Lara Soares Pinto,2013-01-26,Doença celíaca,FALSE
+8º ano B,2026,manha,1389,Letícia Pereira,2013-03-03,Nenhuma,FALSE
+8º ano B,2026,manha,1391,Theo Correia Pereira,2013-01-27,Alergia a amendoim,FALSE
+8º ano B,2026,manha,1392,Yasmin Barbosa,2013-02-21,Nenhuma,FALSE
+7º ano A,2026,manha,1393,Isabela Dias Alves,2013-07-19,Diabetes tipo 1,FALSE
+7º ano A,2026,manha,1395,Vinícius Freitas,2013-09-15,Nenhuma,FALSE
+7º ano A,2026,manha,1396,Igor Vieira Moraes,2013-06-15,Nenhuma,FALSE
+7º ano A,2026,manha,1397,Julia Soares Silva,2013-11-10,Nenhuma,FALSE
+7º ano A,2026,manha,1400,Fernanda Cardoso,2013-06-06,Nenhuma,FALSE
+7º ano A,2026,manha,1402,Vicente Pereira Gomes,2013-05-20,Nenhuma,FALSE
+7º ano A,2026,manha,1403,Emanuel Oliveira Machado,2013-04-19,Nenhuma,FALSE
+7º ano A,2026,manha,1404,Emanuel Freitas Cardoso,2014-03-26,Nenhuma,FALSE
+7º ano A,2026,manha,1406,Valentina Andrade Rocha,2013-06-04,Intolerância à lactose,FALSE
+7º ano A,2026,manha,1408,Pedro Soares Alves,2013-04-09,Nenhuma,FALSE
+7º ano A,2026,manha,1409,Ana Silva Santos,2013-07-11,Diabetes tipo 1,FALSE
+7º ano A,2026,manha,1410,Lorena Ribeiro Correia,2013-03-14,Nenhuma,FALSE
+7º ano A,2026,manha,1411,Igor Marques Mendes,2013-07-09,Nenhuma,FALSE
+7º ano A,2026,manha,1414,Nicolas Fernandes Machado,2013-09-08,Nenhuma,FALSE
+7º ano A,2026,manha,1417,Luana Ribeiro,2014-02-21,Nenhuma,FALSE
+7º ano A,2026,manha,1420,Otávio Fragoso Carvalho,2012-11-28,Nenhuma,FALSE
+7º ano A,2026,manha,1422,Arthur Cavalcanti,2013-08-12,Nenhuma,FALSE
+7º ano A,2026,manha,1425,Gabriela Rezende,2013-05-01,Diabetes tipo 1,TRUE
+7º ano A,2026,manha,1428,Heitor Gomes,2014-03-27,Nenhuma,FALSE
+7º ano A,2026,manha,1430,Vitor Lopes Monteiro,2013-12-13,Nenhuma,FALSE
+7º ano A,2026,manha,1433,Vitor Costa Machado,2013-08-27,Nenhuma,FALSE
+7º ano A,2026,manha,1436,Rafaela Miranda,2013-08-14,Nenhuma,FALSE
+7º ano A,2026,manha,1437,Lavínia Vieira,2012-12-28,Nenhuma,FALSE
+7º ano A,2026,manha,1440,Clara Barros,2013-01-09,Nenhuma,FALSE
+7º ano A,2026,manha,1441,Nicole Marques Araújo,2013-03-03,Nenhuma,FALSE
+7º ano A,2026,manha,1442,Davi Azevedo Moreira,2014-01-16,Vegetariano,FALSE
+7º ano B,2026,manha,1443,Guilherme Duarte Fernandes,2013-06-01,Nenhuma,FALSE
+7º ano B,2026,manha,1444,Giovanna Machado Cavalcanti,2012-07-06,Nenhuma,FALSE
+7º ano B,2026,manha,1446,Camila Silva Teixeira,2013-09-08,Diabetes tipo 1,FALSE
+7º ano B,2026,manha,1447,Giovanna Lima Rodrigues,2013-06-04,Nenhuma,FALSE
+7º ano B,2026,manha,1450,Caio Teixeira Silva,2013-04-29,Nenhuma,FALSE
+7º ano B,2026,manha,1451,Rodrigo Barbosa Moreira,2014-02-18,Vegetariano,FALSE
+7º ano B,2026,manha,1452,Kaique Azevedo Campos,2013-09-12,Intolerância à lactose,FALSE
+7º ano B,2026,manha,1454,Fernanda Rezende Dias,2013-05-16,Nenhuma,FALSE
+7º ano B,2026,manha,1456,Leonardo Araújo,2013-11-25,Nenhuma,FALSE
+7º ano B,2026,manha,1458,Cecília Freitas,2013-04-02,Doença celíaca,FALSE
+7º ano B,2026,manha,1459,Luiza Lopes Campos,2013-11-09,Nenhuma,FALSE
+7º ano B,2026,manha,1460,Marina Moreira Barros,2013-08-25,Intolerância à lactose,FALSE
+7º ano B,2026,manha,1462,Cecília Martins,2013-08-21,Nenhuma,FALSE
+7º ano B,2026,manha,1463,Marina Lima Ferreira,2014-03-03,Nenhuma,FALSE
+7º ano B,2026,manha,1465,Isaac Lima Pereira,2013-04-16,Nenhuma,FALSE
+7º ano B,2026,manha,1468,Rafael Miranda Nascimento,2014-01-06,Nenhuma,FALSE
+7º ano B,2026,manha,1469,Isaac Ferreira,2013-06-13,Nenhuma,FALSE
+7º ano B,2026,manha,1470,Helena Fragoso,2014-02-10,Nenhuma,FALSE
+7º ano B,2026,manha,1471,Lorenzo Lopes Souza,2013-06-30,Alergia a amendoim,FALSE
+7º ano B,2026,manha,1472,Daniel Duarte Souza,2014-03-10,Nenhuma,FALSE
+7º ano B,2026,manha,1474,Luana Azevedo Oliveira,2014-01-07,Nenhuma,FALSE
+6º ano A,2026,manha,1476,Carolina Almeida,2015-02-24,Nenhuma,FALSE
+6º ano A,2026,manha,1479,Beatriz Carvalho Mendes,2013-04-06,Nenhuma,FALSE
+6º ano A,2026,manha,1482,Lorena Barros Carvalho,2015-02-04,Nenhuma,FALSE
+6º ano A,2026,manha,1483,Sofia Gonçalves Marques,2014-07-26,Nenhuma,FALSE
+6º ano A,2026,manha,1484,Olívia Fernandes Fragoso,2015-01-16,Nenhuma,FALSE
+6º ano A,2026,manha,1485,Isaac Correia,2014-08-30,Nenhuma,FALSE
+6º ano A,2026,manha,1486,Pietro Gonçalves Correia,2015-03-25,Nenhuma,FALSE
+6º ano A,2026,manha,1487,Letícia Lima Rocha,2015-01-06,Nenhuma,FALSE
+6º ano A,2026,manha,1490,Melissa Nascimento Pinto,2014-11-21,Nenhuma,FALSE
+6º ano A,2026,manha,1491,Thiago Ramos Mendes,2013-06-15,Nenhuma,FALSE
+6º ano A,2026,manha,1492,Melissa Souza Martins,2014-03-19,Não informado,FALSE
+6º ano A,2026,manha,1493,Débora Fernandes Campos,2015-02-13,Nenhuma,FALSE
+6º ano A,2026,manha,1494,Bianca Gomes Rodrigues,2014-12-19,Nenhuma,FALSE
+6º ano A,2026,manha,1495,Vicente Rezende Barros,2015-01-01,Nenhuma,FALSE
+6º ano A,2026,manha,1496,Pietro Ramos Araújo,2014-08-28,Nenhuma,FALSE
+6º ano A,2026,manha,1498,Paula Ribeiro Lima,2014-10-22,Nenhuma,FALSE
+6º ano A,2026,manha,1500,Davi Moreira Araújo,2014-12-17,Nenhuma,FALSE
+6º ano A,2026,manha,1501,Gustavo Miranda Silva,2014-08-01,Nenhuma,FALSE
+6º ano A,2026,manha,1503,Marcelo Almeida,2014-05-19,Nenhuma,FALSE
+6º ano A,2026,manha,1506,Lavínia Fragoso Gonçalves,2014-11-09,Nenhuma,FALSE
+6º ano A,2026,manha,1507,Cauã Pereira Souza,2014-05-09,Nenhuma,FALSE
+6º ano A,2026,manha,1508,Rafael Dias Freitas,2014-04-26,Nenhuma,FALSE
+6º ano B,2026,manha,1510,Enzo Martins,2014-10-23,Nenhuma,FALSE
+6º ano B,2026,manha,1511,Fernanda Freitas,2014-04-11,Nenhuma,FALSE
+6º ano B,2026,manha,1512,Joaquim Lopes Martins,2014-05-12,Nenhuma,FALSE
+6º ano B,2026,manha,1513,Sofia Lima Pereira,2014-09-13,Nenhuma,FALSE
+6º ano B,2026,manha,1514,Giovanna Castro Azevedo,2014-10-10,Nenhuma,FALSE
+6º ano B,2026,manha,1516,Giovanna Andrade Pinto,2014-05-06,Nenhuma,FALSE
+6º ano B,2026,manha,1517,Paula Miranda,2014-07-16,Nenhuma,FALSE
+6º ano B,2026,manha,1518,Mariana Dias,2014-05-13,Nenhuma,FALSE
+6º ano B,2026,manha,1519,José Mendes Almeida,2014-06-24,Nenhuma,FALSE
+6º ano B,2026,manha,1521,Agatha Lima Pereira,2015-01-14,Nenhuma,FALSE
+6º ano B,2026,manha,1523,Rafael Vieira Pereira,2014-09-14,Nenhuma,FALSE
+6º ano B,2026,manha,1524,Lívia Nascimento,2015-03-13,Intolerância à lactose,TRUE
+6º ano B,2026,manha,1527,Helena Mendes Barbosa,2015-02-06,Nenhuma,FALSE
+6º ano B,2026,manha,1530,Murilo Fragoso Nascimento,2014-11-07,Vegetariano,FALSE
+6º ano B,2026,manha,1532,Helena Teixeira Miranda,2013-10-21,Nenhuma,FALSE
+6º ano B,2026,manha,1533,Fernando Barros,2014-10-15,Alergia a amendoim,FALSE
+6º ano B,2026,manha,1534,Valentina Azevedo Rezende,2015-02-18,Nenhuma,FALSE
+6º ano B,2026,manha,1536,Bernardo Oliveira Lopes,2014-06-18,Nenhuma,FALSE
+6º ano B,2026,manha,1539,Luana Nascimento Azevedo,2014-10-03,Nenhuma,FALSE
+6º ano B,2026,manha,1540,Letícia Ramos Ferreira,2014-07-12,Nenhuma,FALSE
+6º ano B,2026,manha,1542,Igor Cardoso Fragoso,2014-11-26,Nenhuma,FALSE
+6º ano B,2026,manha,1543,Nicole Oliveira Gonçalves,2014-08-11,Nenhuma,FALSE
+6º ano B,2026,manha,1544,Melissa Araújo,2014-07-07,Nenhuma,FALSE
+6º ano B,2026,manha,1545,Bianca Vieira Nascimento,2014-04-06,Nenhuma,FALSE
+5º ano A,2026,manha,1546,Bernardo Mendes Fernandes,2016-02-10,Nenhuma,FALSE
+5º ano A,2026,manha,1549,Lavínia Cavalcanti Campos,2015-11-20,Nenhuma,FALSE
+5º ano A,2026,manha,1552,Gabriela Campos Andrade,2016-02-14,Intolerância à lactose,FALSE
+5º ano A,2026,manha,1553,Caio Lima,2015-08-27,Nenhuma,FALSE
+5º ano A,2026,manha,1554,Rafaela Fragoso Moraes,2015-05-26,Nenhuma,FALSE
+5º ano A,2026,manha,1555,Laura Rezende Carvalho,2015-09-13,Nenhuma,FALSE
+5º ano A,2026,manha,1556,Benício Campos Miranda,2015-04-25,Intolerância à lactose,FALSE
+5º ano A,2026,manha,1559,Theo Ramos Gomes,2016-02-06,Nenhuma,FALSE
+5º ano A,2026,manha,1560,João Fernandes Toledo,2015-08-27,Nenhuma,FALSE
+5º ano A,2026,manha,1561,Valentina Moraes,2015-11-04,Nenhuma,FALSE
+5º ano A,2026,manha,1562,Catarina Nunes,2015-10-13,Nenhuma,FALSE
+5º ano A,2026,manha,1565,Beatriz Vieira,2015-07-18,Nenhuma,FALSE
+5º ano A,2026,manha,1566,Diego Silva Cardoso,2016-01-05,Nenhuma,FALSE
+5º ano A,2026,manha,1567,Olívia Azevedo,2015-04-23,Nenhuma,FALSE
+5º ano A,2026,manha,1569,Juliana Almeida Pereira,2015-10-19,Nenhuma,FALSE
+5º ano A,2026,manha,1570,Vitória Ramos,2016-02-19,Nenhuma,FALSE
+5º ano A,2026,manha,1571,Helena Barbosa Santos,2015-07-06,Nenhuma,FALSE
+5º ano A,2026,manha,1572,Beatriz Carvalho Moraes,2016-02-03,Nenhuma,FALSE
+5º ano A,2026,manha,1573,Emanuelly Rezende Cavalcanti,2014-04-19,Nenhuma,FALSE
+5º ano A,2026,manha,1576,Nicole Ribeiro,2015-06-06,Nenhuma,FALSE
+5º ano A,2026,manha,1577,Paula Barbosa Moreira,2015-08-28,Nenhuma,FALSE
+5º ano B,2026,tarde,1578,Caio Toledo,2016-03-16,Nenhuma,FALSE
+5º ano B,2026,tarde,1579,Heloísa Rocha Pinto,2014-12-11,Nenhuma,FALSE
+5º ano B,2026,tarde,1580,Samuel Cardoso Barbosa,2015-10-24,Nenhuma,FALSE
+5º ano B,2026,tarde,1582,Maria Silva,2014-12-02,Nenhuma,FALSE
+5º ano B,2026,tarde,1583,Julia Ferreira,2015-09-28,Intolerância à lactose,FALSE
+5º ano B,2026,tarde,1584,Eduarda Fragoso Nunes,2015-07-08,Doença celíaca,FALSE
+5º ano B,2026,tarde,1585,Caio Gomes Alves,2015-04-29,Nenhuma,FALSE
+5º ano B,2026,tarde,1587,Nicole Duarte Machado,2015-12-16,Nenhuma,FALSE
+5º ano B,2026,tarde,1589,Sofia Rezende,2016-03-03,Nenhuma,FALSE
+5º ano B,2026,tarde,1590,Eduarda Correia,2016-01-02,Nenhuma,TRUE
+5º ano B,2026,tarde,1591,Luana Cavalcanti Gomes,2015-07-28,Nenhuma,FALSE
+5º ano B,2026,tarde,1594,Matheus Carvalho Teixeira,2015-10-09,Doença celíaca,FALSE
+5º ano B,2026,tarde,1596,Felipe Costa Marques,2015-09-29,Vegetariano,FALSE
+5º ano B,2026,tarde,1599,Bryan Alves,2015-05-09,Nenhuma,FALSE
+5º ano B,2026,tarde,1600,Diego Nascimento,2015-09-05,Nenhuma,FALSE
+5º ano B,2026,tarde,1601,Caio Cavalcanti Correia,2016-02-02,Nenhuma,FALSE
+5º ano B,2026,tarde,1603,Sofia Santos,2015-08-26,Nenhuma,FALSE
+5º ano B,2026,tarde,1605,Fernanda Castro Gonçalves,2014-07-08,Nenhuma,FALSE
+5º ano B,2026,tarde,1606,Esther Dias,2015-06-27,Nenhuma,FALSE
+5º ano B,2026,tarde,1609,Pietro Rocha,2015-04-29,Nenhuma,FALSE
+5º ano B,2026,tarde,1610,Gabriel Moraes Moreira,2016-03-30,Nenhuma,TRUE
+4º ano A,2026,manha,1611,Mariana Cardoso Almeida,2016-08-20,Nenhuma,FALSE
+4º ano A,2026,manha,1614,Diego Alves Fernandes,2016-08-06,Nenhuma,FALSE
+4º ano A,2026,manha,1615,Clara Silva,2016-08-29,Nenhuma,FALSE
+4º ano A,2026,manha,1618,Fernanda Almeida Moreira,2016-12-26,Nenhuma,FALSE
+4º ano A,2026,manha,1619,José Rezende Nunes,2016-05-31,Nenhuma,FALSE
+4º ano A,2026,manha,1620,João Rocha Campos,2016-08-11,Nenhuma,FALSE
+4º ano A,2026,manha,1621,Larissa Pinto Gonçalves,2016-05-02,Nenhuma,FALSE
+4º ano A,2026,manha,1623,Clara Oliveira Costa,2016-12-21,Nenhuma,FALSE
+4º ano A,2026,manha,1624,Murilo Santos Almeida,2016-10-16,Nenhuma,FALSE
+4º ano A,2026,manha,1627,Lívia Martins,2017-03-30,Nenhuma,FALSE
+4º ano A,2026,manha,1628,Débora Alves Azevedo,2016-06-16,Nenhuma,FALSE
+4º ano A,2026,manha,1629,Helena Teixeira Ramos,2016-08-20,Intolerância à lactose,FALSE
+4º ano A,2026,manha,1630,Laura Martins Barbosa,2017-03-31,Nenhuma,FALSE
+4º ano A,2026,manha,1631,Rebeca Gomes Santana,2016-09-16,Nenhuma,FALSE
+4º ano A,2026,manha,1632,Henrique Almeida Soares,2016-09-19,Intolerância à lactose,FALSE
+4º ano A,2026,manha,1633,Heloísa Barbosa Castro,2017-02-16,Nenhuma,FALSE
+4º ano A,2026,manha,1634,Alice Cardoso Correia,2016-04-02,Nenhuma,FALSE
+4º ano A,2026,manha,1636,Juliana Correia,2016-04-28,Nenhuma,FALSE
+4º ano A,2026,manha,1638,Emanuelly Souza Soares,2016-04-02,Nenhuma,FALSE
+4º ano A,2026,manha,1641,Lavínia Monteiro Pinto,2016-05-16,Nenhuma,FALSE
+4º ano A,2026,manha,1644,Vicente Vieira,2016-04-23,Nenhuma,FALSE
+4º ano A,2026,manha,1645,Melissa Pereira Rodrigues,2017-03-16,Nenhuma,FALSE
+4º ano B,2026,tarde,1646,Isadora Soares Lopes,2015-05-30,Intolerância à lactose,FALSE
+4º ano B,2026,tarde,1647,Lavínia Souza Gonçalves,2017-02-14,Nenhuma,FALSE
+4º ano B,2026,tarde,1650,Lavínia Fragoso Silva,2016-10-28,Nenhuma,FALSE
+4º ano B,2026,tarde,1652,Pedro Vieira,2016-05-12,Nenhuma,FALSE
+4º ano B,2026,tarde,1653,Kaique Santana Azevedo,2017-01-07,Alergia a amendoim,FALSE
+4º ano B,2026,tarde,1654,Cauã Rocha Cavalcanti,2016-12-06,Nenhuma,FALSE
+4º ano B,2026,tarde,1657,Helena Santos Santana,2016-11-05,Nenhuma,FALSE
+4º ano B,2026,tarde,1660,Clara Souza Alves,2017-03-13,Nenhuma,FALSE
+4º ano B,2026,tarde,1661,Alice Machado,2016-04-08,Nenhuma,FALSE
+4º ano B,2026,tarde,1663,Melissa Dias,2017-03-24,Nenhuma,FALSE
+4º ano B,2026,tarde,1664,Fernando Castro Moreira,2016-10-31,Alergia a amendoim,FALSE
+4º ano B,2026,tarde,1666,Laura Vieira Costa,2017-01-02,Nenhuma,FALSE
+4º ano B,2026,tarde,1668,Bryan Azevedo Gomes,2016-07-20,Nenhuma,FALSE
+4º ano B,2026,tarde,1670,Bernardo Freitas Lima,2016-07-03,Nenhuma,FALSE
+4º ano B,2026,tarde,1671,Cecília Nascimento Ribeiro,2016-07-05,Nenhuma,FALSE
+4º ano B,2026,tarde,1672,Rafael Vieira Ribeiro,2017-03-14,Nenhuma,FALSE
+4º ano B,2026,tarde,1674,Isadora Gonçalves Rezende,2016-07-31,Nenhuma,FALSE
+4º ano B,2026,tarde,1677,Catarina Fragoso Azevedo,2016-06-15,Nenhuma,FALSE
+4º ano B,2026,tarde,1679,Pedro Fernandes,2016-01-30,Nenhuma,FALSE
+4º ano B,2026,tarde,1681,Giovanna Rezende,2016-07-17,Nenhuma,FALSE
+4º ano B,2026,tarde,1683,Juliana Nascimento,2016-09-09,Nenhuma,FALSE
+4º ano B,2026,tarde,1684,Pietro Fernandes Lopes,2016-11-13,Nenhuma,FALSE
+4º ano B,2026,tarde,1687,Enzo Cardoso Duarte,2015-07-05,Nenhuma,FALSE
+4º ano B,2026,tarde,1688,Felipe Almeida Barbosa,2016-06-11,Nenhuma,FALSE
+4º ano B,2026,tarde,1689,Igor Ribeiro,2017-01-26,Nenhuma,FALSE
+4º ano B,2026,tarde,1691,Vicente Monteiro Oliveira,2016-08-26,Nenhuma,FALSE
+4º ano B,2026,tarde,1694,Marina Fernandes Correia,2016-07-26,Nenhuma,FALSE
+3º ano A,2026,manha,1695,Joaquim Lima,2017-04-20,Nenhuma,FALSE
+3º ano A,2026,manha,1696,Ravi Cardoso Araújo,2016-12-27,Nenhuma,TRUE
+3º ano A,2026,manha,1697,Fernanda Silva Miranda,2017-06-21,Nenhuma,FALSE
+3º ano A,2026,manha,1700,Clara Campos Barros,2017-04-08,Nenhuma,FALSE
+3º ano A,2026,manha,1703,Henrique Dias,2018-02-16,Nenhuma,FALSE
+3º ano A,2026,manha,1705,Caio Martins Gomes,2017-04-26,Nenhuma,FALSE
+3º ano A,2026,manha,1706,Yuri Duarte Rodrigues,,Nenhuma,FALSE
+3º ano A,2026,manha,1707,Vicente Barros Mendes,2017-08-11,Nenhuma,FALSE
+3º ano A,2026,manha,1708,Ana Ribeiro Costa,2017-12-12,Nenhuma,FALSE
+3º ano A,2026,manha,1711,Guilherme Gomes Andrade,2017-12-19,Nenhuma,FALSE
+3º ano A,2026,manha,1713,Julia Nunes Rezende,2018-03-05,Nenhuma,FALSE
+3º ano A,2026,manha,1714,Samuel Cardoso Alves,2017-04-03,Nenhuma,FALSE
+3º ano A,2026,manha,1716,Lavínia Campos Monteiro,2017-06-12,Nenhuma,FALSE
+3º ano A,2026,manha,1717,Letícia Souza Monteiro,2017-07-18,Nenhuma,FALSE
+3º ano A,2026,manha,1719,Lorenzo Pinto Rocha,2018-01-24,Nenhuma,FALSE
+3º ano A,2026,manha,1720,João Teixeira,2017-11-28,Nenhuma,FALSE
+3º ano A,2026,manha,1721,Fernanda Araújo,2017-05-04,Nenhuma,FALSE
+3º ano A,2026,manha,1722,Gustavo Cavalcanti Souza,2016-04-05,Nenhuma,FALSE
+3º ano A,2026,manha,1725,Cauã Barbosa Almeida,2018-01-22,Intolerância à lactose,FALSE
+3º ano A,2026,manha,1726,Gabriel Dias Correia,2017-03-17,Nenhuma,FALSE
+3º ano B,2026,tarde,1729,Pedro Azevedo Campos,2017-11-19,Nenhuma,FALSE
+3º ano B,2026,tarde,1730,Theo Teixeira Cavalcanti,2018-02-17,Nenhuma,FALSE
+3º ano B,2026,tarde,1731,Fernando Correia,2017-04-25,Nenhuma,FALSE
+3º ano B,2026,tarde,1732,Letícia Mendes Santos,2017-04-20,Nenhuma,FALSE
+3º ano B,2026,tarde,1733,Esther Moreira,2017-01-10,Nenhuma,FALSE
+3º ano B,2026,tarde,1734,Luiza Moraes Machado,2017-12-08,Nenhuma,FALSE
+3º ano B,2026,tarde,1735,Paula Santos,2017-04-13,Nenhuma,FALSE
+3º ano B,2026,tarde,1738,Cauã Almeida,2016-10-15,Nenhuma,FALSE
+3º ano B,2026,tarde,1739,Rafaela Martins,2017-08-27,Nenhuma,FALSE
+3º ano B,2026,tarde,1742,Rodrigo Lopes Ribeiro,2017-09-25,Nenhuma,FALSE
+3º ano B,2026,tarde,1743,Giovanna Miranda Duarte,2017-07-12,Nenhuma,FALSE
+3º ano B,2026,tarde,1746,Antônio Vieira Gomes,2018-02-02,Nenhuma,FALSE
+3º ano B,2026,tarde,1747,Eduarda Rezende Vieira,2017-08-29,Nenhuma,FALSE
+3º ano B,2026,tarde,1748,Vicente Teixeira Fragoso,2017-05-03,Nenhuma,FALSE
+3º ano B,2026,tarde,1750,Vinícius Toledo,2017-08-28,Nenhuma,FALSE
+3º ano B,2026,tarde,1751,Vicente Azevedo Toledo,2017-09-12,Alergia a amendoim,FALSE
+3º ano B,2026,tarde,1753,Clara Santana,2017-05-31,Nenhuma,FALSE
+3º ano B,2026,tarde,1754,Isadora Gonçalves,2017-05-01,Nenhuma,FALSE
+3º ano B,2026,tarde,1755,Pietro Teixeira Martins,2018-01-25,Nenhuma,FALSE
+3º ano B,2026,tarde,1758,Lara Rezende Costa,2018-03-13,Nenhuma,FALSE
+3º ano B,2026,tarde,1761,Lara Dias Martins,2018-02-08,Nenhuma,FALSE
+3º ano B,2026,tarde,1763,Heloísa Teixeira,2017-12-20,Nenhuma,FALSE
+3º ano B,2026,tarde,1766,Rafaela Rocha Moreira,2017-08-25,Nenhuma,FALSE
+3º ano B,2026,tarde,1767,Vinícius Machado,2017-10-28,Nenhuma,FALSE
+3º ano B,2026,tarde,1768,Matheus Costa,2017-04-29,Nenhuma,FALSE
+2º ano A,2026,manha,1769,Alice Barbosa Rocha,2019-03-17,Nenhuma,FALSE
+2º ano A,2026,manha,1771,Gustavo Silva Santos,2019-03-27,Nenhuma,FALSE
+2º ano A,2026,manha,1772,Lorenzo Toledo Marques,2019-03-02,Nenhuma,FALSE
+2º ano A,2026,manha,1774,Antônio Rocha,2018-11-10,Nenhuma,FALSE
+2º ano A,2026,manha,1775,Henrique Santana Azevedo,2018-10-16,Nenhuma,FALSE
+2º ano A,2026,manha,1778,Luiza Martins Lima,,Intolerância à lactose,FALSE
+2º ano A,2026,manha,1780,Eduarda Correia,2019-02-19,Nenhuma,TRUE
+2º ano A,2026,manha,1782,Bryan Teixeira Souza,2019-03-16,Intolerância à lactose,FALSE
+2º ano A,2026,manha,1783,Kaique Marques,2017-11-11,Nenhuma,FALSE
+2º ano A,2026,manha,1784,Davi Toledo Cardoso,2018-06-02,Nenhuma,FALSE
+2º ano A,2026,manha,1785,Eduardo Santana Barros,2019-02-09,Nenhuma,FALSE
+2º ano A,2026,manha,1788,Emanuelly Rocha Marques,2019-01-23,Nenhuma,FALSE
+2º ano A,2026,manha,1789,Samuel Cavalcanti Rodrigues,2018-05-25,Doença celíaca,FALSE
+2º ano A,2026,manha,1790,Otávio Araújo Freitas,2018-06-08,Nenhuma,FALSE
+2º ano A,2026,manha,1792,Emanuelly Pereira Araújo,2018-11-06,Nenhuma,FALSE
+2º ano A,2026,manha,1793,Guilherme Pereira Andrade,2018-11-11,Nenhuma,FALSE
+2º ano A,2026,manha,1794,Arthur Cavalcanti Alves,2018-04-27,Nenhuma,FALSE
+2º ano A,2026,manha,1795,Miguel Silva,2018-07-23,Nenhuma,FALSE
+2º ano A,2026,manha,1796,Giovanna Azevedo Santana,2019-02-06,Nenhuma,FALSE
+2º ano A,2026,manha,1797,Letícia Cardoso,2018-11-04,Nenhuma,FALSE
+2º ano A,2026,manha,1800,Nicole Fernandes Rocha,2018-10-30,Nenhuma,FALSE
+2º ano A,2026,manha,1801,Isabela Barros Lopes,2018-12-11,Nenhuma,FALSE
+2º ano A,2026,manha,1802,Helena Ribeiro Carvalho,2018-11-03,Nenhuma,FALSE
+2º ano A,2026,manha,1803,Leonardo Gomes Cavalcanti,2019-02-22,Nenhuma,FALSE
+2º ano A,2026,manha,1804,Nicolas Fragoso,2019-02-02,Intolerância à lactose,FALSE
+2º ano A,2026,manha,1805,Arthur Lima Marques,2018-09-20,Alergia a amendoim,FALSE
+2º ano B,2026,tarde,1806,Yuri Moraes Carvalho,2018-05-15,Alergia a amendoim,FALSE
+2º ano B,2026,tarde,1807,Mirella Carvalho,2019-01-10,Nenhuma,FALSE
+2º ano B,2026,tarde,1810,Miguel Moreira Lopes,2018-06-04,Nenhuma,FALSE
+2º ano B,2026,tarde,1811,Valentina Dias Almeida,2019-01-05,Nenhuma,FALSE
+2º ano B,2026,tarde,1813,Vicente Miranda Almeida,2018-06-02,Intolerância à lactose,FALSE
+2º ano B,2026,tarde,1816,Lorena Moraes,2018-06-04,Nenhuma,FALSE
+2º ano B,2026,tarde,1817,Helena Soares Cavalcanti,2018-12-12,Nenhuma,FALSE
+2º ano B,2026,tarde,1818,Yuri Moraes,2018-08-08,Doença celíaca,FALSE
+2º ano B,2026,tarde,1819,Lara Silva Andrade,2018-06-02,Nenhuma,FALSE
+2º ano B,2026,tarde,1820,Juliana Duarte,2018-05-24,Intolerância à lactose,FALSE
+2º ano B,2026,tarde,1821,Mateus Machado Rocha,2018-07-01,Nenhuma,FALSE
+2º ano B,2026,tarde,1822,Murilo Monteiro Rodrigues,2018-06-17,Vegetariano,FALSE
+2º ano B,2026,tarde,1823,Sarah Fernandes,2018-09-29,Nenhuma,FALSE
+2º ano B,2026,tarde,1826,Camila Lopes,2017-09-26,Nenhuma,FALSE
+2º ano B,2026,tarde,1827,Benício Gonçalves Castro,2018-02-17,Nenhuma,FALSE
+2º ano B,2026,tarde,1828,Mateus Campos Rocha,2018-10-19,Nenhuma,FALSE
+2º ano B,2026,tarde,1829,Antônio Fernandes,2018-12-12,Não informado,FALSE
+2º ano B,2026,tarde,1832,Natália Pinto Araújo,2018-10-24,Nenhuma,FALSE
+2º ano B,2026,tarde,1834,Giovanna Carvalho Ribeiro,2018-04-17,Nenhuma,FALSE
+2º ano B,2026,tarde,1836,Samuel Vieira Fragoso,2018-08-31,Alergia a amendoim,FALSE
+2º ano B,2026,tarde,1837,Luiza Souza Cavalcanti,2017-09-25,Nenhuma,FALSE
+2º ano B,2026,tarde,1839,Pietro Correia,2017-12-07,Nenhuma,FALSE
+1º ano A,2026,manha,1841,Nicole Campos Teixeira,2019-09-22,Nenhuma,FALSE
+1º ano A,2026,manha,1844,Pietro Correia Cavalcanti,2019-05-19,Nenhuma,FALSE
+1º ano A,2026,manha,1845,Giovanna Moreira Machado,2020-03-11,Nenhuma,FALSE
+1º ano A,2026,manha,1846,Letícia Moraes,2019-04-01,Nenhuma,FALSE
+1º ano A,2026,manha,1849,Natália Pinto Costa,2020-03-05,Nenhuma,FALSE
+1º ano A,2026,manha,1850,Pedro Nunes Teixeira,2019-08-18,Nenhuma,FALSE
+1º ano A,2026,manha,1851,Isaac Pereira,2019-08-21,Nenhuma,FALSE
+1º ano A,2026,manha,1853,Bianca Ramos,2019-04-14,Nenhuma,FALSE
+1º ano A,2026,manha,1854,Ana Alves Duarte,2020-03-15,Nenhuma,FALSE
+1º ano A,2026,manha,1855,Isadora Pereira,2019-05-02,Nenhuma,FALSE
+1º ano A,2026,manha,1858,Giovanna Toledo,2019-07-19,Nenhuma,FALSE
+1º ano A,2026,manha,1861,Bryan Moreira Silva,2019-08-30,Nenhuma,FALSE
+1º ano A,2026,manha,1862,Lorena Machado Barros,2019-10-20,Nenhuma,FALSE
+1º ano A,2026,manha,1863,Catarina Silva,2020-03-07,Intolerância à lactose,FALSE
+1º ano A,2026,manha,1864,Vicente Lima Soares,2019-07-08,Nenhuma,FALSE
+1º ano A,2026,manha,1865,Felipe Gonçalves Alves,2019-10-11,Nenhuma,FALSE
+1º ano A,2026,manha,1866,Helena Barbosa Gonçalves,2019-05-25,Nenhuma,FALSE
+1º ano A,2026,manha,1867,Gabriela Lopes Barbosa,2019-06-19,Nenhuma,FALSE
+1º ano A,2026,manha,1868,Manuela Azevedo,2019-12-22,Nenhuma,FALSE
+1º ano A,2026,manha,1870,Gabriel Campos,2019-04-08,Nenhuma,FALSE
+1º ano A,2026,manha,1873,Igor Martins,2019-07-24,Nenhuma,TRUE
+1º ano A,2026,manha,1874,Matheus Santos Mendes,,Nenhuma,FALSE
+1º ano A,2026,manha,1875,Elisa Moraes Cardoso,2019-08-21,Alergia a amendoim,FALSE
+1º ano A,2026,manha,1878,Lorenzo Costa Azevedo,2019-05-24,Nenhuma,FALSE
+1º ano A,2026,manha,1879,Débora Cardoso Moreira,2019-11-06,Vegetariano,FALSE
+1º ano B,2026,tarde,1882,Lorena Santana,2019-04-24,Intolerância à lactose,FALSE
+1º ano B,2026,tarde,1883,Marcelo Nunes Santos,2019-12-08,Nenhuma,FALSE
+1º ano B,2026,tarde,1885,Igor Martins,2019-07-22,Nenhuma,TRUE
+1º ano B,2026,tarde,1888,Igor Monteiro Souza,2019-12-19,Nenhuma,FALSE
+1º ano B,2026,tarde,1889,Luana Rezende Silva,2020-01-28,Nenhuma,FALSE
+1º ano B,2026,tarde,1890,Samuel Cavalcanti Alves,2019-10-11,Nenhuma,FALSE
+1º ano B,2026,tarde,1891,Lívia Castro Rodrigues,2020-02-11,Nenhuma,FALSE
+1º ano B,2026,tarde,1893,Enzo Lopes Pereira,2019-09-22,Nenhuma,FALSE
+1º ano B,2026,tarde,1894,Mirella Ferreira,2019-11-08,Nenhuma,FALSE
+1º ano B,2026,tarde,1895,Emanuel Ribeiro Duarte,2020-01-01,Nenhuma,FALSE
+1º ano B,2026,tarde,1898,Juliana Fernandes,2019-12-30,Nenhuma,FALSE
+1º ano B,2026,tarde,1899,Otávio Cardoso Gonçalves,2019-12-02,Nenhuma,FALSE
+1º ano B,2026,tarde,1901,Isadora Mendes,2019-12-23,Nenhuma,FALSE
+1º ano B,2026,tarde,1904,José Ramos Freitas,2020-03-20,Nenhuma,FALSE
+1º ano B,2026,tarde,1905,Rodrigo Marques Miranda,2020-03-10,Nenhuma,FALSE
+1º ano B,2026,tarde,1907,Luiz Lopes Castro,2019-07-17,Vegetariano,FALSE
+1º ano B,2026,tarde,1909,Diego Correia Castro,2019-08-02,Intolerância à lactose,FALSE
+1º ano B,2026,tarde,1910,Letícia Machado Pinto,2019-07-04,Nenhuma,FALSE
+1º ano B,2026,tarde,1911,Yasmin Almeida Castro,2019-11-30,Nenhuma,FALSE
+1º ano B,2026,tarde,1913,Laura Marques,2019-11-01,Nenhuma,FALSE
+1º ano B,2026,tarde,1915,José Araújo Moreira,2019-12-05,Nenhuma,FALSE
+1º ano B,2026,tarde,1917,Helena Teixeira Castro,2019-12-05,Nenhuma,FALSE
+1º ano B,2026,tarde,1919,Luana Teixeira Marques,2020-02-28,Nenhuma,FALSE
+1º ano B,2026,tarde,1920,Rebeca Castro Fernandes,2020-01-12,Nenhuma,FALSE
+1º ano B,2026,tarde,1923,Kaique Moreira,2020-01-01,Nenhuma,FALSE
+1º ano B,2026,tarde,1925,Felipe Marques Araújo,2019-12-17,Alergia a amendoim,FALSE
+1º ano B,2026,tarde,1926,Elisa Machado,2020-03-31,Nenhuma,FALSE

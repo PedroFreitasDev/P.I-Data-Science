@@ -1,0 +1,29 @@
+id_perda,data,id_produto,quantidade,motivo,valor_prejuizo
+1,2026-10-06,2,11,Sobra do dia,14.63
+2,2026-10-06,4,5,Sobra do dia,10.25
+3,2026-10-06,5,3,Sobra do dia,7.35
+4,2026-10-06,7,7,Sobra do dia,21.28
+5,2026-10-06,8,6,Sobra do dia,23.1
+6,2026-10-06,10,4,Vencimento,12.96
+7,2026-10-06,12,4,Sobra do dia,8.84
+8,2026-10-06,16,3,Sobra do dia,6.03
+9,2026-10-06,18,2,Sobra do dia,2.24
+10,2026-10-06,19,3,Sobra do dia,5.52
+11,2026-10-06,25,2,Sobra do dia,5.68
+12,2026-10-06,27,2,Vencimento,2.02
+13,2026-10-06,28,3,Sobra do dia,6.75
+14,2026-10-06,29,5,Sobra do dia,15.2
+15,2026-11-09,1,5,Sobra do dia,11.25
+16,2026-11-09,2,16,Sobra do dia,21.28
+17,2026-11-09,4,6,Sobra do dia,12.3
+18,2026-11-09,5,3,Sobra do dia,7.35
+19,2026-11-09,7,4,Sobra do dia,12.16
+20,2026-11-09,9,2,Vencimento,8.5
+21,2026-11-09,10,3,Sobra do dia,9.72
+22,2026-11-09,12,1,Sobra do dia,2.21
+23,2026-11-09,16,2,Sobra do dia,4.02
+24,2026-11-09,18,2,Sobra do dia,2.24
+25,2026-11-09,19,2,Sobra do dia,3.68
+26,2026-11-09,27,1,Sobra do dia,1.01
+27,2026-11-09,28,2,Sobra do dia,4.5
+28,2026-11-09,29,1,Sobra do dia,3.04
