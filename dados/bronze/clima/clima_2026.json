@@ -2348,6 +2348,13 @@
       "temperatura_max": 27.6,
       "condicao": "parcialmente_nublado",
       "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2026-11-10",
+      "temperatura_media": 20.1,
+      "temperatura_max": 25.6,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
     }
   ]
 }
