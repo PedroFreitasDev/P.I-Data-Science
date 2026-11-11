@@ -39,7 +39,7 @@ data,temperatura_media,temperatura_max,condicao,precipitacao_mm,imputado
 2026-02-07,22,24.1,chuva,13.6,FALSE
 2026-02-08,25.3,30.5,ensolarado,0,FALSE
 2026-02-09,27.1,29.6,chuva,21.3,FALSE
-2026-02-10,25.9,30.2,chuva,15.5,TRUE
+2026-02-10,25.9,30.2,chuva,15.3,TRUE
 2026-02-11,24.7,30.9,nublado,0,FALSE
 2026-02-12,21.1,23.7,chuva,2.9,FALSE
 2026-02-13,22.4,25.9,chuva,3,FALSE
@@ -316,3 +316,6 @@ data,temperatura_media,temperatura_max,condicao,precipitacao_mm,imputado
 2026-11-11,21,25.5,ensolarado,0,FALSE
 2026-11-12,23.2,29.2,nublado,0,FALSE
 2026-11-13,22.5,25,chuva,24.1,FALSE
+2026-11-14,22.1,28.6,ensolarado,0,FALSE
+2026-11-15,22.9,24.9,chuva,12.3,FALSE
+2026-11-16,21.7,27.8,parcialmente_nublado,0,FALSE

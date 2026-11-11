@@ -316,9 +316,9 @@ data,tipo_dia,descricao,turno_letivo,houve_vendas
 2026-11-11,letivo,Dia letivo,integral,TRUE
 2026-11-12,letivo,Dia letivo,integral,TRUE
 2026-11-13,letivo,Dia letivo,integral,TRUE
-2026-11-14,fim_de_semana,Fim de semana,nenhum,
-2026-11-15,feriado,Proclamação da República,nenhum,
-2026-11-16,letivo,Dia letivo,integral,
+2026-11-14,fim_de_semana,Fim de semana,nenhum,FALSE
+2026-11-15,feriado,Proclamação da República,nenhum,FALSE
+2026-11-16,letivo,Dia letivo,integral,TRUE
 2026-11-17,letivo,Dia letivo,integral,
 2026-11-18,letivo,Dia letivo,integral,
 2026-11-19,letivo,Dia letivo,integral,
