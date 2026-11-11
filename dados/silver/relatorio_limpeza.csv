@@ -4,7 +4,7 @@ cardapio,custo_unitario ausente,4,estimado pela proporção custo/preço da cate
 cardapio,preço não reajustado na troca de cardápio (desatualizado em relação à inflação),3,mantido e sinalizado na coluna preco_sem_reajuste
 vendas,linha duplicada,2,removida
 vendas,id_venda repetido em vendas diferentes,2,renumerado com o id que faltava na sequência
-vendas,id_aluno/id_produto em formato texto (ALU01234 / P012),467,"convertidos para número, como em alunos, devedores e cardápio"
+vendas,id_aluno/id_produto em formato texto (ALU01234 / P012),488,"convertidos para número, como em alunos, devedores e cardápio"
 vendas,id_aluno vazio,1,"mantida (entra no faturamento, mas fica sem turma)"
 vendas,"produto inexistente no cardápio (P999, P000...)",1,removida
 vendas,preço/valor negativo,2,sinal corrigido
@@ -18,6 +18,7 @@ alunos,"data de nascimento inválida (1900, ano futuro, ano 0016)",3,deixada vaz
 alunos,restricao_alimentar ausente (campo aninhado),3,preenchida com 'Não informado'
 alunos,turno da turma ausente (campo aninhado) - contagem em turmas,1,deduzido pelo horário das compras dos alunos da turma
 alunos,homônimos (alunos diferentes com o mesmo nome),12,mantidos (a chave é id_aluno); sinalizados em nome_repetido
+devedores,mesmo débito lançado mais de uma vez,1,removido (fica o primeiro id)
 perdas,quantidade zerada ou negativa,1,sinal corrigido ou recuperada por valor_prejuizo / custo
 calendario,tipo_dia digitado fora do padrão,1,padronizado
 calendario,feriado nacional marcado como dia letivo,2,corrigido para feriado
