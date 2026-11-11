@@ -27,3 +27,4 @@ devops_lab.pub
 # Arquivos temporários
 *.swp
 *~
+gerador_dados/venv/
