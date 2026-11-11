@@ -2355,6 +2355,13 @@
       "temperatura_max": 25.6,
       "condicao": "ensolarado",
       "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2026-11-11",
+      "temperatura_media": 21.0,
+      "temperatura_max": 25.5,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
     }
   ]
 }
