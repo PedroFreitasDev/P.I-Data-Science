@@ -3,7 +3,7 @@ id_devedor,id_aluno,data_divida,valor_devido,status,data_quitacao,quitacao_inval
 2,1716,2026-10-06,17,Atrasado,,FALSE
 3,1711,2026-10-06,6,Quitado,2026-10-12,FALSE
 4,1222,2026-10-06,4,Atrasado,,FALSE
-5,1127,2026-11-09,23,Em aberto,,FALSE
+5,1127,2026-11-09,23,Quitado,2026-11-12,FALSE
 6,1624,2026-11-09,7.5,Em aberto,,FALSE
 7,1400,2026-11-09,7.5,Em aberto,,FALSE
 8,1420,2026-11-09,6,Em aberto,,FALSE
@@ -20,3 +20,10 @@ id_devedor,id_aluno,data_divida,valor_devido,status,data_quitacao,quitacao_inval
 19,1096,2026-11-11,6,Em aberto,,FALSE
 20,1594,2026-11-11,4.5,Em aberto,,FALSE
 21,1601,2026-11-11,7,Em aberto,,FALSE
+22,1633,2026-11-12,8.5,Em aberto,,FALSE
+23,1868,2026-11-12,22,Em aberto,,FALSE
+24,1716,2026-11-12,4.5,Em aberto,,FALSE
+25,1127,2026-11-12,4,Em aberto,,FALSE
+26,1772,2026-11-12,5.5,Em aberto,,FALSE
+27,1246,2026-11-12,15.5,Em aberto,,FALSE
+28,1816,2026-11-12,12,Em aberto,,FALSE
