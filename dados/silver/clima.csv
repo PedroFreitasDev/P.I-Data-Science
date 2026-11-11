@@ -313,3 +313,4 @@ data,temperatura_media,temperatura_max,condicao,precipitacao_mm,imputado
 2026-11-08,20.8,22.9,chuva,22.8,FALSE
 2026-11-09,22.6,27.6,parcialmente_nublado,0,FALSE
 2026-11-10,20.1,25.6,ensolarado,0,FALSE
+2026-11-11,21,25.5,ensolarado,0,FALSE

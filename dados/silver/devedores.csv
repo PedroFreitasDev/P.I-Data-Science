@@ -12,3 +12,11 @@ id_devedor,id_aluno,data_divida,valor_devido,status,data_quitacao,quitacao_inval
 11,1601,2026-11-09,11.5,Em aberto,,FALSE
 12,1096,2026-11-10,8,Em aberto,,FALSE
 13,1140,2026-11-10,6,Em aberto,,FALSE
+14,1393,2026-11-11,20,Em aberto,,FALSE
+15,1173,2026-11-11,4.5,Em aberto,,FALSE
+16,1868,2026-11-11,18.5,Em aberto,,FALSE
+17,1623,2026-11-11,9,Em aberto,,FALSE
+18,1800,2026-11-11,5.5,Em aberto,,FALSE
+19,1096,2026-11-11,6,Em aberto,,FALSE
+20,1594,2026-11-11,4.5,Em aberto,,FALSE
+21,1601,2026-11-11,7,Em aberto,,FALSE
