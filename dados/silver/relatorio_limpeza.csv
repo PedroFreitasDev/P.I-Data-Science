@@ -4,10 +4,10 @@ cardapio,custo_unitario ausente,4,estimado pela proporção custo/preço da cate
 cardapio,preço não reajustado na troca de cardápio (desatualizado em relação à inflação),3,mantido e sinalizado na coluna preco_sem_reajuste
 vendas,linha duplicada,2,removida
 vendas,id_venda repetido em vendas diferentes,2,renumerado com o id que faltava na sequência
-vendas,id_aluno/id_produto em formato texto (ALU01234 / P012),501,"convertidos para número, como em alunos, devedores e cardápio"
+vendas,id_aluno/id_produto em formato texto (ALU01234 / P012),588,"convertidos para número, como em alunos, devedores e cardápio"
 vendas,id_aluno vazio,1,"mantida (entra no faturamento, mas fica sem turma)"
 vendas,"produto inexistente no cardápio (P999, P000...)",1,removida
-vendas,preço/valor negativo,2,sinal corrigido
+vendas,preço/valor negativo,3,sinal corrigido
 vendas,"valor_unitario sem a vírgula (450 em vez de 4,50)",1,dividido por 100
 vendas,"quantidade zerada, negativa ou absurda",1,recuperada por valor_total / valor_unitario
 vendas,valor_total diferente de quantidade × valor_unitario,1,recalculado
