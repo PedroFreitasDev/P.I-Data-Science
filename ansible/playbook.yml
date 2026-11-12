@@ -1,0 +1,119 @@
+
+---
+- name: Configurar ambiente Python
+  hosts: python
+  become: true
+
+  tasks:
+    - name: Atualizar cache do APT
+      ansible.builtin.apt:
+        update_cache: true
+        cache_valid_time: 3600
+
+    - name: Instalar Python, Git e ferramentas
+      ansible.builtin.apt:
+        name:
+          - python3
+          - python3-pip
+          - python3-venv
+          - git
+        state: present
+
+    - name: Criar diretorio do projeto
+      ansible.builtin.file:
+        path: /opt/datasci
+        state: directory
+        owner: aluno
+        group: aluno
+        mode: "0755"
+
+    - name: Garantir diretorio SSH
+      ansible.builtin.file:
+        path: /home/aluno/.ssh
+        state: directory
+        owner: aluno
+        group: aluno
+        mode: "0700"
+
+    - name: Gerar chave SSH para GitHub
+      ansible.builtin.command:
+        cmd: ssh-keygen -t ed25519 -C "pi-g3-01-github-deploy" -f /home/aluno/.ssh/github_deploy -N ""
+        creates: /home/aluno/.ssh/github_deploy
+      become_user: aluno
+
+    - name: Clonar repositorio
+      ansible.builtin.git:
+        repo: https://github.com/PedroFreitasDev/P.I-Data-Science.git
+        dest: /opt/datasci
+        version: main
+        update: true
+      become_user: aluno
+
+    - name: Remover ambiente virtual antigo
+      ansible.builtin.file:
+        path: /opt/datasci/gerador_dados/venv
+        state: absent
+
+    - name: Criar ambiente virtual Python
+      ansible.builtin.command:
+        cmd: python3 -m venv /opt/datasci/gerador_dados/venv
+        creates: /opt/datasci/gerador_dados/venv/bin/activate
+      become_user: aluno
+
+    - name: Instalar dependencias Python
+      ansible.builtin.pip:
+        requirements: /opt/datasci/gerador_dados/requirements.txt
+        virtualenv: /opt/datasci/gerador_dados/venv
+      become_user: aluno
+
+
+- name: Configurar ambiente R
+  hosts: r
+  become: true
+
+  tasks:
+    - name: Atualizar cache do APT
+      ansible.builtin.apt:
+        update_cache: true
+        cache_valid_time: 3600
+
+    - name: Instalar R e Git
+      ansible.builtin.apt:
+        name:
+          - r-base
+          - r-base-dev
+          - git
+        state: present
+
+    - name: Criar diretorio do projeto
+      ansible.builtin.file:
+        path: /opt/datasci
+        state: directory
+        owner: aluno
+        group: aluno
+        mode: "0755"
+
+    - name: Criar biblioteca pessoal do R
+      ansible.builtin.file:
+        path: /home/aluno/R/library
+        state: directory
+        owner: aluno
+        group: aluno
+        mode: "0755"
+
+    - name: Configurar biblioteca pessoal do R
+      ansible.builtin.lineinfile:
+        path: /home/aluno/.Renviron
+        line: 'R_LIBS_USER=/home/aluno/R/library'
+        create: true
+        owner: aluno
+        group: aluno
+        mode: "0644"
+
+    - name: Clonar repositorio
+      ansible.builtin.git:
+        repo: https://github.com/PedroFreitasDev/P.I-Data-Science.git
+        dest: /opt/datasci
+        version: main
+        update: true
+      become_user: aluno
