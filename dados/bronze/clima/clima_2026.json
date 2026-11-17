@@ -2397,6 +2397,13 @@
       "temperatura_max": 27.8,
       "condicao": "parcialmente_nublado",
       "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2026-11-17",
+      "temperatura_media": 24.7,
+      "temperatura_max": 32.2,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.0
     }
   ]
 }
