@@ -91,6 +91,7 @@ cd gerador_dados
 pip install -r requirements.txt
 python gerar_dados.py              # gera os dados de hoje e envia ao GitHub
 python gerar_dados.py --sem-github # gera os dados sem enviar (ficam só no computador)
+python gerar_dados.py --periodo 2026-01-01 2026-11-22   # simula todas as execuções do período
 ```
 
 | Opção | Padrão | Descrição |
@@ -105,10 +106,34 @@ python gerar_dados.py --sem-github # gera os dados sem enviar (ficam só no comp
 | `--sem-github` | — | Não envia os dados ao GitHub |
 | `--remoto` / `--branch` | `origin` / branch atual | Destino do envio |
 | `--agora` | horário atual | Simula a data/hora da execução, ex.: `"2026-09-24 19:00"` (só para testes) |
+| `--periodo INICIO FIM` | — | Simula todas as execuções entre duas datas (veja abaixo) |
+| `--horarios` | `13:00,19:00` | Horários das execuções simuladas em cada dia do `--periodo` |
 
 > Use sempre a mesma `--seed` (e o mesmo número de alunos por turma) para uma mesma pasta de
 > dados: as vendas de cada dia são recalculadas a partir desses parâmetros, e trocá-los no meio do
 > caminho gera dados que não conversam com o histórico.
+
+### Simulação de um período
+
+Com `--periodo`, o gerador refaz, dia a dia, as execuções que o cron teria feito no intervalo
+(por padrão às 13h e às 19h de cada dia), com exatamente as mesmas regras de uma execução normal:
+vendas em lotes, perdas no fechamento, devedores com o status do último dia e as fontes de
+referência de cada ano do período. O resultado é idêntico ao de ter deixado o gerador rodando
+todos esses dias. Serve para criar a base de um período inteiro de uma vez ou para preencher dias
+em que o gerador não rodou.
+
+```bash
+python gerar_dados.py --periodo 2026-01-01 2026-11-22 --saida /tmp/cantina --sem-github
+python gerar_dados.py --periodo 2026-11-18 2026-11-22   # completa os dias que faltaram
+```
+
+- O período precisa começar **depois** (ou no mesmo dia) da última venda já registrada na pasta.
+  Para gerar do zero, use uma pasta nova com `--saida` ou apague o conteúdo de `dados/bronze`.
+- O fim não pode estar no futuro. Se for hoje, entram só os horários que já passaram, mais uma
+  execução no horário atual.
+- Ao terminar, é feito **um único commit** com o período inteiro (a menos que use `--sem-github`).
+- Os lotes são consolidados nos históricos uma vez por mês, o que deixa a simulação de um ano
+  inteiro em menos de um minuto.
 
 ### O que acontece em cada execução
 
