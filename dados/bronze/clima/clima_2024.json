@@ -1,0 +1,2878 @@
+{
+  "fonte": "API meteorológica (simulada)",
+  "cidade": "São Paulo/SP",
+  "unidade_temperatura": "celsius",
+  "unidade_precipitacao": "mm",
+  "registros": [
+    {
+      "data": "2024-01-01",
+      "temperatura_media": 20.1,
+      "temperatura_max": 23.3,
+      "condicao": "chuva",
+      "precipitacao_mm": 6.1
+    },
+    {
+      "data": "2024-01-02",
+      "temperatura_media": 22.0,
+      "temperatura_max": 24.3,
+      "condicao": "chuva",
+      "precipitacao_mm": 18.2
+    },
+    {
+      "data": "2024-01-03",
+      "temperatura_media": 21.6,
+      "temperatura_max": 25.5,
+      "condicao": "chuva",
+      "precipitacao_mm": 24.4
+    },
+    {
+      "data": "2024-01-04",
+      "temperatura_media": 21.6,
+      "temperatura_max": 23.9,
+      "condicao": "chuva",
+      "precipitacao_mm": 23.0
+    },
+    {
+      "data": "2024-01-05",
+      "temperatura_media": 21.5,
+      "temperatura_max": 24.4,
+      "condicao": "chuva",
+      "precipitacao_mm": 12.4
+    },
+    {
+      "data": "2024-01-06",
+      "temperatura_media": 23.8,
+      "temperatura_max": 30.0,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-01-07",
+      "temperatura_media": 23.4,
+      "temperatura_max": 25.5,
+      "condicao": "tempestade",
+      "precipitacao_mm": 44.6
+    },
+    {
+      "data": "2024-01-08",
+      "temperatura_media": 23.8,
+      "temperatura_max": 26.6,
+      "condicao": "chuva",
+      "precipitacao_mm": 3.8
+    },
+    {
+      "data": "2024-01-09",
+      "temperatura_media": 20.8,
+      "temperatura_max": 23.4,
+      "condicao": "chuva",
+      "precipitacao_mm": 13.2
+    },
+    {
+      "data": "2024-01-10",
+      "temperatura_media": 23.0,
+      "temperatura_max": 30.8,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-01-11",
+      "temperatura_media": 20.6,
+      "temperatura_max": 24.3,
+      "condicao": "chuva",
+      "precipitacao_mm": 7.7
+    },
+    {
+      "data": "2024-01-12",
+      "temperatura_media": 22.3,
+      "temperatura_max": 25.5,
+      "condicao": "chuva",
+      "precipitacao_mm": 20.5
+    },
+    {
+      "data": "2024-01-13",
+      "temperatura_media": 19.7,
+      "temperatura_max": 23.6,
+      "condicao": "chuva",
+      "precipitacao_mm": 18.4
+    },
+    {
+      "data": "2024-01-14",
+      "temperatura_media": 20.3,
+      "temperatura_max": 23.8,
+      "condicao": "tempestade",
+      "precipitacao_mm": 45.9
+    },
+    {
+      "data": "2024-01-15",
+      "temperatura_media": 21.9,
+      "temperatura_max": 24.7,
+      "condicao": "chuva",
+      "precipitacao_mm": 3.6
+    },
+    {
+      "data": "2024-01-16",
+      "temperatura_media": 23.9,
+      "temperatura_max": 30.5,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-01-17",
+      "temperatura_media": 23.6,
+      "temperatura_max": 26.5,
+      "condicao": "chuva",
+      "precipitacao_mm": 6.7
+    },
+    {
+      "data": "2024-01-18",
+      "temperatura_media": 23.9,
+      "temperatura_max": 26.1,
+      "condicao": "tempestade",
+      "precipitacao_mm": 33.8
+    },
+    {
+      "data": "2024-01-19",
+      "temperatura_media": 25.3,
+      "temperatura_max": 31.8,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-01-20",
+      "temperatura_media": 25.0,
+      "temperatura_max": 28.9,
+      "condicao": "chuva",
+      "precipitacao_mm": 23.6
+    },
+    {
+      "data": "2024-01-21",
+      "temperatura_media": 25.0,
+      "temperatura_max": 31.2,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-01-22",
+      "temperatura_media": 25.2,
+      "temperatura_max": 29.6,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-01-23",
+      "temperatura_media": 22.3,
+      "temperatura_max": 25.4,
+      "condicao": "chuva",
+      "precipitacao_mm": 22.7
+    },
+    {
+      "data": "2024-01-24",
+      "temperatura_media": 21.9,
+      "temperatura_max": 25.3,
+      "condicao": "chuva",
+      "precipitacao_mm": 20.9
+    },
+    {
+      "data": "2024-01-25",
+      "temperatura_media": 21.7,
+      "temperatura_max": 25.4,
+      "condicao": "chuva",
+      "precipitacao_mm": 9.1
+    },
+    {
+      "data": "2024-01-26",
+      "temperatura_media": 23.4,
+      "temperatura_max": 25.9,
+      "condicao": "chuva",
+      "precipitacao_mm": 18.5
+    },
+    {
+      "data": "2024-01-27",
+      "temperatura_media": 20.1,
+      "temperatura_max": 22.3,
+      "condicao": "chuva",
+      "precipitacao_mm": 22.0
+    },
+    {
+      "data": "2024-01-28",
+      "temperatura_media": 23.5,
+      "temperatura_max": 27.2,
+      "condicao": "tempestade",
+      "precipitacao_mm": 40.1
+    },
+    {
+      "data": "2024-01-29",
+      "temperatura_media": 24.3,
+      "temperatura_max": 28.3,
+      "condicao": "chuva",
+      "precipitacao_mm": 23.9
+    },
+    {
+      "data": "2024-01-30",
+      "temperatura_media": 25.4,
+      "temperatura_max": 27.7,
+      "condicao": "chuva",
+      "precipitacao_mm": 22.1
+    },
+    {
+      "data": "2024-01-31",
+      "temperatura_media": 23.9,
+      "temperatura_max": 26.2,
+      "condicao": "chuva",
+      "precipitacao_mm": 2.6
+    },
+    {
+      "data": "2024-02-01",
+      "temperatura_media": 23.4,
+      "temperatura_max": 25.5,
+      "condicao": "chuva",
+      "precipitacao_mm": 10.7
+    },
+    {
+      "data": "2024-02-02",
+      "temperatura_media": 23.7,
+      "temperatura_max": 27.1,
+      "condicao": "chuva",
+      "precipitacao_mm": 22.4
+    },
+    {
+      "data": "2024-02-03",
+      "temperatura_media": 23.8,
+      "temperatura_max": 27.3,
+      "condicao": "chuva",
+      "precipitacao_mm": 10.6
+    },
+    {
+      "data": "2024-02-04",
+      "temperatura_media": 26.2,
+      "temperatura_max": 32.7,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-02-05",
+      "temperatura_media": 26.1,
+      "temperatura_max": 31.2,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-02-06",
+      "temperatura_media": 24.8,
+      "temperatura_max": 27.1,
+      "condicao": "tempestade",
+      "precipitacao_mm": 46.1
+    },
+    {
+      "data": "2024-02-07",
+      "temperatura_media": 24.7,
+      "temperatura_max": 32.3,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-02-08",
+      "temperatura_media": 22.6,
+      "temperatura_max": 25.2,
+      "condicao": "chuva",
+      "precipitacao_mm": 18.2
+    },
+    {
+      "data": "2024-02-09",
+      "temperatura_media": 21.3,
+      "temperatura_max": 23.8,
+      "condicao": "chuva",
+      "precipitacao_mm": 17.9
+    },
+    {
+      "data": "2024-02-10",
+      "temperatura_media": 24.1,
+      "temperatura_max": 29.7,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-02-11",
+      "temperatura_media": 24.6,
+      "temperatura_max": 27.9,
+      "condicao": "chuva",
+      "precipitacao_mm": 6.1
+    },
+    {
+      "data": "2024-02-12",
+      "temperatura_media": 24.5,
+      "temperatura_max": 31.3,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-02-13",
+      "temperatura_media": 23.5,
+      "temperatura_max": 25.8,
+      "condicao": "tempestade",
+      "precipitacao_mm": 61.7
+    },
+    {
+      "data": "2024-02-14",
+      "temperatura_media": 25.5,
+      "temperatura_max": 31.2,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-02-15",
+      "temperatura_media": 24.2,
+      "temperatura_max": 29.2,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-02-17",
+      "temperatura_media": 27.2,
+      "temperatura_max": 33.9,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-02-18",
+      "temperatura_media": 27.5,
+      "temperatura_max": 33.9,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-02-19",
+      "temperatura_media": 26.3,
+      "temperatura_max": 32.8,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-02-20",
+      "temperatura_media": 23.5,
+      "temperatura_max": 27.3,
+      "condicao": "chuva",
+      "precipitacao_mm": 2.6
+    },
+    {
+      "data": "2024-02-21",
+      "temperatura_media": 23.8,
+      "temperatura_max": 28.8,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-02-22",
+      "temperatura_media": 25.5,
+      "temperatura_max": 999.9,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-02-23",
+      "temperatura_media": 23.7,
+      "temperatura_max": 29.4,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-02-24",
+      "temperatura_media": 24.5,
+      "temperatura_max": 28.8,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-02-25",
+      "temperatura_media": 22.3,
+      "temperatura_max": 25.0,
+      "condicao": "chuva",
+      "precipitacao_mm": 24.3
+    },
+    {
+      "data": "2024-02-26",
+      "temperatura_media": 20.0,
+      "temperatura_max": 22.7,
+      "condicao": "chuva",
+      "precipitacao_mm": 12.5
+    },
+    {
+      "data": "2024-02-27",
+      "temperatura_media": 20.8,
+      "temperatura_max": 24.5,
+      "condicao": "chuva",
+      "precipitacao_mm": 22.5
+    },
+    {
+      "data": "2024-02-28",
+      "temperatura_media": 22.6,
+      "temperatura_max": 25.4,
+      "condicao": "chuva",
+      "precipitacao_mm": 12.6
+    },
+    {
+      "data": "2024-02-29",
+      "temperatura_media": 22.5,
+      "temperatura_max": 24.7,
+      "condicao": "tempestade",
+      "precipitacao_mm": 47.2
+    },
+    {
+      "data": "2024-03-01",
+      "temperatura_media": 20.1,
+      "temperatura_max": 23.6,
+      "condicao": "chuva",
+      "precipitacao_mm": 4.8
+    },
+    {
+      "data": "2024-03-02",
+      "temperatura_media": 22.3,
+      "temperatura_max": 29.0,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-03-03",
+      "temperatura_media": 20.9,
+      "temperatura_max": 28.1,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-03-04",
+      "temperatura_media": 22.4,
+      "temperatura_max": 27.0,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-03-05",
+      "temperatura_media": 20.8,
+      "temperatura_max": 24.7,
+      "condicao": "chuva",
+      "precipitacao_mm": 9.4
+    },
+    {
+      "data": "2024-03-06",
+      "temperatura_media": 19.5,
+      "temperatura_max": 23.9,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-03-07",
+      "temperatura_media": 18.7,
+      "temperatura_max": 25.3,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-03-08",
+      "temperatura_media": 20.1,
+      "temperatura_max": 27.9,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-03-09",
+      "temperatura_media": 17.6,
+      "temperatura_max": 21.1,
+      "condicao": "chuva",
+      "precipitacao_mm": 20.6
+    },
+    {
+      "data": "2024-03-10",
+      "temperatura_media": 19.1,
+      "temperatura_max": 21.4,
+      "condicao": "chuva",
+      "precipitacao_mm": 6.6
+    },
+    {
+      "data": "2024-03-11",
+      "temperatura_media": 19.2,
+      "temperatura_max": 22.5,
+      "condicao": "tempestade",
+      "precipitacao_mm": 48.1
+    },
+    {
+      "data": "2024-03-12",
+      "temperatura_media": 21.7,
+      "temperatura_max": 26.2,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-03-13",
+      "temperatura_media": 20.4,
+      "temperatura_max": 24.5,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-03-14",
+      "temperatura_media": 22.3,
+      "temperatura_max": 28.7,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-03-15",
+      "temperatura_media": 20.5,
+      "temperatura_max": 27.5,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-03-16",
+      "temperatura_media": 21.2,
+      "temperatura_max": 28.3,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-03-17",
+      "temperatura_media": 19.6,
+      "temperatura_max": 21.6,
+      "condicao": "chuva",
+      "precipitacao_mm": 16.3
+    },
+    {
+      "data": "2024-03-18",
+      "temperatura_media": 21.7,
+      "temperatura_max": 26.6,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-03-19",
+      "temperatura_media": 24.4,
+      "temperatura_max": 28.8,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-03-20",
+      "temperatura_media": 21.5,
+      "temperatura_max": 24.8,
+      "condicao": "chuva",
+      "precipitacao_mm": 24.3
+    },
+    {
+      "data": "2024-03-21",
+      "temperatura_media": 20.6,
+      "temperatura_max": 24.5,
+      "condicao": "tempestade",
+      "precipitacao_mm": 61.6
+    },
+    {
+      "data": "2024-03-22",
+      "temperatura_media": 24.6,
+      "temperatura_max": 30.5,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.6
+    },
+    {
+      "data": "2024-03-23",
+      "temperatura_media": 23.9,
+      "temperatura_max": 25.9,
+      "condicao": "chuva",
+      "precipitacao_mm": 18.3
+    },
+    {
+      "data": "2024-03-24",
+      "temperatura_media": 23.1,
+      "temperatura_max": 26.0,
+      "condicao": "chuva",
+      "precipitacao_mm": 18.3
+    },
+    {
+      "data": "2024-03-25",
+      "temperatura_media": 24.7,
+      "temperatura_max": 32.7,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-03-26",
+      "temperatura_media": 21.6,
+      "temperatura_max": 27.6,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-03-27",
+      "temperatura_media": 20.9,
+      "temperatura_max": 28.6,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-03-28",
+      "temperatura_media": 21.0,
+      "temperatura_max": 24.8,
+      "condicao": "chuva",
+      "precipitacao_mm": 5.9
+    },
+    {
+      "data": "2024-03-29",
+      "temperatura_media": 20.0,
+      "temperatura_max": 22.9,
+      "condicao": "chuva",
+      "precipitacao_mm": 16.0
+    },
+    {
+      "data": "2024-03-30",
+      "temperatura_media": 23.3,
+      "temperatura_max": 26.6,
+      "condicao": "chuva",
+      "precipitacao_mm": 10.9
+    },
+    {
+      "data": "2024-03-31",
+      "temperatura_media": 25.1,
+      "temperatura_max": 30.7,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-04-01",
+      "temperatura_media": 21.6,
+      "temperatura_max": 26.8,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-04-02",
+      "temperatura_media": 21.2,
+      "temperatura_max": 25.3,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-04-03",
+      "temperatura_media": 21.7,
+      "temperatura_max": 28.2,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-04-04",
+      "temperatura_media": 18.6,
+      "temperatura_max": 25.8,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-04-05",
+      "temperatura_media": 17.2,
+      "temperatura_max": 21.8,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-04-06",
+      "temperatura_media": 13.8,
+      "temperatura_max": 16.0,
+      "condicao": "chuva",
+      "precipitacao_mm": 5.1
+    },
+    {
+      "data": "2024-04-07",
+      "temperatura_media": 13.0,
+      "temperatura_max": 15.5,
+      "condicao": "chuva",
+      "precipitacao_mm": 17.1
+    },
+    {
+      "data": "2024-04-08",
+      "temperatura_media": 15.9,
+      "temperatura_max": 20.7,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-04-09",
+      "temperatura_media": 18.9,
+      "temperatura_max": 24.0,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-04-10",
+      "temperatura_media": 18.8,
+      "temperatura_max": 26.0,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-04-11",
+      "temperatura_media": 21.4,
+      "temperatura_max": 26.9,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-04-12",
+      "temperatura_media": 21.6,
+      "temperatura_max": 25.6,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-04-13",
+      "temperatura_media": 20.6,
+      "temperatura_max": 27.2,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-04-14",
+      "temperatura_media": 20.8,
+      "temperatura_max": 24.5,
+      "condicao": "chuva",
+      "precipitacao_mm": 17.2
+    },
+    {
+      "data": "2024-04-15",
+      "temperatura_media": 19.6,
+      "temperatura_max": 23.1,
+      "condicao": "chuva",
+      "precipitacao_mm": 6.5
+    },
+    {
+      "data": "2024-04-16",
+      "temperatura_media": 21.3,
+      "temperatura_max": 25.5,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-04-17",
+      "temperatura_media": 23.5,
+      "temperatura_max": 29.4,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-04-18",
+      "temperatura_media": 22.4,
+      "temperatura_max": 27.9,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-04-19",
+      "temperatura_media": 22.9,
+      "temperatura_max": 29.0,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-04-20",
+      "temperatura_media": 21.1,
+      "temperatura_max": 24.8,
+      "condicao": "chuva",
+      "precipitacao_mm": 14.9
+    },
+    {
+      "data": "2024-04-21",
+      "temperatura_media": 19.5,
+      "temperatura_max": 24.3,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-04-22",
+      "temperatura_media": 18.1,
+      "temperatura_max": 22.3,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-04-23",
+      "temperatura_media": 20.2,
+      "temperatura_max": 24.2,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-04-24",
+      "temperatura_media": 21.3,
+      "temperatura_max": 27.1,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-04-25",
+      "temperatura_media": 21.6,
+      "temperatura_max": 25.6,
+      "condicao": "chuva",
+      "precipitacao_mm": 15.9
+    },
+    {
+      "data": "2024-04-26",
+      "temperatura_media": 23.6,
+      "temperatura_max": 29.0,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-04-27",
+      "temperatura_media": 23.7,
+      "temperatura_max": 28.5,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-04-28",
+      "temperatura_media": 23.3,
+      "temperatura_max": 27.7,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-04-29",
+      "temperatura_media": 19.2,
+      "temperatura_max": 26.4,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-04-30",
+      "temperatura_media": 16.1,
+      "temperatura_max": 18.1,
+      "condicao": "chuva",
+      "precipitacao_mm": 20.1
+    },
+    {
+      "data": "2024-05-01",
+      "temperatura_media": 14.5,
+      "temperatura_max": 16.6,
+      "condicao": "chuva",
+      "precipitacao_mm": 18.7
+    },
+    {
+      "data": "2024-05-02",
+      "temperatura_media": 17.1,
+      "temperatura_max": 19.7,
+      "condicao": "chuva",
+      "precipitacao_mm": 11.0
+    },
+    {
+      "data": "2024-05-03",
+      "temperatura_media": 16.4,
+      "temperatura_max": 18.5,
+      "condicao": "chuva",
+      "precipitacao_mm": 10.0
+    },
+    {
+      "data": "2024-05-04",
+      "temperatura_media": 16.6,
+      "temperatura_max": 19.3,
+      "condicao": "chuva",
+      "precipitacao_mm": 18.5
+    },
+    {
+      "data": "2024-05-05",
+      "temperatura_media": 18.6,
+      "temperatura_max": 20.8,
+      "condicao": "chuva",
+      "precipitacao_mm": 3.8
+    },
+    {
+      "data": "2024-05-06",
+      "temperatura_media": 17.9,
+      "temperatura_max": 21.9,
+      "condicao": "chuva",
+      "precipitacao_mm": 21.5
+    },
+    {
+      "data": "2024-05-07",
+      "temperatura_media": 17.9,
+      "temperatura_max": 20.6,
+      "condicao": "tempestade",
+      "precipitacao_mm": 65.9
+    },
+    {
+      "data": "2024-05-08",
+      "temperatura_media": 19.1,
+      "temperatura_max": 26.1,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-05-09",
+      "temperatura_media": 18.9,
+      "temperatura_max": 21.4,
+      "condicao": "chuva",
+      "precipitacao_mm": 10.5
+    },
+    {
+      "data": "2024-05-10",
+      "temperatura_media": 20.7,
+      "temperatura_max": 23.1,
+      "condicao": "chuva",
+      "precipitacao_mm": 19.5
+    },
+    {
+      "data": "2024-05-11",
+      "temperatura_media": 19.4,
+      "temperatura_max": 27.0,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-05-12",
+      "temperatura_media": 18.1,
+      "temperatura_max": 22.7,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-05-13",
+      "temperatura_media": 16.7,
+      "temperatura_max": 22.6,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-05-14",
+      "temperatura_media": 15.4,
+      "temperatura_max": 20.8,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.8
+    },
+    {
+      "data": "2024-05-15",
+      "temperatura_media": 17.1,
+      "temperatura_max": 24.0,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-05-16",
+      "temperatura_media": 16.0,
+      "temperatura_max": 20.4,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-05-17",
+      "temperatura_media": 17.2,
+      "temperatura_max": 21.9,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-05-18",
+      "temperatura_media": 18.0,
+      "temperatura_max": 25.3,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-05-19",
+      "temperatura_media": 15.5,
+      "temperatura_max": 22.5,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-05-20",
+      "temperatura_media": 16.6,
+      "temperatura_max": 23.1,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-05-21",
+      "temperatura_media": 18.6,
+      "temperatura_max": 26.5,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-05-22",
+      "temperatura_media": 18.0,
+      "temperatura_max": 24.7,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-05-23",
+      "temperatura_media": 16.7,
+      "temperatura_max": 22.5,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-05-24",
+      "temperatura_media": 18.9,
+      "temperatura_max": 26.5,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-05-25",
+      "temperatura_media": 22.0,
+      "temperatura_max": 26.3,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-05-26",
+      "temperatura_media": 18.0,
+      "temperatura_max": 23.2,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.6
+    },
+    {
+      "data": "2024-05-27",
+      "temperatura_media": 14.9,
+      "temperatura_max": 17.6,
+      "condicao": "chuva",
+      "precipitacao_mm": 16.2
+    },
+    {
+      "data": "2024-05-28",
+      "temperatura_media": 19.1,
+      "temperatura_max": 22.1,
+      "condicao": "chuva",
+      "precipitacao_mm": 14.5
+    },
+    {
+      "data": "2024-05-29",
+      "temperatura_media": 19.5,
+      "temperatura_max": 21.7,
+      "condicao": "chuva",
+      "precipitacao_mm": 7.0
+    },
+    {
+      "data": "2024-05-30",
+      "temperatura_media": 20.5,
+      "temperatura_max": 25.1,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-05-31",
+      "temperatura_media": 20.9,
+      "temperatura_max": 26.9,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-06-01",
+      "temperatura_media": 19.3,
+      "temperatura_max": 25.5,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-06-02",
+      "temperatura_media": 19.8,
+      "temperatura_max": 26.6,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-06-03",
+      "temperatura_media": 15.4,
+      "temperatura_max": 23.2,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-06-04",
+      "temperatura_media": 16.5,
+      "temperatura_max": 23.8,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-06-05",
+      "temperatura_media": 16.1,
+      "temperatura_max": 22.4,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-06-06",
+      "temperatura_media": 17.0,
+      "temperatura_max": 24.6,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-06-07",
+      "temperatura_media": 13.2,
+      "temperatura_max": 19.6,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-06-08",
+      "temperatura_media": 14.7,
+      "temperatura_max": 18.9,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-06-09",
+      "temperatura_media": 14.5,
+      "temperatura_max": 17.5,
+      "condicao": "chuva",
+      "precipitacao_mm": 12.7
+    },
+    {
+      "data": "2024-06-10",
+      "temperatura_media": 14.0,
+      "temperatura_max": 16.1,
+      "condicao": "chuva",
+      "precipitacao_mm": 6.9
+    },
+    {
+      "data": "2024-06-10T21:00:00-03:00",
+      "temperatura_media": 16.3,
+      "temperatura_max": 21.5,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-06-11T21:00:00-03:00",
+      "temperatura_media": 15.8,
+      "temperatura_max": 22.8,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-06-12T21:00:00-03:00",
+      "temperatura_media": 14.6,
+      "temperatura_max": 18.3,
+      "condicao": "chuva",
+      "precipitacao_mm": 8.0
+    },
+    {
+      "data": "2024-06-13T21:00:00-03:00",
+      "temperatura_media": 12.2,
+      "temperatura_max": 15.8,
+      "condicao": "chuva",
+      "precipitacao_mm": 7.3
+    },
+    {
+      "data": "2024-06-14T21:00:00-03:00",
+      "temperatura_media": 12.3,
+      "temperatura_max": 17.4,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-06-16",
+      "temperatura_media": 13.9,
+      "temperatura_max": 18.1,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-06-17",
+      "temperatura_media": 16.1,
+      "temperatura_max": 22.3,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-06-18",
+      "temperatura_media": 17.6,
+      "temperatura_max": 23.1,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-06-19",
+      "temperatura_media": 15.5,
+      "temperatura_max": 17.7,
+      "condicao": "chuva",
+      "precipitacao_mm": 11.1
+    },
+    {
+      "data": "2024-06-20",
+      "temperatura_media": 15.6,
+      "temperatura_max": 19.1,
+      "condicao": "chuva",
+      "precipitacao_mm": 22.4
+    },
+    {
+      "data": "2024-06-21",
+      "temperatura_media": 18.1,
+      "temperatura_max": 22.0,
+      "condicao": "chuva",
+      "precipitacao_mm": 3.1
+    },
+    {
+      "data": "2024-06-22",
+      "temperatura_media": 18.2,
+      "temperatura_max": 24.7,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-06-23",
+      "temperatura_media": 17.3,
+      "temperatura_max": 24.3,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-06-24",
+      "temperatura_media": 17.8,
+      "temperatura_max": 24.0,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-06-25",
+      "temperatura_media": 17.5,
+      "temperatura_max": 21.8,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-06-26",
+      "temperatura_media": 18.9,
+      "temperatura_max": 26.6,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-06-27",
+      "temperatura_media": 17.8,
+      "temperatura_max": 22.0,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-06-28",
+      "temperatura_media": 15.5,
+      "temperatura_max": 21.2,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-06-29",
+      "temperatura_media": 13.0,
+      "temperatura_max": 19.3,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-06-30",
+      "temperatura_media": 11.9,
+      "temperatura_max": 17.4,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-07-01",
+      "temperatura_media": 12.5,
+      "temperatura_max": 19.2,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-07-02T00:00:00",
+      "temperatura_media": 9.3,
+      "temperatura_max": 9.8,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-07-02T01:00:00",
+      "temperatura_media": 8.9,
+      "temperatura_max": 9.5,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-07-02T02:00:00",
+      "temperatura_media": 8.9,
+      "temperatura_max": 9.0,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-07-02T03:00:00",
+      "temperatura_media": 8.9,
+      "temperatura_max": 8.9,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-07-02T04:00:00",
+      "temperatura_media": 8.9,
+      "temperatura_max": 9.2,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-07-02T05:00:00",
+      "temperatura_media": 9.1,
+      "temperatura_max": 9.6,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-07-02T06:00:00",
+      "temperatura_media": 9.8,
+      "temperatura_max": 9.9,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-07-02T07:00:00",
+      "temperatura_media": 11.1,
+      "temperatura_max": 11.2,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-07-02T08:00:00",
+      "temperatura_media": 11.7,
+      "temperatura_max": 11.9,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-07-02T09:00:00",
+      "temperatura_media": 12.9,
+      "temperatura_max": 13.4,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-07-02T10:00:00",
+      "temperatura_media": 13.5,
+      "temperatura_max": 13.8,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-07-02T11:00:00",
+      "temperatura_media": 14.7,
+      "temperatura_max": 14.9,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-07-02T12:00:00",
+      "temperatura_media": 15.5,
+      "temperatura_max": 16.0,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-07-02T13:00:00",
+      "temperatura_media": 16.4,
+      "temperatura_max": 16.7,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-07-02T14:00:00",
+      "temperatura_media": 17.4,
+      "temperatura_max": 17.4,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-07-02T15:00:00",
+      "temperatura_media": 18.2,
+      "temperatura_max": 18.5,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-07-02T16:00:00",
+      "temperatura_media": 17.5,
+      "temperatura_max": 17.6,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-07-02T17:00:00",
+      "temperatura_media": 16.4,
+      "temperatura_max": 16.9,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-07-02T18:00:00",
+      "temperatura_media": 15.4,
+      "temperatura_max": 15.8,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-07-02T19:00:00",
+      "temperatura_media": 14.7,
+      "temperatura_max": 14.8,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-07-02T20:00:00",
+      "temperatura_media": 13.6,
+      "temperatura_max": 14.1,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-07-02T21:00:00",
+      "temperatura_media": 13.1,
+      "temperatura_max": 13.3,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-07-02T22:00:00",
+      "temperatura_media": 11.9,
+      "temperatura_max": 12.2,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-07-02T23:00:00",
+      "temperatura_media": 11.1,
+      "temperatura_max": 11.7,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-07-03",
+      "temperatura_media": 14.1,
+      "temperatura_max": 19.6,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.4
+    },
+    {
+      "data": "2024-07-04",
+      "temperatura_media": 10.9,
+      "temperatura_max": 15.8,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-07-05",
+      "temperatura_media": 11.7,
+      "temperatura_max": 18.4,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-07-06",
+      "temperatura_media": 13.0,
+      "temperatura_max": 18.7,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-07-07",
+      "temperatura_media": 15.3,
+      "temperatura_max": 22.9,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-07-08",
+      "temperatura_media": 13.8,
+      "temperatura_max": 21.7,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-07-09",
+      "temperatura_media": 10.7,
+      "temperatura_max": 12.7,
+      "condicao": "chuva",
+      "precipitacao_mm": 17.3
+    },
+    {
+      "data": "2024-07-11",
+      "temperatura_media": 14.3,
+      "temperatura_max": 22.3,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-07-12",
+      "temperatura_media": 12.8,
+      "temperatura_max": 15.7,
+      "condicao": "chuva",
+      "precipitacao_mm": 11.4
+    },
+    {
+      "data": "2024-07-13",
+      "temperatura_media": 13.7,
+      "temperatura_max": 16.6,
+      "condicao": "chuva",
+      "precipitacao_mm": 7.4
+    },
+    {
+      "data": "2024-07-14",
+      "temperatura_media": 13.1,
+      "temperatura_max": 17.0,
+      "condicao": "chuva",
+      "precipitacao_mm": 13.1
+    },
+    {
+      "data": "2024-07-15",
+      "temperatura_media": 14.6,
+      "temperatura_max": 19.8,
+      "condicao": null,
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-07-16",
+      "temperatura_media": 14.9,
+      "temperatura_max": 21.6,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-07-17",
+      "temperatura_media": 15.1,
+      "temperatura_max": 21.3,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-07-18",
+      "temperatura_media": 14.7,
+      "temperatura_max": 18.8,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-07-19",
+      "temperatura_media": 17.2,
+      "temperatura_max": 22.8,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-07-20",
+      "temperatura_media": 17.7,
+      "temperatura_max": 23.0,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.8
+    },
+    {
+      "data": "2024-07-21",
+      "temperatura_media": 18.7,
+      "temperatura_max": 25.7,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-07-22",
+      "temperatura_media": 18.3,
+      "temperatura_max": 22.6,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-07-23",
+      "temperatura_media": 16.7,
+      "temperatura_max": 21.5,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-07-24",
+      "temperatura_media": 15.8,
+      "temperatura_max": 21.6,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-07-25",
+      "temperatura_media": 16.3,
+      "temperatura_max": 20.7,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-07-26",
+      "temperatura_media": 16.8,
+      "temperatura_max": 24.4,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-07-27",
+      "temperatura_media": 15.8,
+      "temperatura_max": 22.6,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-07-28",
+      "temperatura_media": 18.9,
+      "temperatura_max": 22.9,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-07-29",
+      "temperatura_media": 17.3,
+      "temperatura_max": 25.0,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-07-30",
+      "temperatura_media": 16.9,
+      "temperatura_max": 24.2,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-07-31",
+      "temperatura_media": 16.4,
+      "temperatura_max": 22.2,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-08-01",
+      "temperatura_media": 15.9,
+      "temperatura_max": 20.0,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-08-02",
+      "temperatura_media": 16.0,
+      "temperatura_max": 21.6,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-08-03",
+      "temperatura_media": 19.6,
+      "temperatura_max": 27.3,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-08-04",
+      "temperatura_media": 20.9,
+      "temperatura_max": 26.0,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-08-05",
+      "temperatura_media": 22.4,
+      "temperatura_max": 28.8,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-08-06",
+      "temperatura_media": 21.3,
+      "temperatura_max": 26.9,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.5
+    },
+    {
+      "data": "2024-08-07",
+      "temperatura_media": 20.0,
+      "temperatura_max": 22.8,
+      "condicao": "chuva",
+      "precipitacao_mm": 10.2
+    },
+    {
+      "data": "2024-08-08",
+      "temperatura_media": 19.4,
+      "temperatura_max": 21.4,
+      "condicao": "tempestade",
+      "precipitacao_mm": 42.1
+    },
+    {
+      "data": "2024-08-09",
+      "temperatura_media": 15.8,
+      "temperatura_max": 18.1,
+      "condicao": "chuva",
+      "precipitacao_mm": 4.9
+    },
+    {
+      "data": "2024-08-10",
+      "temperatura_media": 13.5,
+      "temperatura_max": 17.0,
+      "condicao": "chuva",
+      "precipitacao_mm": 21.3
+    },
+    {
+      "data": "2024-08-11",
+      "temperatura_media": 17.2,
+      "temperatura_max": 23.7,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-08-12",
+      "temperatura_media": 19.0,
+      "temperatura_max": 25.6,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-08-13",
+      "temperatura_media": 19.6,
+      "temperatura_max": 27.0,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-08-14",
+      "temperatura_media": 16.9,
+      "temperatura_max": 24.6,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-08-15",
+      "temperatura_media": 18.9,
+      "temperatura_max": 25.1,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-08-16",
+      "temperatura_media": 16.9,
+      "temperatura_max": 23.0,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.4
+    },
+    {
+      "data": "2024-08-17",
+      "temperatura_media": 17.2,
+      "temperatura_max": 24.9,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-08-18",
+      "temperatura_media": 17.8,
+      "temperatura_max": 24.0,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-08-19",
+      "temperatura_media": 19.7,
+      "temperatura_max": 25.4,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-08-20",
+      "temperatura_media": 20.3,
+      "temperatura_max": 24.6,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-08-21",
+      "temperatura_media": 21.6,
+      "temperatura_max": 28.2,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-08-22",
+      "temperatura_media": 22.1,
+      "temperatura_max": 29.6,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-08-23",
+      "temperatura_media": 22.3,
+      "temperatura_max": 26.4,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-08-24",
+      "temperatura_media": 20.9,
+      "temperatura_max": 25.0,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-08-25",
+      "temperatura_media": 21.1,
+      "temperatura_max": 25.8,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-08-26",
+      "temperatura_media": 18.5,
+      "temperatura_max": 23.6,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-08-27",
+      "temperatura_media": 19.8,
+      "temperatura_max": 23.9,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-08-28",
+      "temperatura_media": 16.9,
+      "temperatura_max": 21.9,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-08-29",
+      "temperatura_media": 20.4,
+      "temperatura_max": 26.6,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.1
+    },
+    {
+      "data": "2024-08-30",
+      "temperatura_media": 19.6,
+      "temperatura_max": 25.4,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-08-31",
+      "temperatura_media": 19.2,
+      "temperatura_max": 24.4,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-09-01",
+      "temperatura_media": 17.9,
+      "temperatura_max": 23.1,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.7
+    },
+    {
+      "data": "2024-09-02",
+      "temperatura_media": 19.2,
+      "temperatura_max": 24.4,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-09-03",
+      "temperatura_media": 23.1,
+      "temperatura_max": 29.1,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-09-04",
+      "temperatura_media": 22.4,
+      "temperatura_max": 28.8,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.7
+    },
+    {
+      "data": "2024-09-05",
+      "temperatura_media": 19.9,
+      "temperatura_max": 22.8,
+      "condicao": "chuva",
+      "precipitacao_mm": 8.4
+    },
+    {
+      "data": "2024-09-06",
+      "temperatura_media": 21.1,
+      "temperatura_max": 27.5,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-09-07",
+      "temperatura_media": 19.6,
+      "temperatura_max": 25.5,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-09-08",
+      "temperatura_media": 20.7,
+      "temperatura_max": 26.3,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-09-09",
+      "temperatura_media": 18.3,
+      "temperatura_max": -25.7,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.1
+    },
+    {
+      "data": "2024-09-10",
+      "temperatura_media": 17.8,
+      "temperatura_max": 22.1,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-09-11",
+      "temperatura_media": 21.3,
+      "temperatura_max": 28.0,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-09-12",
+      "temperatura_media": 22.0,
+      "temperatura_max": 28.6,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-09-13",
+      "temperatura_media": 17.6,
+      "temperatura_max": 20.5,
+      "condicao": "chuva",
+      "precipitacao_mm": 24.6
+    },
+    {
+      "data": "2024-09-14",
+      "temperatura_media": 19.8,
+      "temperatura_max": 23.6,
+      "condicao": "chuva",
+      "precipitacao_mm": 12.8
+    },
+    {
+      "data": "2024-09-15",
+      "temperatura_media": 18.7,
+      "temperatura_max": 22.4,
+      "condicao": "chuva",
+      "precipitacao_mm": 17.8
+    },
+    {
+      "data": "2024-09-16",
+      "temperatura_media": 17.6,
+      "temperatura_max": 21.4,
+      "condicao": "chuva",
+      "precipitacao_mm": 7.2
+    },
+    {
+      "data": "2024-09-17",
+      "temperatura_media": 18.5,
+      "temperatura_max": 23.6,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-09-18",
+      "temperatura_media": 17.7,
+      "temperatura_max": 23.9,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-09-19T00:00:00",
+      "temperatura_media": 12.6,
+      "temperatura_max": 12.9,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-09-19T01:00:00",
+      "temperatura_media": 12.8,
+      "temperatura_max": 13.1,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-09-19T02:00:00",
+      "temperatura_media": 12.6,
+      "temperatura_max": 12.9,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-09-19T03:00:00",
+      "temperatura_media": 13.0,
+      "temperatura_max": 13.1,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-09-19T04:00:00",
+      "temperatura_media": 12.6,
+      "temperatura_max": 12.8,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-09-19T05:00:00",
+      "temperatura_media": 12.7,
+      "temperatura_max": 13.0,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-09-19T06:00:00",
+      "temperatura_media": 13.8,
+      "temperatura_max": 14.2,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-09-19T07:00:00",
+      "temperatura_media": 15.1,
+      "temperatura_max": 15.5,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-09-19T08:00:00",
+      "temperatura_media": 16.6,
+      "temperatura_max": 16.6,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-09-19T09:00:00",
+      "temperatura_media": 17.9,
+      "temperatura_max": 18.5,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-09-19T10:00:00",
+      "temperatura_media": 19.0,
+      "temperatura_max": 19.2,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-09-19T11:00:00",
+      "temperatura_media": 20.6,
+      "temperatura_max": 20.7,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-09-19T12:00:00",
+      "temperatura_media": 22.0,
+      "temperatura_max": 22.4,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-09-19T13:00:00",
+      "temperatura_media": 23.2,
+      "temperatura_max": 23.5,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-09-19T14:00:00",
+      "temperatura_media": 24.3,
+      "temperatura_max": 24.7,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-09-19T15:00:00",
+      "temperatura_media": 25.8,
+      "temperatura_max": 25.8,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-09-19T16:00:00",
+      "temperatura_media": 24.1,
+      "temperatura_max": 24.5,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-09-19T17:00:00",
+      "temperatura_media": 23.2,
+      "temperatura_max": 23.2,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-09-19T18:00:00",
+      "temperatura_media": 21.5,
+      "temperatura_max": 21.6,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-09-19T19:00:00",
+      "temperatura_media": 20.4,
+      "temperatura_max": 20.5,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-09-19T20:00:00",
+      "temperatura_media": 19.1,
+      "temperatura_max": 19.4,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-09-19T21:00:00",
+      "temperatura_media": 17.8,
+      "temperatura_max": 17.8,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-09-19T22:00:00",
+      "temperatura_media": 16.9,
+      "temperatura_max": 17.1,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-09-19T23:00:00",
+      "temperatura_media": 15.2,
+      "temperatura_max": 15.5,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-09-20",
+      "temperatura_media": 21.0,
+      "temperatura_max": 25.8,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-09-21",
+      "temperatura_media": 20.2,
+      "temperatura_max": 23.7,
+      "condicao": "chuva",
+      "precipitacao_mm": 24.9
+    },
+    {
+      "data": "2024-09-22",
+      "temperatura_media": 18.5,
+      "temperatura_max": 25.7,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-09-23",
+      "temperatura_media": 19.6,
+      "temperatura_max": 26.9,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-09-24",
+      "temperatura_media": 21.0,
+      "temperatura_max": 27.4,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-09-25",
+      "temperatura_media": 19.2,
+      "temperatura_max": 22.8,
+      "condicao": "chuva",
+      "precipitacao_mm": 2.4
+    },
+    {
+      "data": "2024-09-26",
+      "temperatura_media": 18.0,
+      "temperatura_max": 23.7,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.6
+    },
+    {
+      "data": "2024-09-27",
+      "temperatura_media": 18.2,
+      "temperatura_max": 20.9,
+      "condicao": "chuva",
+      "precipitacao_mm": 6.8
+    },
+    {
+      "data": "2024-09-28",
+      "temperatura_media": 19.7,
+      "temperatura_max": 24.6,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.3
+    },
+    {
+      "data": "2024-09-29",
+      "temperatura_media": 17.5,
+      "temperatura_max": 22.6,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-09-30",
+      "temperatura_media": 15.5,
+      "temperatura_max": 21.0,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-10-01",
+      "temperatura_media": 17.2,
+      "temperatura_max": 24.9,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-10-02",
+      "temperatura_media": 17.5,
+      "temperatura_max": 21.0,
+      "condicao": "chuva",
+      "precipitacao_mm": 14.2
+    },
+    {
+      "data": "2024-10-03",
+      "temperatura_media": 19.2,
+      "temperatura_max": 24.1,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-10-04",
+      "temperatura_media": 18.8,
+      "temperatura_max": 22.6,
+      "condicao": "tempestade",
+      "precipitacao_mm": 27.4
+    },
+    {
+      "data": "2024-10-05",
+      "temperatura_media": 19.4,
+      "temperatura_max": 23.0,
+      "condicao": "chuva",
+      "precipitacao_mm": 22.7
+    },
+    {
+      "data": "2024-10-06",
+      "temperatura_media": 19.3,
+      "temperatura_max": 22.1,
+      "condicao": "chuva",
+      "precipitacao_mm": 21.3
+    },
+    {
+      "data": "2024-10-07",
+      "temperatura_media": 20.3,
+      "temperatura_max": 27.7,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-10-08",
+      "temperatura_media": 16.9,
+      "temperatura_max": 20.7,
+      "condicao": "chuva",
+      "precipitacao_mm": 17.3
+    },
+    {
+      "data": "2024-10-09",
+      "temperatura_media": 18.1,
+      "temperatura_max": 21.9,
+      "condicao": "chuva",
+      "precipitacao_mm": 11.1
+    },
+    {
+      "data": "2024-10-10",
+      "temperatura_media": 18.3,
+      "temperatura_max": 21.7,
+      "condicao": "chuva",
+      "precipitacao_mm": 3.7
+    },
+    {
+      "data": "2024-10-11",
+      "temperatura_media": 18.7,
+      "temperatura_max": 23.8,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-10-12",
+      "temperatura_media": 21.0,
+      "temperatura_max": 25.6,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-10-13",
+      "temperatura_media": 17.9,
+      "temperatura_max": 22.6,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-10-14",
+      "temperatura_media": 20.3,
+      "temperatura_max": 26.1,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-10-15",
+      "temperatura_media": 19.4,
+      "temperatura_max": 22.8,
+      "condicao": "chuva",
+      "precipitacao_mm": 19.0
+    },
+    {
+      "data": "2024-10-16",
+      "temperatura_media": 19.9,
+      "temperatura_max": 23.2,
+      "condicao": "chuva",
+      "precipitacao_mm": 16.9
+    },
+    {
+      "data": "2024-10-17",
+      "temperatura_media": 19.1,
+      "temperatura_max": 21.2,
+      "condicao": "chuva",
+      "precipitacao_mm": 9.7
+    },
+    {
+      "data": "2024-10-18",
+      "temperatura_media": 17.7,
+      "temperatura_max": 21.7,
+      "condicao": "tempestade",
+      "precipitacao_mm": 45.1
+    },
+    {
+      "data": "2024-10-19",
+      "temperatura_media": 15.5,
+      "temperatura_max": 23.5,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-10-20",
+      "temperatura_media": 16.1,
+      "temperatura_max": 21.9,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-10-21",
+      "temperatura_media": 15.9,
+      "temperatura_max": 18.7,
+      "condicao": "chuva",
+      "precipitacao_mm": 15.7
+    },
+    {
+      "data": "2024-10-22",
+      "temperatura_media": 21.8,
+      "temperatura_max": 28.3,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.6
+    },
+    {
+      "data": "2024-10-23",
+      "temperatura_media": 21.5,
+      "temperatura_max": 25.5,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-10-24",
+      "temperatura_media": 19.0,
+      "temperatura_max": 24.8,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-10-25",
+      "temperatura_media": 19.1,
+      "temperatura_max": 25.2,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-10-26",
+      "temperatura_media": 17.0,
+      "temperatura_max": 19.4,
+      "condicao": "chuva",
+      "precipitacao_mm": 4.2
+    },
+    {
+      "data": "2024-10-27",
+      "temperatura_media": 18.6,
+      "temperatura_max": 24.5,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-10-28",
+      "temperatura_media": 20.6,
+      "temperatura_max": 27.5,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-10-29",
+      "temperatura_media": 17.7,
+      "temperatura_max": 20.4,
+      "condicao": "chuva",
+      "precipitacao_mm": 15.3
+    },
+    {
+      "data": "2024-10-30",
+      "temperatura_media": 19.7,
+      "temperatura_max": 26.5,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.4
+    },
+    {
+      "data": "2024-10-31",
+      "temperatura_media": 18.4,
+      "temperatura_max": 24.1,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-11-01",
+      "temperatura_media": 16.3,
+      "temperatura_max": 19.6,
+      "condicao": "chuva",
+      "precipitacao_mm": 13.7
+    },
+    {
+      "data": "2024-11-02",
+      "temperatura_media": 16.1,
+      "temperatura_max": 18.6,
+      "condicao": "chuva",
+      "precipitacao_mm": 20.9
+    },
+    {
+      "data": "2024-11-03",
+      "temperatura_media": 18.0,
+      "temperatura_max": 20.5,
+      "condicao": "chuva",
+      "precipitacao_mm": 24.8
+    },
+    {
+      "data": "2024-11-04",
+      "temperatura_media": 20.2,
+      "temperatura_max": 27.6,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-11-05",
+      "temperatura_media": 20.1,
+      "temperatura_max": 23.9,
+      "condicao": "tempestade",
+      "precipitacao_mm": 49.6
+    },
+    {
+      "data": "2024-11-06",
+      "temperatura_media": 20.2,
+      "temperatura_max": 23.0,
+      "condicao": "chuva",
+      "precipitacao_mm": 18.6
+    },
+    {
+      "data": "2024-11-07",
+      "temperatura_media": 19.4,
+      "temperatura_max": 22.8,
+      "condicao": "chuva",
+      "precipitacao_mm": 4.0
+    },
+    {
+      "data": "2024-11-08",
+      "temperatura_media": 17.4,
+      "temperatura_max": 19.5,
+      "condicao": "chuva",
+      "precipitacao_mm": 2.9
+    },
+    {
+      "data": "2024-11-09",
+      "temperatura_media": 19.3,
+      "temperatura_max": 21.9,
+      "condicao": "chuva",
+      "precipitacao_mm": 1.3
+    },
+    {
+      "data": "2024-11-10",
+      "temperatura_media": 21.0,
+      "temperatura_max": 24.5,
+      "condicao": "chuva",
+      "precipitacao_mm": 24.0
+    },
+    {
+      "data": "2024-11-11",
+      "temperatura_media": 20.0,
+      "temperatura_max": 22.9,
+      "condicao": "chuva",
+      "precipitacao_mm": 8.4
+    },
+    {
+      "data": "2024-11-12",
+      "temperatura_media": 21.6,
+      "temperatura_max": 26.6,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-11-13",
+      "temperatura_media": 20.1,
+      "temperatura_max": 23.0,
+      "condicao": "tempestade",
+      "precipitacao_mm": 59.4
+    },
+    {
+      "data": "2024-11-14",
+      "temperatura_media": 23.1,
+      "temperatura_max": 29.8,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-11-15",
+      "temperatura_media": 20.7,
+      "temperatura_max": 24.7,
+      "condicao": "chuva",
+      "precipitacao_mm": 8.9
+    },
+    {
+      "data": "2024-11-16",
+      "temperatura_media": 21.8,
+      "temperatura_max": 25.7,
+      "condicao": "tempestade",
+      "precipitacao_mm": 27.5
+    },
+    {
+      "data": "2024-11-17",
+      "temperatura_media": 23.2,
+      "temperatura_max": 25.9,
+      "condicao": "chuva",
+      "precipitacao_mm": 5.7
+    },
+    {
+      "data": "2024-11-18",
+      "temperatura_media": 26.9,
+      "temperatura_max": 32.5,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-11-19",
+      "temperatura_media": 25.7,
+      "temperatura_max": 30.0,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-11-20",
+      "temperatura_media": 26.0,
+      "temperatura_max": 34.0,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.7
+    },
+    {
+      "data": "2024-11-21",
+      "temperatura_media": 25.7,
+      "temperatura_max": 30.7,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.1
+    },
+    {
+      "data": "2024-11-22",
+      "temperatura_media": 24.3,
+      "temperatura_max": 31.6,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-11-23",
+      "temperatura_media": 25.4,
+      "temperatura_max": 32.0,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-11-24",
+      "temperatura_media": 23.4,
+      "temperatura_max": 29.3,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-11-25",
+      "temperatura_media": 24.0,
+      "temperatura_max": 28.9,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-11-26",
+      "temperatura_media": 22.5,
+      "temperatura_max": 28.2,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-11-27",
+      "temperatura_media": 22.4,
+      "temperatura_max": 29.6,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-11-28",
+      "temperatura_media": 20.6,
+      "temperatura_max": 23.8,
+      "condicao": "chuva",
+      "precipitacao_mm": 1.8
+    },
+    {
+      "data": "2024-11-29",
+      "temperatura_media": 23.6,
+      "temperatura_max": 26.8,
+      "condicao": "chuva",
+      "precipitacao_mm": 7.7
+    },
+    {
+      "data": "2024-11-30",
+      "temperatura_media": 22.1,
+      "temperatura_max": 24.6,
+      "condicao": "chuva",
+      "precipitacao_mm": 4.2
+    },
+    {
+      "data": "2024-12-01",
+      "temperatura_media": 24.1,
+      "temperatura_max": 28.3,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-12-02",
+      "temperatura_media": 21.5,
+      "temperatura_max": 24.2,
+      "condicao": "chuva",
+      "precipitacao_mm": 2.4
+    },
+    {
+      "data": "2024-12-03",
+      "temperatura_media": 21.1,
+      "temperatura_max": 25.1,
+      "condicao": "tempestade",
+      "precipitacao_mm": 64.0
+    },
+    {
+      "data": "2024-12-04",
+      "temperatura_media": 21.1,
+      "temperatura_max": 23.8,
+      "condicao": "chuva",
+      "precipitacao_mm": 18.8
+    },
+    {
+      "data": "2024-12-05",
+      "temperatura_media": 19.4,
+      "temperatura_max": 22.6,
+      "condicao": "chuva",
+      "precipitacao_mm": 20.5
+    },
+    {
+      "data": "2024-12-06",
+      "temperatura_media": 18.8,
+      "temperatura_max": 20.8,
+      "condicao": "chuva",
+      "precipitacao_mm": 5.7
+    },
+    {
+      "data": "2024-12-07",
+      "temperatura_media": 20.3,
+      "temperatura_max": 22.7,
+      "condicao": "chuva",
+      "precipitacao_mm": 23.1
+    },
+    {
+      "data": "2024-12-08",
+      "temperatura_media": 21.8,
+      "temperatura_max": 26.5,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-12-09",
+      "temperatura_media": 23.7,
+      "temperatura_max": 27.1,
+      "condicao": "chuva",
+      "precipitacao_mm": 4.2
+    },
+    {
+      "data": "2024-12-10",
+      "temperatura_media": 22.1,
+      "temperatura_max": 24.7,
+      "condicao": "chuva",
+      "precipitacao_mm": 3.6
+    },
+    {
+      "data": "2024-12-11",
+      "temperatura_media": 22.1,
+      "temperatura_max": 25.0,
+      "condicao": "tempestade",
+      "precipitacao_mm": 59.3
+    },
+    {
+      "data": "2024-12-12",
+      "temperatura_media": 22.3,
+      "temperatura_max": 24.3,
+      "condicao": "chuva",
+      "precipitacao_mm": 21.9
+    },
+    {
+      "data": "2024-12-13",
+      "temperatura_media": 23.1,
+      "temperatura_max": 30.8,
+      "condicao": "nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-12-14",
+      "temperatura_media": 25.1,
+      "temperatura_max": 29.4,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-12-15",
+      "temperatura_media": 22.2,
+      "temperatura_max": 25.0,
+      "condicao": "chuva",
+      "precipitacao_mm": 3.7
+    },
+    {
+      "data": "2024-12-16",
+      "temperatura_media": 21.6,
+      "temperatura_max": 25.3,
+      "condicao": "chuva",
+      "precipitacao_mm": 16.7
+    },
+    {
+      "data": "2024-12-17",
+      "temperatura_media": 22.3,
+      "temperatura_max": 26.0,
+      "condicao": "tempestade",
+      "precipitacao_mm": 59.2
+    },
+    {
+      "data": "2024-12-18",
+      "temperatura_media": 23.0,
+      "temperatura_max": 26.7,
+      "condicao": "chuva",
+      "precipitacao_mm": 13.0
+    },
+    {
+      "data": "2024-12-19",
+      "temperatura_media": 24.6,
+      "temperatura_max": 27.8,
+      "condicao": "chuva",
+      "precipitacao_mm": 16.3
+    },
+    {
+      "data": "2024-12-20",
+      "temperatura_media": 25.5,
+      "temperatura_max": 27.5,
+      "condicao": "chuva",
+      "precipitacao_mm": 16.3
+    },
+    {
+      "data": "2024-12-21",
+      "temperatura_media": 25.6,
+      "temperatura_max": 27.8,
+      "condicao": "chuva",
+      "precipitacao_mm": 6.5
+    },
+    {
+      "data": "2024-12-22",
+      "temperatura_media": 24.9,
+      "temperatura_max": 32.4,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-12-23",
+      "temperatura_media": 22.5,
+      "temperatura_max": 25.4,
+      "condicao": "chuva",
+      "precipitacao_mm": 11.8
+    },
+    {
+      "data": "2024-12-24",
+      "temperatura_media": 22.8,
+      "temperatura_max": 29.1,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-12-25",
+      "temperatura_media": 23.0,
+      "temperatura_max": 28.2,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2024-12-26",
+      "temperatura_media": 19.4,
+      "temperatura_max": 22.4,
+      "condicao": "tempestade",
+      "precipitacao_mm": 37.3
+    },
+    {
+      "data": "2024-12-27",
+      "temperatura_media": 18.9,
+      "temperatura_max": 22.6,
+      "condicao": "chuva",
+      "precipitacao_mm": 8.0
+    },
+    {
+      "data": "2024-12-28",
+      "temperatura_media": 18.5,
+      "temperatura_max": 21.6,
+      "condicao": "chuva",
+      "precipitacao_mm": 21.1
+    },
+    {
+      "data": "2024-12-29",
+      "temperatura_media": 21.2,
+      "temperatura_max": 24.0,
+      "condicao": "chuva",
+      "precipitacao_mm": 11.5
+    },
+    {
+      "data": "2024-12-30",
+      "temperatura_media": 23.3,
+      "temperatura_max": 27.2,
+      "condicao": "chuva",
+      "precipitacao_mm": 4.9
+    },
+    {
+      "data": "2024-12-31",
+      "temperatura_media": 21.6,
+      "temperatura_max": 24.9,
+      "condicao": "chuva",
+      "precipitacao_mm": 13.2
+    }
+  ]
+}

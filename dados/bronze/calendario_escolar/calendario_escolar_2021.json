@@ -1,0 +1,2196 @@
+{
+  "escola": "Colégio Fictício Horizonte",
+  "ano": 2021,
+  "publicado_em": "2020-12-10",
+  "dias": [
+    {
+      "data": "2021-01-01",
+      "tipo_dia": "feriado",
+      "descricao": "Confraternização Universal",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-01-02",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-01-03",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-01-04",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-01-05",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-01-06",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-01-07",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-01-08",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-01-09",
+      "tipo_dia": "Fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-01-10",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-01-11",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-01-12",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-01-13",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-01-14",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-01-15",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-01-16",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-01-17",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-01-18",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-01-19",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-01-20",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-01-21",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-01-22",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-01-23",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-01-24",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-01-25",
+      "tipo_dia": "planejamento",
+      "descricao": "Planejamento pedagógico (sem alunos)",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-01-26",
+      "tipo_dia": "planejamento",
+      "descricao": "Planejamento pedagógico (sem alunos)",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-01-27",
+      "tipo_dia": "planejamento",
+      "descricao": "Planejamento pedagógico (sem alunos)",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-01-28",
+      "tipo_dia": "planejamento",
+      "descricao": "Planejamento pedagógico (sem alunos)",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-01-29",
+      "tipo_dia": "planejamento",
+      "descricao": "Planejamento pedagógico (sem alunos)",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-01-30",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-01-31",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-02-01",
+      "tipo_dia": "letivo",
+      "descricao": "Início do ano letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-02-02",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-02-03",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-02-04",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-02-05",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-02-06",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-02-07",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-02-08",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-02-09",
+      "tipo_dia": "LETIVO",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-02-10",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-02-11",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-02-12",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-02-13",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-02-14",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-02-15",
+      "tipo_dia": "recesso",
+      "descricao": "Carnaval (ponto facultativo)",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-02-16",
+      "tipo_dia": "recesso",
+      "descricao": "Carnaval (ponto facultativo)",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-02-17",
+      "tipo_dia": "letivo",
+      "descricao": "Quarta-feira de Cinzas - aulas somente à tarde",
+      "turno_letivo": "tarde"
+    },
+    {
+      "data": "2021-02-18",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-02-19",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-02-20",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-02-21",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-02-22",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-02-23",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-02-24",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-02-25",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-02-26",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-02-27",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-02-28",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-03-01",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-03-02",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-03-03",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-03-04",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-03-05",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-03-06",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-03-07",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-03-08",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-03-09",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-03-10",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-03-11",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-03-12",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-03-13",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-03-14",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-03-15",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-03-16",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-03-17",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-03-18",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-03-19",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-03-20",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-03-21",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-03-22",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-03-23",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-03-24",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-03-25",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-03-26",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-03-27",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana"
+    },
+    {
+      "data": "2021-03-28",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-03-29",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-03-30",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-03-31",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-04-01",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-04-02",
+      "tipo_dia": "feriado",
+      "descricao": "Sexta-feira Santa",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-04-03",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-04-04",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-04-05",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-04-06",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-04-07",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-04-08",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-04-09",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-04-10",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-04-11",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-04-12",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-04-13",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-04-14",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-04-15",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-04-16",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-04-17",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-04-18",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-04-19",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-04-20",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-04-21",
+      "tipo_dia": "feriado",
+      "descricao": "Tiradentes",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-04-22",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-04-23",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-04-24",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-04-25",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-04-26",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-04-27",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-04-28",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-04-29",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-04-30",
+      "tipo_dia": "letivo",
+      "descricao": "Conselho de classe - sem aulas à tarde",
+      "turno_letivo": "manha"
+    },
+    {
+      "data": "2021-05-01",
+      "tipo_dia": "feriado",
+      "descricao": "Dia do Trabalho",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-05-02",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-05-03",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-05-04",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-05-05",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-05-06",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-05-07",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-05-08",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-05-09",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-05-10",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-05-11",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-05-12",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-05-13",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-05-14",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-05-15",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-05-16",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-05-17",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-05-18",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-05-19",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-05-20",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-05-21",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-05-22",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-05-23",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-05-24",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-05-25",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-05-26",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-05-27",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-05-28",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-05-29",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-05-30",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-05-31",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-06-01",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-06-02",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-06-03",
+      "tipo_dia": "recesso",
+      "descricao": "Corpus Christi (ponto facultativo)",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-06-04",
+      "tipo_dia": "recesso",
+      "descricao": "Emenda de feriado (Corpus Christi)",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-06-05",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-06-06",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-06-07",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-06-08",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-06-09",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-06-10",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-06-11",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-06-12",
+      "tipo_dia": "Fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-06-13",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-06-14",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-06-15",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-06-16",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-06-17",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-06-18",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-06-19",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-06-20",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-06-21",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-06-22",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-06-23",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-06-24",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-06-25",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-06-26",
+      "tipo_dia": "sabado_letivo",
+      "descricao": "Festa Junina",
+      "turno_letivo": "manha"
+    },
+    {
+      "data": "2021-06-27",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-06-28",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-06-29",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-06-30",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-07-01",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-07-02",
+      "tipo_dia": "letivo",
+      "descricao": "Conselho de classe - sem aulas à tarde",
+      "turno_letivo": "manha"
+    },
+    {
+      "data": "2021-07-03",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-07-04",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-07-05",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares de julho",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-07-06",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares de julho",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-07-07",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares de julho",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-07-08",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares de julho",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-07-09",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares de julho",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-07-10",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-07-11",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-07-12",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares de julho",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-07-13",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares de julho",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-07-14",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares de julho",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-07-15",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares de julho",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-07-16",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares de julho",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-07-17",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-07-18",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-07-19",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares de julho",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-07-20",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares de julho",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-07-21",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares de julho",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-07-22",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares de julho",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-07-23",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares de julho",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-07-24",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-07-25",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-07-26",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-07-27",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-07-28",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-07-29",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-07-30",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-07-31",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-08-01",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-08-02",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-08-03",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-08-04",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-08-05",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-08-06",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-08-07",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-08-08",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-08-09",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-08-10",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-08-11",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-08-12",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-08-13",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-08-14",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-08-15",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-08-16",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-08-17",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-08-18",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-08-19",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-08-20",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-08-21",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-08-22",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-08-23",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-08-24",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-08-25",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-08-26",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-08-27",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-08-28",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-08-29",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-08-30",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-08-31",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-09-01",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-09-02",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-09-03",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-09-04",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-09-05",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-09-06",
+      "tipo_dia": "recesso",
+      "descricao": "Emenda de feriado (Independência do Brasil)",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-09-07",
+      "tipo_dia": "feriado",
+      "descricao": "Independência do Brasil",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-09-08",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-09-09",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-09-10",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-09-11",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-09-12",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-09-13",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-09-14",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-09-15",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-09-16",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-09-17",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-09-18",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-09-19",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-09-20",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-09-21",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-09-22",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-09-23",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-09-24",
+      "tipo_dia": "letivo",
+      "descricao": "Conselho de classe - sem aulas à tarde",
+      "turno_letivo": "manha"
+    },
+    {
+      "data": "2021-09-25",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-09-26",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-09-27",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-09-28",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-09-29",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-09-30",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-10-01",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-10-02",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-10-03",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-10-04",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-10-05",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-10-06",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-10-07",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-10-08",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-10-09",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-10-10",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-10-11",
+      "tipo_dia": "recesso",
+      "descricao": "Emenda de feriado (Nossa Senhora Aparecida)",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-10-12",
+      "tipo_dia": "feriado",
+      "descricao": "Nossa Senhora Aparecida",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-10-13",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-10-14",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-10-15",
+      "tipo_dia": "recesso",
+      "descricao": "Dia do Professor",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-10-16",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-10-17",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-10-18",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-10-19",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-10-20",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-10-21",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-10-22",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-10-23",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-10-24",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-10-25",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-10-26",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-10-27",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-10-28",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-10-29",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-10-30",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-10-31",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-11-01",
+      "tipo_dia": "recesso",
+      "descricao": "Emenda de feriado (Finados)",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-11-02",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-11-03",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-11-04",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-11-05",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-11-06",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-11-07",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-11-08",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-11-09",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-11-10",
+      "tipo_dia": "LETIVO",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-11-11",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-11-12",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-11-13",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-11-14",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-11-15",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-11-16",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-11-17",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-11-18",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-11-19",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-11-20",
+      "tipo_dia": "feriado",
+      "descricao": "Dia Nacional de Zumbi e da Consciência Negra",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-11-21",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-11-22",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-11-23",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-11-24",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-11-25",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-11-26",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-11-27",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-11-28",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-11-29",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-11-30",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-12-01",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-12-02",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-12-03",
+      "tipo_dia": "letivo",
+      "descricao": "Conselho de classe - sem aulas à tarde",
+      "turno_letivo": "manha"
+    },
+    {
+      "data": "2021-12-04",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-12-05",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-12-06",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-12-07",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-12-08",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-12-09",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-12-10",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-12-11",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-12-12",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-12-13",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-12-14",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-12-15",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-12-16",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-12-17",
+      "tipo_dia": "letivo",
+      "descricao": "Dia letivo",
+      "turno_letivo": "integral"
+    },
+    {
+      "data": "2021-12-18",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-12-19",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-12-20",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-12-21",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-12-22",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-12-23",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-12-24",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-12-25",
+      "tipo_dia": "feriado",
+      "descricao": "Natal",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-12-26",
+      "tipo_dia": "fim_de_semana",
+      "descricao": "Fim de semana",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-12-27",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-12-28",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-12-29",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-12-30",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    },
+    {
+      "data": "2021-12-31",
+      "tipo_dia": "ferias",
+      "descricao": "Férias escolares",
+      "turno_letivo": "nenhum"
+    }
+  ]
+}

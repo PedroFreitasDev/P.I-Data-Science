@@ -1,0 +1,3553 @@
+{
+  "sistema": "SGE - Sistema de Gestão Escolar (exportação simulada)",
+  "ano_letivo": 2022,
+  "turmas": [
+    {
+      "turma": "1º ano A",
+      "ano_letivo": 2022,
+      "turno": "manha",
+      "alunos": [
+        {
+          "id_aluno": 1866,
+          "nome": "Melissa Ribeiro",
+          "data_nascimento": "2015-04-02",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1869,
+          "nome": "Henrique Gomes",
+          "data_nascimento": "2015-04-11",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1870,
+          "nome": "Felipe Nunes Oliveira",
+          "data_nascimento": "2015-07-06",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1873,
+          "nome": "Davi Soares Nascimento",
+          "data_nascimento": "2016-01-01",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1876,
+          "nome": "Luiz Machado Moreira",
+          "data_nascimento": "2015-11-25",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1877,
+          "nome": "Elisa Ferreira",
+          "data_nascimento": "2016-03-07",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1878,
+          "nome": "Joaquim Souza Rocha",
+          "data_nascimento": "2015-08-06",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1881,
+          "nome": "Eduardo Carvalho Oliveira",
+          "data_nascimento": "2015-05-27",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1882,
+          "nome": "Ana Ferreira Ribeiro",
+          "data_nascimento": "2015-04-19",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1883,
+          "nome": "Isabela Vieira Oliveira",
+          "data_nascimento": "2015-12-17",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1884,
+          "nome": "João Correia",
+          "data_nascimento": "2016-03-17",
+          "restricao_alimentar": "Doença celíaca"
+        },
+        {
+          "id_aluno": 1885,
+          "nome": "Lorenzo Alves Barros",
+          "data_nascimento": "2015-08-10",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1887,
+          "nome": "Lorena Ramos Freitas",
+          "data_nascimento": "2015-10-20",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1888,
+          "nome": "Felipe Pinto",
+          "data_nascimento": "2016-01-03",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1889,
+          "nome": "Igor Soares Dias",
+          "data_nascimento": "2015-04-16",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1890,
+          "nome": "Helena Ribeiro",
+          "data_nascimento": "2016-03-04",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1893,
+          "nome": "Maria Nascimento",
+          "data_nascimento": "2015-07-23",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1894,
+          "nome": "Lorenzo Moreira",
+          "data_nascimento": "2015-10-18",
+          "restricao_alimentar": "Doença celíaca"
+        },
+        {
+          "id_aluno": 1895,
+          "nome": "Caio Lopes",
+          "data_nascimento": "2015-06-17",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1897,
+          "nome": "Igor Moraes",
+          "data_nascimento": "2015-10-22",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1899,
+          "nome": "Daniel Pereira Nunes",
+          "data_nascimento": "2015-11-28",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1901,
+          "nome": "Bryan Almeida Alves",
+          "data_nascimento": "2015-07-08",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1902,
+          "nome": "Natália Pinto",
+          "data_nascimento": "2015-06-14",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1903,
+          "nome": "Lívia Machado",
+          "data_nascimento": "2015-07-17",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1905,
+          "nome": "Diego Ribeiro",
+          "data_nascimento": "2015-04-14",
+          "restricao_alimentar": "Intolerância à lactose"
+        }
+      ]
+    },
+    {
+      "turma": "1º ano B",
+      "ano_letivo": 2022,
+      "turno": "tarde",
+      "alunos": [
+        {
+          "id_aluno": 1907,
+          "nome": "Caio Lima Almeida",
+          "data_nascimento": "2016-02-18",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1908,
+          "nome": "Vitor Moreira Machado",
+          "data_nascimento": "2015-06-01",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1909,
+          "nome": "Melissa Lopes",
+          "data_nascimento": "2015-12-14",
+          "restricao_alimentar": "Diabetes tipo 1"
+        },
+        {
+          "id_aluno": 1910,
+          "nome": "Gabriel Barbosa Nascimento",
+          "data_nascimento": "2015-11-14",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1911,
+          "nome": "Heitor Teixeira Fernandes",
+          "data_nascimento": "2015-12-30",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1912,
+          "nome": "Laura Barros Gomes",
+          "data_nascimento": "2016-01-17",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1913,
+          "nome": "Eduarda Machado Castro",
+          "data_nascimento": "2016-02-19",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1914,
+          "nome": "Olívia Santana Mendes",
+          "data_nascimento": "2015-08-19",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1917,
+          "nome": "Agatha Campos",
+          "data_nascimento": "2015-12-05",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1918,
+          "nome": "Lorenzo Souza Ribeiro",
+          "data_nascimento": "2015-06-13",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1919,
+          "nome": "Antônio Costa Ramos",
+          "data_nascimento": "2016-03-02",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1920,
+          "nome": "Lara Santana Nascimento",
+          "data_nascimento": "2015-06-24",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1923,
+          "nome": "Yuri Nascimento Martins",
+          "data_nascimento": "2015-11-18",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1924,
+          "nome": "Lucas Almeida Rezende",
+          "data_nascimento": "2015-07-29"
+        },
+        {
+          "id_aluno": 1925,
+          "nome": "Letícia Ferreira",
+          "data_nascimento": "2015-05-15",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1926,
+          "nome": "Mateus Costa Barbosa",
+          "data_nascimento": "2015-07-02",
+          "restricao_alimentar": "Doença celíaca"
+        },
+        {
+          "id_aluno": 1927,
+          "nome": "Heitor Lopes Pinto",
+          "data_nascimento": "2016-02-17",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1928,
+          "nome": "Débora Carvalho Vieira",
+          "data_nascimento": "2016-03-02",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1929,
+          "nome": "Rafael Lima Cavalcanti",
+          "data_nascimento": "2015-08-23",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1931,
+          "nome": "Heitor Almeida",
+          "data_nascimento": "2015-08-28",
+          "restricao_alimentar": "Intolerância à lactose"
+        },
+        {
+          "id_aluno": 1933,
+          "nome": "Juliana Oliveira",
+          "data_nascimento": "2015-09-26",
+          "restricao_alimentar": "Diabetes tipo 1"
+        },
+        {
+          "id_aluno": 1934,
+          "nome": "Isaac Pereira",
+          "data_nascimento": "2015-12-10",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1935,
+          "nome": "Elisa Santana Nascimento",
+          "data_nascimento": "2015-05-17",
+          "restricao_alimentar": "Diabetes tipo 1"
+        }
+      ]
+    },
+    {
+      "turma": "2º ano A",
+      "ano_letivo": 2022,
+      "turno": "manha",
+      "alunos": [
+        {
+          "id_aluno": 1793,
+          "nome": "Benício Ribeiro Lima",
+          "data_nascimento": "2014-08-10",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1796,
+          "nome": "Lara Nunes Toledo",
+          "data_nascimento": "2015-02-01",
+          "restricao_alimentar": "Intolerância à lactose"
+        },
+        {
+          "id_aluno": 1799,
+          "nome": "Natália Fernandes Santana",
+          "data_nascimento": "2015-02-12",
+          "restricao_alimentar": "Alergia a amendoim"
+        },
+        {
+          "id_aluno": 1800,
+          "nome": "Guilherme Moraes",
+          "data_nascimento": "2015-02-06",
+          "restricao_alimentar": "Intolerância à lactose"
+        },
+        {
+          "id_aluno": 1803,
+          "nome": "Igor Mendes Souza",
+          "data_nascimento": "2014-06-11",
+          "restricao_alimentar": "Diabetes tipo 1"
+        },
+        {
+          "id_aluno": 1806,
+          "nome": "Isabela Pereira",
+          "data_nascimento": "2013-12-26",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1807,
+          "nome": "Eduarda Correia Gomes",
+          "data_nascimento": "2014-09-03",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1808,
+          "nome": "Matheus Ramos Castro",
+          "data_nascimento": "2014-09-19",
+          "restricao_alimentar": "Doença celíaca"
+        },
+        {
+          "id_aluno": 1811,
+          "nome": "Letícia Carvalho",
+          "data_nascimento": "2013-06-28",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1813,
+          "nome": "Nicole Freitas Ferreira",
+          "data_nascimento": "2014-12-14",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1814,
+          "nome": "Thiago Alves Moreira",
+          "data_nascimento": "2015-01-30",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1815,
+          "nome": "Letícia Cardoso Nascimento",
+          "data_nascimento": "2014-12-20",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1818,
+          "nome": "Bernardo Santos Moreira",
+          "data_nascimento": "2015-02-19",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1819,
+          "nome": "Fernando Araújo Fernandes",
+          "data_nascimento": "2014-04-02",
+          "restricao_alimentar": "Doença celíaca"
+        },
+        {
+          "id_aluno": 1820,
+          "nome": "Luiz Marques",
+          "data_nascimento": "2015-03-03",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1823,
+          "nome": "Fernando Fragoso Freitas",
+          "data_nascimento": "2014-08-22",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1824,
+          "nome": "Lívia Almeida Teixeira",
+          "data_nascimento": "2014-07-18",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1826,
+          "nome": "Davi Azevedo",
+          "data_nascimento": "2014-06-18",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1828,
+          "nome": "João Santana",
+          "data_nascimento": "2015-01-09",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1830,
+          "nome": "Luiz Rocha Carvalho",
+          "data_nascimento": "2014-05-17",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1832,
+          "nome": "Emanuelly Alves",
+          "data_nascimento": "2014-04-10",
+          "restricao_alimentar": "Nenhuma"
+        }
+      ]
+    },
+    {
+      "turma": "2º ano B",
+      "ano_letivo": 2022,
+      "turno": "tarde",
+      "alunos": [
+        {
+          "id_aluno": 1834,
+          "nome": "Lorena Teixeira",
+          "data_nascimento": "2014-07-05",
+          "restricao_alimentar": "Doença celíaca"
+        },
+        {
+          "id_aluno": 1837,
+          "nome": "Bruno Moreira Teixeira",
+          "data_nascimento": "2014-04-29",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1838,
+          "nome": "Kaique Silva Gonçalves",
+          "data_nascimento": "2014-08-15",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1839,
+          "nome": "Leonardo Toledo Mendes",
+          "data_nascimento": "2015-01-02",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1840,
+          "nome": "Giovanna Cavalcanti",
+          "data_nascimento": "2014-05-05",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1841,
+          "nome": "Lorena Moreira",
+          "data_nascimento": "2014-06-26",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1842,
+          "nome": "Lucas Vieira Teixeira",
+          "data_nascimento": "2014-05-08",
+          "restricao_alimentar": "Intolerância à lactose"
+        },
+        {
+          "id_aluno": 1843,
+          "nome": "Juliana Oliveira",
+          "data_nascimento": "2014-05-24",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1844,
+          "nome": "Otávio Gonçalves Cardoso",
+          "data_nascimento": "2015-01-28",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1846,
+          "nome": "José Pereira Costa",
+          "data_nascimento": "2014-09-09",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1849,
+          "nome": "Vinícius Cavalcanti Soares",
+          "data_nascimento": "2014-09-17",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": "001850",
+          "nome": "Rodrigo Cavalcanti",
+          "data_nascimento": "2014-10-04",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1851,
+          "nome": "Mateus Fernandes Costa",
+          "data_nascimento": "2014-07-29",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1852,
+          "nome": "Juliana Barros Ferreira",
+          "data_nascimento": "2015-03-05",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1853,
+          "nome": "Antônio Alves",
+          "data_nascimento": "2014-08-17",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1855,
+          "nome": "Clara Rocha Monteiro",
+          "data_nascimento": "2013-05-27",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1856,
+          "nome": "Larissa Campos Machado",
+          "data_nascimento": "2014-11-26",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1857,
+          "nome": "Manuela Campos",
+          "data_nascimento": "2014-09-08",
+          "restricao_alimentar": "Intolerância à lactose"
+        },
+        {
+          "id_aluno": 1859,
+          "nome": "Marina Barros",
+          "data_nascimento": "2015-03-22",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1860,
+          "nome": "Mirella Santos Monteiro",
+          "data_nascimento": "2014-08-09",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1862,
+          "nome": "Vitória Teixeira Gonçalves",
+          "data_nascimento": "2015-01-11",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1864,
+          "nome": "Kaique Soares Martins",
+          "data_nascimento": "2014-07-10",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1865,
+          "nome": " Pedro Barbosa Ferreira  ",
+          "data_nascimento": "2015-03-20",
+          "restricao_alimentar": "Nenhuma"
+        }
+      ]
+    },
+    {
+      "turma": "3º ano A",
+      "ano_letivo": 2022,
+      "turno": "manha",
+      "alunos": [
+        {
+          "id_aluno": 1710,
+          "nome": "Melissa Gonçalves Ferreira",
+          "data_nascimento": "2013-05-29",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1712,
+          "nome": "Mirella Martins Cardoso",
+          "data_nascimento": "2013-06-06",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1713,
+          "nome": "Esther Araújo",
+          "data_nascimento": "2013-03-29",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1714,
+          "nome": "Larissa Oliveira Marques",
+          "data_nascimento": "2014-03-24",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1716,
+          "nome": "Débora Machado Oliveira",
+          "data_nascimento": "2013-12-21",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1719,
+          "nome": "Mateus Araújo Santos",
+          "data_nascimento": "2014-02-23",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1721,
+          "nome": "Daniel Ramos",
+          "data_nascimento": "2013-08-18",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1722,
+          "nome": "Maria Soares Gomes",
+          "data_nascimento": "2013-08-15",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1723,
+          "nome": "Fernando Azevedo Rezende",
+          "data_nascimento": "2014-03-15",
+          "restricao_alimentar": "Vegetariano"
+        },
+        {
+          "id_aluno": 1724,
+          "nome": "Cauã Santana Ribeiro",
+          "data_nascimento": "2013-07-18",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1726,
+          "nome": "Lucas Souza",
+          "data_nascimento": "2014-01-12",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1729,
+          "nome": "Gabriela Duarte Souza",
+          "data_nascimento": "2013-11-14",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1731,
+          "nome": "Emanuelly Pinto",
+          "data_nascimento": "2013-05-09",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1732,
+          "nome": "Juliana Monteiro Souza",
+          "data_nascimento": "2013-06-24",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1733,
+          "nome": "Caio Martins",
+          "data_nascimento": "2013-07-14",
+          "restricao_alimentar": "Intolerância à lactose"
+        },
+        {
+          "id_aluno": 1734,
+          "nome": "Catarina Rezende",
+          "data_nascimento": "2013-07-24",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1735,
+          "nome": "Thiago Gomes Cavalcanti",
+          "data_nascimento": "2014-03-29",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1737,
+          "nome": "Agatha Gonçalves",
+          "data_nascimento": "2013-11-30",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1740,
+          "nome": "Bryan Nunes Carvalho",
+          "data_nascimento": "2013-04-23",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1741,
+          "nome": "Julia Azevedo Correia",
+          "data_nascimento": "2013-10-27",
+          "restricao_alimentar": "Vegetariano"
+        },
+        {
+          "id_aluno": 1743,
+          "nome": "Eduarda Mendes",
+          "data_nascimento": "2013-06-08",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1745,
+          "nome": "Ravi Carvalho Azevedo",
+          "data_nascimento": "2013-09-02",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1747,
+          "nome": "Débora Martins",
+          "data_nascimento": "2013-05-05",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1748,
+          "nome": "Melissa Almeida Barbosa",
+          "data_nascimento": "2014-02-10",
+          "restricao_alimentar": "Nenhuma"
+        }
+      ]
+    },
+    {
+      "turma": "3º ano B",
+      "ano_letivo": 2022,
+      "turno": "tarde",
+      "alunos": [
+        {
+          "id_aluno": 1749,
+          "nome": "Elisa Campos Miranda",
+          "data_nascimento": "2013-05-13",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1751,
+          "nome": "Larissa Moreira",
+          "data_nascimento": "2014-02-06",
+          "restricao_alimentar": "Intolerância à lactose"
+        },
+        {
+          "id_aluno": 1754,
+          "nome": "Carolina Azevedo Araújo",
+          "data_nascimento": "2013-10-20",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1756,
+          "nome": "Matheus Freitas Rezende",
+          "data_nascimento": "2013-09-07",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1757,
+          "nome": "Lorena Oliveira Pereira",
+          "data_nascimento": "2013-07-14",
+          "restricao_alimentar": "Alergia a amendoim"
+        },
+        {
+          "id_aluno": 1758,
+          "nome": "Daniel Pereira Andrade",
+          "data_nascimento": "2013-06-08",
+          "restricao_alimentar": "Vegetariano"
+        },
+        {
+          "id_aluno": 1759,
+          "nome": "Joaquim Ferreira",
+          "data_nascimento": "2013-09-15",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1760,
+          "nome": "Olívia Souza Duarte",
+          "data_nascimento": "2014-01-10",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1763,
+          "nome": "Lívia Fragoso Toledo",
+          "data_nascimento": "2014-01-08",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1764,
+          "nome": "Heloísa Alves Azevedo",
+          "data_nascimento": "2013-08-03",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1767,
+          "nome": "Gabriela Freitas Cavalcanti",
+          "data_nascimento": "2013-08-18",
+          "restricao_alimentar": "Doença celíaca"
+        },
+        {
+          "id_aluno": 1768,
+          "nome": "Beatriz Gonçalves",
+          "data_nascimento": "2013-05-15",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1771,
+          "nome": "Rodrigo Ribeiro Silva",
+          "data_nascimento": "2014-01-02",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1772,
+          "nome": "Samuel Lima Azevedo",
+          "data_nascimento": "2013-08-14",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1773,
+          "nome": "José Soares",
+          "data_nascimento": "2013-11-06",
+          "restricao_alimentar": "Intolerância à lactose"
+        },
+        {
+          "id_aluno": 1774,
+          "nome": "Antônio Gomes",
+          "data_nascimento": "2013-09-20",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1775,
+          "nome": "Eduardo Fernandes Fragoso",
+          "data_nascimento": "2013-12-23",
+          "restricao_alimentar": "Intolerância à lactose"
+        },
+        {
+          "id_aluno": 1776,
+          "nome": "Olívia Rocha Carvalho",
+          "data_nascimento": "2013-06-11",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1779,
+          "nome": "Clara Duarte Freitas",
+          "data_nascimento": "2013-12-08",
+          "restricao_alimentar": "Intolerância à lactose"
+        },
+        {
+          "id_aluno": 1781,
+          "nome": "Murilo Toledo Monteiro",
+          "data_nascimento": "2014-02-24",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1782,
+          "nome": "Henrique Toledo Gomes",
+          "data_nascimento": "2013-12-22",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1783,
+          "nome": "Miguel Dias Santana",
+          "data_nascimento": "2014-01-22",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1785,
+          "nome": "Sarah Barbosa Pinto",
+          "data_nascimento": "2013-04-27",
+          "restricao_alimentar": "Intolerância à lactose"
+        },
+        {
+          "id_aluno": 1786,
+          "nome": "Mateus Barbosa Fragoso",
+          "data_nascimento": "2013-05-30",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1787,
+          "nome": "Nicolas Araújo Castro",
+          "data_nascimento": "2013-04-28",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1789,
+          "nome": "Samuel Vieira Ferreira",
+          "data_nascimento": "2014-02-21",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1792,
+          "nome": "Marcelo Nascimento Machado",
+          "data_nascimento": "2014-01-11",
+          "restricao_alimentar": "Nenhuma"
+        }
+      ]
+    },
+    {
+      "turma": "4º ano A",
+      "ano_letivo": 2022,
+      "turno": "manha",
+      "alunos": [
+        {
+          "id_aluno": 1642,
+          "nome": "Camila Ribeiro Ramos",
+          "data_nascimento": "2012-05-18",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1643,
+          "nome": "Miguel Lima Cavalcanti",
+          "data_nascimento": "2013-03-22",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1646,
+          "nome": "Theo Mendes",
+          "data_nascimento": "2012-08-11",
+          "restricao_alimentar": "Vegetariano"
+        },
+        {
+          "id_aluno": 1649,
+          "nome": "Emanuel Almeida",
+          "data_nascimento": "2012-05-06",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1650,
+          "nome": "Mariana Barbosa",
+          "data_nascimento": "2012-06-19",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1651,
+          "nome": "Samuel Freitas Miranda",
+          "data_nascimento": "2013-03-18",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1652,
+          "nome": "Catarina Ferreira",
+          "data_nascimento": "2012-06-04",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1653,
+          "nome": "Valentina Gomes Mendes",
+          "data_nascimento": "2011-04-24",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1654,
+          "nome": "Emanuelly Alves Carvalho",
+          "data_nascimento": "2012-09-02",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1656,
+          "nome": "Diego Fragoso Ribeiro",
+          "data_nascimento": "2012-06-16",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1658,
+          "nome": "Maria Rezende Silva",
+          "data_nascimento": "2012-11-23",
+          "restricao_alimentar": "Diabetes tipo 1"
+        },
+        {
+          "id_aluno": 1660,
+          "nome": "Rodrigo Lopes Alves",
+          "data_nascimento": "2012-08-09",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1661,
+          "nome": "Luana Ramos",
+          "data_nascimento": "2012-04-27",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1662,
+          "nome": "Benício Santos Campos",
+          "data_nascimento": "2012-01-13",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1663,
+          "nome": "Vinícius Carvalho",
+          "data_nascimento": "2012-05-04",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1664,
+          "nome": "Giovanna Santana",
+          "data_nascimento": "2012-09-01",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1665,
+          "nome": "Lucas Souza",
+          "data_nascimento": "2012-08-16",
+          "restricao_alimentar": "Vegetariano"
+        },
+        {
+          "id_aluno": 1666,
+          "nome": "Débora Silva Fernandes",
+          "data_nascimento": "2012-04-17",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1667,
+          "nome": "Luana Alves Gonçalves",
+          "data_nascimento": "2012-04-27",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1668,
+          "nome": "Mateus Vieira",
+          "data_nascimento": "2012-11-02",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1669,
+          "nome": "Bianca Dias",
+          "data_nascimento": "2012-07-14",
+          "restricao_alimentar": "Nenhuma"
+        }
+      ]
+    },
+    {
+      "turma": "4º ano B",
+      "ano_letivo": 2022,
+      "turno": "tarde",
+      "alunos": [
+        {
+          "id_aluno": 1670,
+          "nome": "Laura Souza",
+          "data_nascimento": "2012-09-23",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1673,
+          "nome": "Cauã Ferreira",
+          "data_nascimento": "2013-02-14",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1674,
+          "nome": "Marcelo Correia Martins",
+          "data_nascimento": "2012-10-20",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1676,
+          "nome": "Sarah Duarte Oliveira",
+          "data_nascimento": "2013-03-19",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1678,
+          "nome": "Yasmin Marques",
+          "data_nascimento": "2012-12-11",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1679,
+          "nome": "Débora Barros",
+          "data_nascimento": "2012-04-09",
+          "restricao_alimentar": "Intolerância à lactose"
+        },
+        {
+          "id_aluno": 1680,
+          "nome": "Cauã Gonçalves Ferreira",
+          "data_nascimento": "2013-03-20",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1681,
+          "nome": "Bruno Toledo Santana",
+          "data_nascimento": "2012-11-21",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1682,
+          "nome": "Henrique Silva Barbosa",
+          "data_nascimento": "2013-02-28",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1683,
+          "nome": "Arthur Monteiro",
+          "data_nascimento": "2012-07-16",
+          "restricao_alimentar": "Doença celíaca"
+        },
+        {
+          "id_aluno": "001685",
+          "nome": "Lívia Barros Silva",
+          "data_nascimento": "2012-12-04",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1687,
+          "nome": "Melissa Marques",
+          "data_nascimento": "2012-04-23",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1688,
+          "nome": "Clara Vieira Gonçalves",
+          "data_nascimento": "2013-03-22",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1691,
+          "nome": "Mariana Castro Soares",
+          "data_nascimento": "2012-04-01",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1692,
+          "nome": "Helena Fragoso Duarte",
+          "data_nascimento": "2013-03-03",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1695,
+          "nome": "Caio Barros",
+          "data_nascimento": "2013-03-18",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1696,
+          "nome": "Rafaela Lopes Marques",
+          "data_nascimento": "2011-11-27",
+          "restricao_alimentar": "Intolerância à lactose"
+        },
+        {
+          "id_aluno": 1697,
+          "nome": "Daniel Freitas Toledo",
+          "data_nascimento": "2012-09-16",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1698,
+          "nome": "Clara Fernandes Nunes",
+          "data_nascimento": "2012-07-01",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1700,
+          "nome": "Lara Monteiro Dias",
+          "data_nascimento": "2012-04-30",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1703,
+          "nome": "Eduardo Martins",
+          "data_nascimento": "2012-10-16",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1704,
+          "nome": "Enzo Gonçalves",
+          "data_nascimento": "2012-11-06",
+          "restricao_alimentar": "Intolerância à lactose"
+        },
+        {
+          "id_aluno": 1707,
+          "nome": "Giovanna Araújo",
+          "data_nascimento": "2012-11-18",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1708,
+          "nome": "Lorena Alves Pereira",
+          "data_nascimento": "2012-07-02",
+          "restricao_alimentar": "Nenhuma"
+        }
+      ]
+    },
+    {
+      "turma": "5º ano A",
+      "ano_letivo": 2022,
+      "turno": "manha",
+      "alunos": [
+        {
+          "id_aluno": 1557,
+          "nome": "Rodrigo Machado Monteiro",
+          "data_nascimento": "2011-12-12",
+          "restricao_alimentar": "Alergia a amendoim"
+        },
+        {
+          "id_aluno": 1558,
+          "nome": "Yasmin Barros",
+          "data_nascimento": "2011-07-03",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1560,
+          "nome": "Rebeca Silva",
+          "data_nascimento": "2011-07-25",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1561,
+          "nome": "Diego Lima Rocha",
+          "data_nascimento": "2011-04-29",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1564,
+          "nome": "Davi Barros Cardoso",
+          "data_nascimento": "2011-09-10",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1567,
+          "nome": "Laura Castro Cavalcanti",
+          "data_nascimento": "2012-01-17",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1568,
+          "nome": "Daniel Freitas",
+          "data_nascimento": "2011-12-13",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1569,
+          "nome": "Letícia Toledo Marques",
+          "data_nascimento": "2012-01-10",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1572,
+          "nome": "Davi Castro Moreira",
+          "data_nascimento": "2010-10-01",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1573,
+          "nome": "Paula Gonçalves Fragoso",
+          "data_nascimento": "2011-11-28",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1574,
+          "nome": "Benício Nunes",
+          "data_nascimento": "2012-01-11",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1575,
+          "nome": "Antônio Rocha Oliveira",
+          "data_nascimento": "2012-01-09",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1576,
+          "nome": "Otávio Soares Moraes",
+          "data_nascimento": "2011-11-24",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1577,
+          "nome": "Luiza Teixeira Fragoso",
+          "data_nascimento": "2011-04-29",
+          "restricao_alimentar": "Diabetes tipo 1"
+        },
+        {
+          "id_aluno": 1579,
+          "nome": "Julia Vieira Moreira",
+          "data_nascimento": "2012-02-22",
+          "restricao_alimentar": "Intolerância à lactose"
+        },
+        {
+          "id_aluno": 1582,
+          "nome": "Gabriel Nunes Souza",
+          "data_nascimento": "2011-09-15",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1583,
+          "nome": "Lívia Castro",
+          "data_nascimento": "2011-11-28",
+          "restricao_alimentar": "Doença celíaca"
+        },
+        {
+          "id_aluno": 1586,
+          "nome": "Olívia Campos Nascimento",
+          "data_nascimento": "2011-11-19",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1588,
+          "nome": "Vicente Araújo",
+          "data_nascimento": "2011-08-12",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1589,
+          "nome": "Diego Costa",
+          "data_nascimento": "2011-09-02",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1592,
+          "nome": "Theo Moreira Nunes",
+          "data_nascimento": "2011-11-10",
+          "restricao_alimentar": "Intolerância à lactose"
+        },
+        {
+          "id_aluno": 1594,
+          "nome": "Juliana Pinto",
+          "data_nascimento": "2011-07-22",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1595,
+          "nome": "Natália Nunes",
+          "data_nascimento": "2012-01-29",
+          "restricao_alimentar": "Intolerância à lactose"
+        },
+        {
+          "id_aluno": 1598,
+          "nome": "Isaac Almeida",
+          "data_nascimento": "2012-03-22",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1599,
+          "nome": "Rafaela Barros",
+          "data_nascimento": "2012-03-04",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1601,
+          "nome": "Mirella Souza",
+          "data_nascimento": "2012-01-31",
+          "restricao_alimentar": "Intolerância à lactose"
+        },
+        {
+          "id_aluno": 1602,
+          "nome": "Emanuelly Ribeiro Costa",
+          "data_nascimento": "2011-11-07",
+          "restricao_alimentar": "Nenhuma"
+        }
+      ]
+    },
+    {
+      "turma": "5º ano B",
+      "ano_letivo": 2022,
+      "turno": "tarde",
+      "alunos": [
+        {
+          "id_aluno": 1604,
+          "nome": "Lívia Azevedo",
+          "data_nascimento": "2011-11-22",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1606,
+          "nome": "Lorena Araújo Cavalcanti",
+          "data_nascimento": "2011-07-13",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1609,
+          "nome": "Catarina Campos",
+          "data_nascimento": "2012-03-01",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1611,
+          "nome": "José Martins",
+          "data_nascimento": "2011-07-29",
+          "restricao_alimentar": "Intolerância à lactose"
+        },
+        {
+          "id_aluno": 1612,
+          "nome": "Natália Ferreira",
+          "data_nascimento": "2011-05-22",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1614,
+          "nome": "Henrique Carvalho Santana",
+          "data_nascimento": "2011-11-11",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1615,
+          "nome": "Murilo Barros Freitas",
+          "data_nascimento": "2012-01-06",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1616,
+          "nome": "Davi Mendes Campos",
+          "data_nascimento": "2011-06-21",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1617,
+          "nome": "Manuela Pinto",
+          "data_nascimento": "2010-07-05",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1618,
+          "nome": "Pedro Araújo",
+          "data_nascimento": "2012-03-23",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1619,
+          "nome": "Isadora Barros Miranda",
+          "data_nascimento": "2011-11-16",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1620,
+          "nome": "Vicente Mendes Duarte",
+          "data_nascimento": "2011-09-03",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1622,
+          "nome": "Carolina Marques Campos",
+          "data_nascimento": "2012-02-28",
+          "restricao_alimentar": "Doença celíaca"
+        },
+        {
+          "id_aluno": 1623,
+          "nome": "Isaac Mendes",
+          "data_nascimento": "2012-01-18",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1624,
+          "nome": "Luiza Oliveira",
+          "data_nascimento": "2011-05-12",
+          "restricao_alimentar": "Intolerância à lactose"
+        },
+        {
+          "id_aluno": 1625,
+          "nome": "Eduardo Monteiro Nascimento",
+          "data_nascimento": "2011-05-08",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1626,
+          "nome": "Davi Andrade Monteiro",
+          "data_nascimento": "2012-01-21",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": "001627",
+          "nome": "Igor Oliveira Santos",
+          "data_nascimento": "2011-07-30",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1628,
+          "nome": "Diego Campos",
+          "data_nascimento": "2011-12-02",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1629,
+          "nome": "Vitória Araújo",
+          "data_nascimento": "2011-04-10",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1632,
+          "nome": "Rodrigo Santos",
+          "data_nascimento": "2011-06-02",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1634,
+          "nome": "Bianca Ramos",
+          "data_nascimento": "2011-05-23",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1635,
+          "nome": "Agatha Nascimento Barbosa",
+          "data_nascimento": "2011-01-26",
+          "restricao_alimentar": "Diabetes tipo 1"
+        },
+        {
+          "id_aluno": 1636,
+          "nome": "Bianca Vieira Lopes",
+          "data_nascimento": "2011-12-16",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1638,
+          "nome": "Esther Machado",
+          "data_nascimento": "2011-06-17",
+          "restricao_alimentar": "Intolerância à lactose"
+        },
+        {
+          "id_aluno": 1639,
+          "nome": "Lavínia Barbosa Mendes",
+          "data_nascimento": "2012-03-31",
+          "restricao_alimentar": "Nenhuma"
+        }
+      ]
+    },
+    {
+      "turma": "6º ano A",
+      "ano_letivo": 2022,
+      "turno": "manha",
+      "alunos": [
+        {
+          "id_aluno": 1488,
+          "nome": "Giovanna Cavalcanti Silva",
+          "data_nascimento": "2010-06-09",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1490,
+          "nome": "Ravi Rocha Vieira",
+          "data_nascimento": "2011-02-07",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1493,
+          "nome": "Elisa Vieira Barbosa",
+          "data_nascimento": "2010-10-27",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1494,
+          "nome": "Bryan Fernandes Gomes",
+          "data_nascimento": "2010-05-11",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1495,
+          "nome": "Eduardo Gomes",
+          "data_nascimento": "2010-09-20",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1496,
+          "nome": "Beatriz Fernandes Gonçalves",
+          "data_nascimento": "2010-04-29",
+          "restricao_alimentar": "Intolerância à lactose"
+        },
+        {
+          "id_aluno": "001499",
+          "nome": "Gustavo Lopes Ribeiro",
+          "data_nascimento": "2011-01-14",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1500,
+          "nome": "Eduardo Pereira",
+          "data_nascimento": "2011-02-05",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1501,
+          "nome": "Pedro Santana Barbosa",
+          "data_nascimento": "2010-04-12",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1504,
+          "nome": "Agatha Fragoso Ramos",
+          "data_nascimento": "2010-12-27",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1507,
+          "nome": "Vitor Dias",
+          "data_nascimento": "2010-07-17",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1508,
+          "nome": "Cecília Rezende Ferreira",
+          "data_nascimento": "2011-03-02",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1509,
+          "nome": "Bruno Freitas Ribeiro",
+          "data_nascimento": "2010-09-28",
+          "restricao_alimentar": "Intolerância à lactose"
+        },
+        {
+          "id_aluno": 1510,
+          "nome": "Joaquim Alves Nunes",
+          "data_nascimento": "2010-12-31",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1511,
+          "nome": "Joaquim Miranda Machado",
+          "data_nascimento": "2010-11-19",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1514,
+          "nome": "Luana Dias",
+          "data_nascimento": "2010-08-06",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1516,
+          "nome": "Eduarda Ferreira Oliveira",
+          "data_nascimento": "2010-10-09",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": "1517",
+          "nome": "Lucas Lima Gomes",
+          "data_nascimento": "2010-08-11",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1518,
+          "nome": "Marina Gonçalves",
+          "data_nascimento": "2010-12-11",
+          "restricao_alimentar": "Diabetes tipo 1"
+        },
+        {
+          "id_aluno": 1520,
+          "nome": "Paula Castro Santos",
+          "data_nascimento": "2010-10-16",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1522,
+          "nome": "Bernardo Cardoso",
+          "data_nascimento": "2010-11-12",
+          "restricao_alimentar": "Nenhuma"
+        }
+      ]
+    },
+    {
+      "turma": "6º ano B",
+      "ano_letivo": 2022,
+      "turno": "manha",
+      "alunos": [
+        {
+          "id_aluno": 1523,
+          "nome": "Mateus Gomes",
+          "data_nascimento": "2010-09-21",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1524,
+          "nome": "Sarah Miranda Gomes",
+          "data_nascimento": "2010-12-27",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1525,
+          "nome": "Pedro Freitas Lopes",
+          "data_nascimento": "2010-09-03",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1526,
+          "nome": "Leonardo Barbosa Pereira",
+          "data_nascimento": "2010-09-06",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1527,
+          "nome": "Gabriel Pereira Miranda",
+          "data_nascimento": "2010-06-19",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1530,
+          "nome": "Emanuelly Santana",
+          "data_nascimento": "2011-02-25",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1531,
+          "nome": "Antônio Gonçalves Azevedo",
+          "data_nascimento": "2011-03-03",
+          "restricao_alimentar": "Doença celíaca"
+        },
+        {
+          "id_aluno": 1532,
+          "nome": "Antônio Pinto",
+          "data_nascimento": "2011-03-28",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1535,
+          "nome": "Manuela Costa",
+          "data_nascimento": "2010-06-09",
+          "restricao_alimentar": "Intolerância à lactose"
+        },
+        {
+          "id_aluno": 1538,
+          "nome": "Luiza Costa Alves",
+          "data_nascimento": "2009-11-24",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1539,
+          "nome": "Bianca Gonçalves Nunes",
+          "data_nascimento": "2010-09-06",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": "001541",
+          "nome": "Giovanna Vieira Pereira",
+          "data_nascimento": "2010-12-26",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1544,
+          "nome": "Laura Toledo",
+          "data_nascimento": "2011-02-21",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1547,
+          "nome": "Murilo Mendes Gonçalves",
+          "data_nascimento": "2010-11-04",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1548,
+          "nome": "Isadora Rezende Martins",
+          "data_nascimento": "2010-02-12",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1549,
+          "nome": "Rafaela Toledo",
+          "data_nascimento": "2010-09-27",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1550,
+          "nome": "Agatha Machado",
+          "data_nascimento": "2009-05-05",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1551,
+          "nome": "Antônio Nunes Barbosa",
+          "data_nascimento": "2010-08-30",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1552,
+          "nome": "Guilherme Pinto",
+          "data_nascimento": "2011-03-25",
+          "restricao_alimentar": "Diabetes tipo 1"
+        },
+        {
+          "id_aluno": 1553,
+          "nome": "Melissa Rezende",
+          "data_nascimento": "2011-02-19",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1554,
+          "nome": "Rebeca Lima Miranda",
+          "data_nascimento": "2010-06-10",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1556,
+          "nome": "Davi Santos Pereira",
+          "data_nascimento": "2010-07-01",
+          "restricao_alimentar": "Nenhuma"
+        }
+      ]
+    },
+    {
+      "turma": "7º ano A",
+      "ano_letivo": 2022,
+      "turno": "manha",
+      "alunos": [
+        {
+          "id_aluno": 1420,
+          "nome": "Larissa Vieira",
+          "data_nascimento": "2010-03-08",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1422,
+          "nome": "Luiz Dias Azevedo",
+          "data_nascimento": "2009-12-10",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1423,
+          "nome": "Lorenzo Andrade",
+          "data_nascimento": "2009-05-28",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1426,
+          "nome": "Carolina Azevedo",
+          "data_nascimento": "2008-04-12",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1427,
+          "nome": "Juliana Rocha",
+          "data_nascimento": "2010-02-12",
+          "restricao_alimentar": "Intolerância à lactose"
+        },
+        {
+          "id_aluno": 1429,
+          "nome": "Valentina Marques Moraes",
+          "data_nascimento": "2009-06-05",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1431,
+          "nome": "Rafaela Costa Teixeira",
+          "data_nascimento": "2009-04-30",
+          "restricao_alimentar": "Intolerância à lactose"
+        },
+        {
+          "id_aluno": 1432,
+          "nome": "Elisa Oliveira",
+          "data_nascimento": "2008-09-08",
+          "restricao_alimentar": "Diabetes tipo 1"
+        },
+        {
+          "id_aluno": 1433,
+          "nome": "Theo Fernandes Dias",
+          "data_nascimento": "2009-09-26",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1434,
+          "nome": "Elisa Vieira",
+          "data_nascimento": "2008-09-23",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1436,
+          "nome": "Heloísa Santos",
+          "data_nascimento": "2008-12-12",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1437,
+          "nome": "Paula Vieira",
+          "data_nascimento": "2009-09-05",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1440,
+          "nome": "Rebeca Rezende",
+          "data_nascimento": "2010-02-16",
+          "restricao_alimentar": "Vegetariano"
+        },
+        {
+          "id_aluno": 1442,
+          "nome": "Guilherme Fragoso",
+          "data_nascimento": "2009-08-01",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1443,
+          "nome": "Sofia Barros Cavalcanti",
+          "data_nascimento": "2009-02-15",
+          "restricao_alimentar": "Intolerância à lactose"
+        },
+        {
+          "id_aluno": 1444,
+          "nome": "Luana Rodrigues Fernandes",
+          "data_nascimento": "2009-04-29",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1445,
+          "nome": "Rodrigo Correia Costa",
+          "data_nascimento": "2009-06-17",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1447,
+          "nome": "Larissa Ribeiro",
+          "data_nascimento": "2009-06-09",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1448,
+          "nome": "Miguel Costa Nunes",
+          "data_nascimento": "2009-09-27",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1449,
+          "nome": "Rafael Mendes Rodrigues",
+          "data_nascimento": "2010-03-20",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1450,
+          "nome": "Yasmin Barros Martins",
+          "data_nascimento": "2009-11-06",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1451,
+          "nome": "Olívia Pinto Marques",
+          "data_nascimento": "2008-06-05",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1454,
+          "nome": "Pietro Souza",
+          "data_nascimento": "2009-08-23",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1455,
+          "nome": "Melissa Dias Fernandes",
+          "data_nascimento": "2009-03-01",
+          "restricao_alimentar": "Nenhuma"
+        }
+      ]
+    },
+    {
+      "turma": "7º ano B",
+      "ano_letivo": 2022,
+      "alunos": [
+        {
+          "id_aluno": 1456,
+          "nome": "Vinícius Ribeiro",
+          "data_nascimento": "2009-07-22",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1457,
+          "nome": "Lara Almeida",
+          "data_nascimento": "2009-05-04",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1458,
+          "nome": "Beatriz Andrade Castro",
+          "data_nascimento": "2009-11-09",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1459,
+          "nome": "Beatriz Ramos Dias",
+          "data_nascimento": "2010-02-13",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1460,
+          "nome": "Juliana Barros",
+          "data_nascimento": "2010-01-19",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1463,
+          "nome": "Joaquim Azevedo Dias",
+          "data_nascimento": "2010-01-10",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1464,
+          "nome": "Ravi Ferreira Barros",
+          "data_nascimento": "2010-02-07",
+          "restricao_alimentar": "Alergia a amendoim"
+        },
+        {
+          "id_aluno": 1465,
+          "nome": "Marcelo Rodrigues",
+          "data_nascimento": "2009-09-09",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1468,
+          "nome": "Lívia Almeida Campos",
+          "data_nascimento": "2009-06-07",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1469,
+          "nome": "Thiago Freitas",
+          "data_nascimento": "2009-05-09",
+          "restricao_alimentar": "Alergia a amendoim"
+        },
+        {
+          "id_aluno": 1470,
+          "nome": " Kaique Vieira Moreira  ",
+          "data_nascimento": "2009-07-19",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1471,
+          "nome": "Miguel Toledo",
+          "data_nascimento": "2010-02-28",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1474,
+          "nome": "Luana Souza Azevedo",
+          "data_nascimento": "2009-08-17",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1475,
+          "nome": "Mariana Gonçalves Azevedo",
+          "data_nascimento": "2009-08-23",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1476,
+          "nome": "Valentina Rezende",
+          "data_nascimento": "2009-04-20",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1478,
+          "nome": "Cecília Vieira Fernandes",
+          "data_nascimento": "2023-05-17",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1479,
+          "nome": "Mateus Gomes",
+          "data_nascimento": "2009-01-25",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1481,
+          "nome": "Marcelo Nascimento Machado",
+          "data_nascimento": "2009-06-20",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1484,
+          "nome": "Thiago Moreira Ferreira",
+          "data_nascimento": "2010-01-02",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1486,
+          "nome": "Elisa Campos Andrade",
+          "data_nascimento": "2009-06-19",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1487,
+          "nome": "Lavínia Ribeiro",
+          "data_nascimento": "2009-05-09",
+          "restricao_alimentar": "Nenhuma"
+        }
+      ]
+    },
+    {
+      "turma": "8º ano A",
+      "ano_letivo": 2022,
+      "turno": "manha",
+      "alunos": [
+        {
+          "id_aluno": 1337,
+          "nome": "Cecília Miranda Azevedo",
+          "data_nascimento": "2008-05-19",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1340,
+          "nome": "Felipe Lima Cavalcanti",
+          "data_nascimento": "2007-09-03",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1341,
+          "nome": "Gabriela Freitas Soares",
+          "data_nascimento": "2009-01-27",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1343,
+          "nome": "Julia Cardoso Araújo",
+          "data_nascimento": "2008-09-10",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1345,
+          "nome": "Vitor Duarte Alves",
+          "data_nascimento": "2008-12-22",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1346,
+          "nome": "Kaique Rocha Freitas",
+          "data_nascimento": "2008-07-31",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1347,
+          "nome": "Isabela Martins Campos",
+          "data_nascimento": "2008-12-22",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1348,
+          "nome": "Heitor Costa Alves",
+          "data_nascimento": "2008-06-21",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1351,
+          "nome": "Juliana Barros Santos",
+          "data_nascimento": "2008-07-03",
+          "restricao_alimentar": "Intolerância à lactose"
+        },
+        {
+          "id_aluno": 1352,
+          "nome": "Leonardo Cardoso Miranda",
+          "data_nascimento": "2009-03-07",
+          "restricao_alimentar": "Intolerância à lactose"
+        },
+        {
+          "id_aluno": 1353,
+          "nome": "Fernando Miranda Nunes",
+          "data_nascimento": "2008-04-20",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1354,
+          "nome": "Cauã Santos",
+          "data_nascimento": "2008-05-12",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1357,
+          "nome": "Nicole Santana Cavalcanti",
+          "data_nascimento": "2008-05-30",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1359,
+          "nome": "Cecília Martins",
+          "data_nascimento": "2008-04-28",
+          "restricao_alimentar": "Intolerância à lactose"
+        },
+        {
+          "id_aluno": 1360,
+          "nome": "Carolina Nunes Andrade",
+          "data_nascimento": "2008-04-22",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1361,
+          "nome": "Igor Nunes Gonçalves",
+          "data_nascimento": "2009-02-15",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1364,
+          "nome": "Bruno Fernandes Castro",
+          "data_nascimento": "2008-06-29",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1365,
+          "nome": "Melissa Silva Oliveira",
+          "data_nascimento": "2008-07-30",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1367,
+          "nome": "Nicolas Rocha Vieira",
+          "data_nascimento": "2008-04-16",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1369,
+          "nome": "Daniel Nascimento Ribeiro",
+          "data_nascimento": "2008-04-08",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1372,
+          "nome": "Rafael Santana",
+          "data_nascimento": "2007-04-15",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1375,
+          "nome": "Antônio Moraes Marques",
+          "data_nascimento": "2008-05-15",
+          "restricao_alimentar": "Vegetariano"
+        },
+        {
+          "id_aluno": 1376,
+          "nome": "Pietro Mendes Gomes",
+          "data_nascimento": "2008-06-13",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1377,
+          "nome": "Davi Silva Lopes",
+          "data_nascimento": "2008-10-24",
+          "restricao_alimentar": "Doença celíaca"
+        },
+        {
+          "id_aluno": 1378,
+          "nome": "Agatha Silva Fragoso",
+          "data_nascimento": "2008-12-09",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1380,
+          "nome": "Bianca Pinto",
+          "data_nascimento": "2008-04-04",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1382,
+          "nome": "Maria Rezende",
+          "data_nascimento": "2008-09-18",
+          "restricao_alimentar": "Nenhuma"
+        }
+      ]
+    },
+    {
+      "turma": "8º ano B",
+      "ano_letivo": 2022,
+      "turno": "manha",
+      "alunos": [
+        {
+          "id_aluno": 1383,
+          "nome": "Lorena Lopes Correia",
+          "data_nascimento": "2007-04-11",
+          "restricao_alimentar": "Doença celíaca"
+        },
+        {
+          "id_aluno": 1384,
+          "nome": "Alice Silva Oliveira",
+          "data_nascimento": "2008-10-01",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1385,
+          "nome": "Luana Dias Moreira",
+          "data_nascimento": "2008-06-15",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1387,
+          "nome": "Alice Rocha Gomes",
+          "data_nascimento": "2009-03-19",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1390,
+          "nome": "Kaique Machado Pereira",
+          "data_nascimento": "2008-06-30",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1392,
+          "nome": "Laura Araújo Carvalho",
+          "data_nascimento": "2008-08-30",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1394,
+          "nome": "Heloísa Alves",
+          "data_nascimento": "2008-12-08",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1397,
+          "nome": "Letícia Santana Gomes",
+          "data_nascimento": "2009-03-08",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1398,
+          "nome": "Samuel Alves Soares",
+          "data_nascimento": "2008-04-13",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1399,
+          "nome": "Thiago Correia Oliveira",
+          "data_nascimento": "2008-11-08",
+          "restricao_alimentar": "Alergia a amendoim"
+        },
+        {
+          "id_aluno": 1400,
+          "nome": "Fernanda Fernandes Fragoso",
+          "data_nascimento": "2009-01-18",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1401,
+          "nome": "Isaac Santos Cavalcanti",
+          "data_nascimento": "2008-07-07",
+          "restricao_alimentar": "Doença celíaca"
+        },
+        {
+          "id_aluno": 1402,
+          "nome": "Antônio Castro Ribeiro",
+          "data_nascimento": "2008-04-24",
+          "restricao_alimentar": "Diabetes tipo 1"
+        },
+        {
+          "id_aluno": 1404,
+          "nome": "Letícia Moreira",
+          "data_nascimento": "2009-01-27",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1405,
+          "nome": "Pedro Pereira Duarte",
+          "data_nascimento": "2008-07-26",
+          "restricao_alimentar": "Intolerância à lactose"
+        },
+        {
+          "id_aluno": 1406,
+          "nome": "Lorena Moreira Lopes",
+          "data_nascimento": "2008-05-20",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1409,
+          "nome": "Luiza Rezende",
+          "data_nascimento": "2009-01-17",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1412,
+          "nome": "Gustavo Andrade",
+          "data_nascimento": "2008-07-10",
+          "restricao_alimentar": "Vegetariano"
+        },
+        {
+          "id_aluno": 1413,
+          "nome": "Maria Santana Martins",
+          "data_nascimento": "2008-12-15",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1416,
+          "nome": "Luana Dias Fragoso",
+          "data_nascimento": "2008-12-05",
+          "restricao_alimentar": "Intolerância à lactose"
+        },
+        {
+          "id_aluno": 1419,
+          "nome": "Bernardo Almeida",
+          "data_nascimento": "2008-04-03",
+          "restricao_alimentar": "Nenhuma"
+        }
+      ]
+    },
+    {
+      "turma": "9º ano A",
+      "ano_letivo": 2022,
+      "turno": "manha",
+      "alunos": [
+        {
+          "id_aluno": 1252,
+          "nome": "Esther Castro Marques",
+          "data_nascimento": "2006-08-05",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1253,
+          "nome": "Helena Souza Alves",
+          "data_nascimento": "2008-03-07",
+          "restricao_alimentar": "Doença celíaca"
+        },
+        {
+          "id_aluno": 1254,
+          "nome": "Sarah Araújo Gonçalves",
+          "data_nascimento": "2008-01-12",
+          "restricao_alimentar": "Diabetes tipo 1"
+        },
+        {
+          "id_aluno": 1256,
+          "nome": "Agatha Ramos Barros",
+          "data_nascimento": "2007-05-24",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1257,
+          "nome": "Joaquim Freitas Nunes",
+          "data_nascimento": "2007-11-19",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1260,
+          "nome": "Murilo Gomes Fernandes",
+          "data_nascimento": "2008-02-13",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1262,
+          "nome": "Cecília Ribeiro Moreira",
+          "data_nascimento": "2007-10-18",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1265,
+          "nome": "Sarah Nunes Carvalho",
+          "data_nascimento": "2006-11-18",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1268,
+          "nome": "Daniel Gonçalves Pereira",
+          "data_nascimento": "2008-03-06",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1271,
+          "nome": "Benício Mendes Marques",
+          "data_nascimento": "2008-02-15",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1272,
+          "nome": "Guilherme Martins Marques",
+          "data_nascimento": "2007-11-18",
+          "restricao_alimentar": "Alergia a amendoim"
+        },
+        {
+          "id_aluno": 1274,
+          "nome": "Camila Rodrigues Teixeira",
+          "data_nascimento": "2007-01-27",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1276,
+          "nome": "Gustavo Alves",
+          "data_nascimento": "2008-03-28",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1279,
+          "nome": "Bianca Castro",
+          "data_nascimento": "2007-11-22",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1280,
+          "nome": "Lavínia Andrade Santana",
+          "data_nascimento": "2007-11-25",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1281,
+          "nome": "Rebeca Silva Andrade",
+          "data_nascimento": "2007-08-01",
+          "restricao_alimentar": "Vegetariano"
+        },
+        {
+          "id_aluno": 1282,
+          "nome": "Paula Carvalho Rocha",
+          "data_nascimento": "2007-05-19",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1284,
+          "nome": "Vitor Fernandes Nunes",
+          "data_nascimento": "2007-10-12",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1287,
+          "nome": "Beatriz Moreira",
+          "data_nascimento": "2007-12-12",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1289,
+          "nome": "Marina Moreira Miranda",
+          "data_nascimento": "2008-02-17",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1292,
+          "nome": "Emanuel Campos",
+          "data_nascimento": "2007-07-09",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1294,
+          "nome": "Benício Souza",
+          "data_nascimento": "2007-12-29",
+          "restricao_alimentar": "Nenhuma"
+        }
+      ]
+    },
+    {
+      "turma": "9º ano B",
+      "ano_letivo": 2022,
+      "turno": "manha",
+      "alunos": [
+        {
+          "id_aluno": 1297,
+          "nome": "Matheus Santos Cardoso",
+          "data_nascimento": "2007-05-01",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1299,
+          "nome": "Luiza Santana",
+          "data_nascimento": "2007-02-27",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1302,
+          "nome": "Catarina Souza Alves",
+          "data_nascimento": "1900-01-01",
+          "restricao_alimentar": "Intolerância à lactose"
+        },
+        {
+          "id_aluno": 1303,
+          "nome": "Luiz Azevedo Oliveira",
+          "data_nascimento": "2007-11-20",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1305,
+          "nome": "Sofia Vieira",
+          "data_nascimento": "2007-08-22",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1307,
+          "nome": "Vinícius Araújo Nascimento",
+          "data_nascimento": "2007-06-09",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1308,
+          "nome": "Maria Castro",
+          "data_nascimento": "2007-04-03",
+          "restricao_alimentar": "Intolerância à lactose"
+        },
+        {
+          "id_aluno": 1311,
+          "nome": "Henrique Fernandes Moreira",
+          "data_nascimento": "2007-05-08",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1314,
+          "nome": "Rafael Ribeiro Alves",
+          "data_nascimento": "2008-03-11",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1316,
+          "nome": "Murilo Campos Nascimento",
+          "data_nascimento": "2007-04-13",
+          "restricao_alimentar": "Intolerância à lactose"
+        },
+        {
+          "id_aluno": 1317,
+          "nome": "Mirella Andrade",
+          "data_nascimento": "2007-09-26",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1318,
+          "nome": "Enzo Pinto Rocha",
+          "data_nascimento": "2008-03-08",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1321,
+          "nome": "Isadora Fragoso",
+          "data_nascimento": "2008-03-30",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1324,
+          "nome": "Lívia Cardoso Rocha",
+          "data_nascimento": "2007-07-02",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1325,
+          "nome": "Laura Barros Alves",
+          "data_nascimento": "2007-12-29",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1327,
+          "nome": "Emanuel Ferreira",
+          "data_nascimento": "2007-11-25",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1328,
+          "nome": "Pedro Monteiro Barbosa",
+          "data_nascimento": "2007-10-05",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1329,
+          "nome": "Camila Rezende Barros",
+          "data_nascimento": "2007-12-05",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1330,
+          "nome": "Larissa Oliveira Gomes",
+          "data_nascimento": "2007-08-02",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1333,
+          "nome": "Clara Moreira",
+          "data_nascimento": "2007-05-24",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1334,
+          "nome": "Guilherme Araújo Marques",
+          "data_nascimento": "2008-02-03",
+          "restricao_alimentar": "Intolerância à lactose"
+        }
+      ]
+    },
+    {
+      "turma": "1ª série EM A",
+      "ano_letivo": 2022,
+      "turno": "manha",
+      "alunos": [
+        {
+          "id_aluno": 1166,
+          "nome": "Cauã Duarte",
+          "data_nascimento": "2006-04-16",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1168,
+          "nome": "Sofia Castro",
+          "data_nascimento": "2006-05-10",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1169,
+          "nome": "Isaac Barros Pinto",
+          "data_nascimento": "2007-02-15",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1172,
+          "nome": "João Fernandes",
+          "data_nascimento": "2007-01-20",
+          "restricao_alimentar": "Vegetariano"
+        },
+        {
+          "id_aluno": "001173",
+          "nome": "Pietro Soares",
+          "data_nascimento": "2006-08-04",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1176,
+          "nome": "Lucas Barros Moreira",
+          "data_nascimento": "2006-04-18",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1177,
+          "nome": "Cauã Cavalcanti Machado",
+          "data_nascimento": "2006-06-11",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1178,
+          "nome": "Bryan Oliveira Machado",
+          "data_nascimento": "2007-03-22",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1179,
+          "nome": "Daniel Lima",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1182,
+          "nome": "José Rezende Toledo",
+          "data_nascimento": "2006-11-08",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1183,
+          "nome": "Pietro Monteiro Alves",
+          "data_nascimento": "2007-01-30",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1186,
+          "nome": "Fernanda Costa Barbosa",
+          "data_nascimento": "2006-10-25",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1187,
+          "nome": "Lucas Santos",
+          "data_nascimento": "2007-02-23",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1190,
+          "nome": "Juliana Vieira Oliveira",
+          "data_nascimento": "2006-04-13",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1191,
+          "nome": "Lorenzo Andrade",
+          "data_nascimento": "2006-11-17",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1192,
+          "nome": "Theo Barros",
+          "data_nascimento": "2007-01-27",
+          "restricao_alimentar": "Intolerância à lactose"
+        },
+        {
+          "id_aluno": 1195,
+          "nome": "Theo Rodrigues",
+          "data_nascimento": "2006-09-30",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1196,
+          "nome": "Cauã Carvalho Moraes",
+          "data_nascimento": "2005-09-18",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1199,
+          "nome": "Bianca Lima Fernandes",
+          "data_nascimento": "2007-01-23",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1200,
+          "nome": "Pedro Costa Silva",
+          "data_nascimento": "2006-05-07",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1203,
+          "nome": "Otávio Campos",
+          "data_nascimento": "2007-03-15",
+          "restricao_alimentar": "Alergia a amendoim"
+        },
+        {
+          "id_aluno": 1204,
+          "nome": "Henrique Rezende Campos",
+          "data_nascimento": "2006-05-11",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1207,
+          "nome": "Lorena Miranda Alves",
+          "data_nascimento": "2006-09-17",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1208,
+          "nome": "Manuela Gomes Nunes",
+          "data_nascimento": "2006-07-16",
+          "restricao_alimentar": "Nenhuma"
+        }
+      ]
+    },
+    {
+      "turma": "1ª série EM B",
+      "ano_letivo": 2022,
+      "turno": "manha",
+      "alunos": [
+        {
+          "id_aluno": 1209,
+          "nome": "Nicole Castro",
+          "data_nascimento": "2006-12-28",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1210,
+          "nome": "Luana Rodrigues",
+          "data_nascimento": "2006-04-27",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1211,
+          "nome": "Antônio Souza Araújo",
+          "data_nascimento": "2006-07-08",
+          "restricao_alimentar": "Intolerância à lactose"
+        },
+        {
+          "id_aluno": 1212,
+          "nome": "Benício Costa Ferreira",
+          "data_nascimento": "2006-08-23",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1214,
+          "nome": "Lucas Barbosa Cavalcanti",
+          "data_nascimento": "2007-01-01",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1216,
+          "nome": "Esther Rocha Pinto",
+          "data_nascimento": "2006-08-21",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1217,
+          "nome": "Vitor Gomes Araújo",
+          "data_nascimento": "2005-10-10",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1218,
+          "nome": "Miguel Marques Moraes",
+          "data_nascimento": "2006-08-19",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1221,
+          "nome": "Luiz Santana",
+          "data_nascimento": "2007-03-14",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1223,
+          "nome": "Melissa Lopes",
+          "data_nascimento": "2006-06-03",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1226,
+          "nome": "Helena Correia",
+          "data_nascimento": "2006-10-21",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1227,
+          "nome": "Yuri Teixeira",
+          "data_nascimento": "2006-03-06",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1229,
+          "nome": "Diego Fernandes",
+          "data_nascimento": "2006-11-13",
+          "restricao_alimentar": "Intolerância à lactose"
+        },
+        {
+          "id_aluno": 1231,
+          "nome": "Guilherme Dias",
+          "data_nascimento": "2006-07-03",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1232,
+          "nome": "Rafael Oliveira Ribeiro",
+          "data_nascimento": "2006-11-07",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1234,
+          "nome": "Sofia Andrade",
+          "data_nascimento": "2006-12-12",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1235,
+          "nome": "Kaique Miranda Mendes",
+          "data_nascimento": "2006-04-30",
+          "restricao_alimentar": "Alergia a amendoim"
+        },
+        {
+          "id_aluno": 1237,
+          "nome": "Cecília Rocha",
+          "data_nascimento": "2006-06-21",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1239,
+          "nome": "Larissa Toledo",
+          "data_nascimento": "2006-11-14",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1240,
+          "nome": "Ravi Freitas",
+          "data_nascimento": "2006-08-25",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1241,
+          "nome": "Lívia Machado Barros",
+          "data_nascimento": "2005-06-23",
+          "restricao_alimentar": "Intolerância à lactose"
+        },
+        {
+          "id_aluno": 1243,
+          "nome": "Helena Correia",
+          "data_nascimento": "2006-12-10",
+          "restricao_alimentar": "Alergia a amendoim"
+        },
+        {
+          "id_aluno": 1244,
+          "nome": "Eduarda Dias Costa",
+          "data_nascimento": "2007-01-13",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1247,
+          "nome": "Lorenzo Alves Vieira",
+          "data_nascimento": "2006-06-30",
+          "restricao_alimentar": "Vegetariano"
+        },
+        {
+          "id_aluno": 1248,
+          "nome": "Isadora Machado",
+          "data_nascimento": "2006-05-31",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1251,
+          "nome": "Mateus Pinto",
+          "data_nascimento": "2006-10-31",
+          "restricao_alimentar": "Nenhuma"
+        }
+      ]
+    },
+    {
+      "turma": "2ª série EM A",
+      "ano_letivo": 2022,
+      "turno": "manha",
+      "alunos": [
+        {
+          "id_aluno": 1085,
+          "nome": "Yuri Costa Ramos",
+          "data_nascimento": "2005-08-27",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1088,
+          "nome": "Bianca Martins Machado",
+          "data_nascimento": "2005-09-02",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1090,
+          "nome": "Samuel Ferreira",
+          "data_nascimento": "2006-02-01",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1091,
+          "nome": "Gabriela Barros",
+          "data_nascimento": "1900-01-01",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1092,
+          "nome": "João Ramos Vieira",
+          "data_nascimento": "2006-02-23",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1093,
+          "nome": "Vicente Rocha Moraes",
+          "data_nascimento": "2005-07-16",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1094,
+          "nome": "Valentina Azevedo",
+          "data_nascimento": "2005-08-02",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1095,
+          "nome": "Miguel Moreira Martins",
+          "data_nascimento": "2006-01-01",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1098,
+          "nome": "Carolina Nascimento Pereira",
+          "data_nascimento": "2005-09-15",
+          "restricao_alimentar": "Vegetariano"
+        },
+        {
+          "id_aluno": 1100,
+          "nome": "Joaquim Gonçalves",
+          "data_nascimento": "2006-02-27",
+          "restricao_alimentar": "Intolerância à lactose"
+        },
+        {
+          "id_aluno": 1101,
+          "nome": "Gustavo Rezende Lopes",
+          "data_nascimento": "2005-06-05",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1102,
+          "nome": "Débora Silva Fragoso",
+          "data_nascimento": "2006-01-07",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1105,
+          "nome": "Gabriel Carvalho Lima",
+          "data_nascimento": "2006-01-13",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1108,
+          "nome": "Nicole Gonçalves",
+          "data_nascimento": "2005-11-02",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1109,
+          "nome": "Felipe Rezende Lima",
+          "data_nascimento": "2005-08-21",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1110,
+          "nome": "Caio Rodrigues",
+          "data_nascimento": "2006-03-13",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1113,
+          "nome": "Gabriel Azevedo",
+          "data_nascimento": "2006-03-16",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1115,
+          "nome": "Thiago Nascimento Martins",
+          "data_nascimento": "2005-06-11",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1116,
+          "nome": "Natália Miranda",
+          "data_nascimento": "2005-09-29",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1117,
+          "nome": "Olívia Castro Moreira",
+          "data_nascimento": "2005-11-19",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1118,
+          "nome": "Juliana Duarte Ferreira",
+          "data_nascimento": "2005-11-28",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1121,
+          "nome": "Beatriz Moraes",
+          "data_nascimento": "2005-10-24",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1122,
+          "nome": "Ana Castro Ribeiro",
+          "data_nascimento": "2005-07-09",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1123,
+          "nome": "Mirella Moraes Costa",
+          "data_nascimento": "2006-01-18",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1126,
+          "nome": "Vinícius Soares",
+          "data_nascimento": "2005-07-04",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1129,
+          "nome": "Helena Soares",
+          "data_nascimento": "2005-12-13",
+          "restricao_alimentar": "Nenhuma"
+        }
+      ]
+    },
+    {
+      "turma": "2ª série EM B",
+      "ano_letivo": 2022,
+      "turno": "manha",
+      "alunos": [
+        {
+          "id_aluno": 1130,
+          "nome": "Diego Ferreira",
+          "data_nascimento": "2006-01-28",
+          "restricao_alimentar": "Intolerância à lactose"
+        },
+        {
+          "id_aluno": 1133,
+          "nome": "Matheus Dias",
+          "data_nascimento": "2006-02-16",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1134,
+          "nome": "Igor Pinto Barros",
+          "data_nascimento": "2006-02-08",
+          "restricao_alimentar": "Doença celíaca"
+        },
+        {
+          "id_aluno": 1135,
+          "nome": "Lorenzo Moraes Freitas",
+          "data_nascimento": "2005-05-09"
+        },
+        {
+          "id_aluno": 1136,
+          "nome": "Rodrigo Freitas",
+          "data_nascimento": "2005-07-28",
+          "restricao_alimentar": "Alergia a amendoim"
+        },
+        {
+          "id_aluno": 1138,
+          "nome": "Marcelo Santos",
+          "data_nascimento": "2005-04-05",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1141,
+          "nome": "Paula Rocha",
+          "data_nascimento": "2005-12-03",
+          "restricao_alimentar": "Doença celíaca"
+        },
+        {
+          "id_aluno": 1144,
+          "nome": "Lara Teixeira Lima",
+          "data_nascimento": "2006-02-12",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1147,
+          "nome": "Nicolas Toledo Lopes",
+          "data_nascimento": "2005-10-05",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1149,
+          "nome": "Heloísa Soares Souza",
+          "data_nascimento": "2004-10-01",
+          "restricao_alimentar": "Vegetariano"
+        },
+        {
+          "id_aluno": 1150,
+          "nome": "Emanuelly Lima Vieira",
+          "data_nascimento": "2006-02-03",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1151,
+          "nome": "Helena Miranda Andrade",
+          "data_nascimento": "2005-10-16",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1154,
+          "nome": "Larissa Machado Santos",
+          "data_nascimento": "2005-09-11",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1155,
+          "nome": "Antônio Rocha Miranda",
+          "data_nascimento": "2005-06-11",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1157,
+          "nome": "Vitória Ferreira Moraes",
+          "data_nascimento": "2005-06-05",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1158,
+          "nome": "Isadora Machado",
+          "data_nascimento": "2005-06-28",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1159,
+          "nome": "Vitor Nunes Cavalcanti",
+          "data_nascimento": "2005-07-11",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1160,
+          "nome": "Daniel Campos Cavalcanti",
+          "data_nascimento": "2005-09-10",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1162,
+          "nome": "Agatha Monteiro",
+          "data_nascimento": "2005-11-08",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1163,
+          "nome": "Nicolas Gonçalves Dias",
+          "data_nascimento": "2005-05-16",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1164,
+          "nome": "Lorena Cavalcanti",
+          "data_nascimento": "2005-05-02",
+          "restricao_alimentar": "Nenhuma"
+        }
+      ]
+    },
+    {
+      "turma": "3ª série EM A",
+      "ano_letivo": 2022,
+      "turno": "manha",
+      "alunos": [
+        {
+          "id_aluno": 1001,
+          "nome": "Valentina Gomes Cavalcanti",
+          "data_nascimento": "2004-10-07",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1002,
+          "nome": "Vitória Pinto",
+          "data_nascimento": "2004-06-29",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1005,
+          "nome": "Heitor Barbosa Teixeira",
+          "data_nascimento": "2004-07-20",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1008,
+          "nome": "Enzo Oliveira Rezende",
+          "data_nascimento": "2004-09-28",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1010,
+          "nome": "Julia Correia Costa",
+          "data_nascimento": "2004-04-07",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1011,
+          "nome": "Matheus Fragoso Machado",
+          "data_nascimento": "2004-10-05",
+          "restricao_alimentar": "Vegetariano"
+        },
+        {
+          "id_aluno": 1013,
+          "nome": "Julia Barros",
+          "data_nascimento": "2004-09-29",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1014,
+          "nome": "Luana Marques Cardoso",
+          "data_nascimento": "2004-08-31",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1015,
+          "nome": "Alice Cavalcanti Moraes",
+          "data_nascimento": "2004-12-31",
+          "restricao_alimentar": "Intolerância à lactose"
+        },
+        {
+          "id_aluno": 1016,
+          "nome": "Gabriel Nascimento",
+          "data_nascimento": "2004-11-23",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1018,
+          "nome": "Heitor Rocha Rezende",
+          "data_nascimento": "2004-08-02",
+          "restricao_alimentar": "Doença celíaca"
+        },
+        {
+          "id_aluno": 1019,
+          "nome": "Sofia Alves Silva",
+          "data_nascimento": "2004-08-21",
+          "restricao_alimentar": "Diabetes tipo 1"
+        },
+        {
+          "id_aluno": 1022,
+          "nome": "Olívia Rezende",
+          "data_nascimento": "2004-06-15",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1023,
+          "nome": "Yuri Gonçalves Moraes",
+          "data_nascimento": "2004-02-22",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1024,
+          "nome": "Juliana Monteiro",
+          "data_nascimento": "2004-12-04",
+          "restricao_alimentar": "Intolerância à lactose"
+        },
+        {
+          "id_aluno": 1027,
+          "nome": "Marcelo Monteiro",
+          "data_nascimento": "2004-10-28",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1028,
+          "nome": "Nicole Souza",
+          "data_nascimento": "2005-01-31",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1031,
+          "nome": "Nicole Ribeiro Andrade",
+          "data_nascimento": "2004-08-25",
+          "restricao_alimentar": "Intolerância à lactose"
+        },
+        {
+          "id_aluno": 1032,
+          "nome": "Lorenzo Azevedo",
+          "data_nascimento": "2004-06-24",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1035,
+          "nome": "Gustavo Campos Barbosa",
+          "data_nascimento": "2004-10-29",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1036,
+          "nome": "Luiza Moreira Alves",
+          "data_nascimento": "2004-10-04"
+        },
+        {
+          "id_aluno": 1039,
+          "nome": "Gabriela Campos Rezende",
+          "data_nascimento": "2004-11-10",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1040,
+          "nome": "Otávio Oliveira Barros",
+          "data_nascimento": "2004-09-03",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1042,
+          "nome": "Paula Fragoso Barros",
+          "data_nascimento": "2004-12-13",
+          "restricao_alimentar": "Intolerância à lactose"
+        },
+        {
+          "id_aluno": 1043,
+          "nome": "Nicole Vieira",
+          "data_nascimento": "2005-01-06",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1045,
+          "nome": "Vinícius Cavalcanti Gomes",
+          "data_nascimento": "2004-06-17",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1047,
+          "nome": "Rebeca Nunes Ramos",
+          "data_nascimento": "1900-01-01",
+          "restricao_alimentar": "Diabetes tipo 1"
+        }
+      ]
+    },
+    {
+      "turma": "3ª série EM B",
+      "ano_letivo": 2022,
+      "turno": "manha",
+      "alunos": [
+        {
+          "id_aluno": 1050,
+          "nome": "Daniel Lima",
+          "data_nascimento": "2005-03-30",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1052,
+          "nome": "Fernando Ribeiro",
+          "data_nascimento": "2004-10-19",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1055,
+          "nome": "Clara Martins",
+          "data_nascimento": "2003-08-05",
+          "restricao_alimentar": "Vegetariano"
+        },
+        {
+          "id_aluno": 1056,
+          "nome": "Diego Pinto",
+          "data_nascimento": "2005-01-02",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1059,
+          "nome": "Luiza Freitas",
+          "data_nascimento": "2004-12-25",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1062,
+          "nome": "Fernando Ramos Ferreira",
+          "data_nascimento": "2005-02-24",
+          "restricao_alimentar": "Alergia a amendoim"
+        },
+        {
+          "id_aluno": 1065,
+          "nome": "Giovanna Teixeira",
+          "data_nascimento": "2004-11-16",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1066,
+          "nome": "Melissa Andrade Almeida",
+          "data_nascimento": "2004-09-14",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1067,
+          "nome": "Guilherme Alves",
+          "data_nascimento": "2003-12-19",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1068,
+          "nome": "Samuel Lima Azevedo",
+          "data_nascimento": "2004-08-04",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1071,
+          "nome": "Valentina Ferreira Alves",
+          "data_nascimento": "2005-03-02",
+          "restricao_alimentar": "Alergia a amendoim"
+        },
+        {
+          "id_aluno": 1073,
+          "nome": "Matheus Santos Ferreira",
+          "data_nascimento": "2004-05-01",
+          "restricao_alimentar": "Intolerância à lactose"
+        },
+        {
+          "id_aluno": 1074,
+          "nome": "Otávio Duarte",
+          "data_nascimento": "2004-12-27",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1075,
+          "nome": "Pedro Ribeiro Ramos",
+          "data_nascimento": "2004-09-17",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1076,
+          "nome": "Otávio Azevedo Alves",
+          "data_nascimento": "2004-07-23",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1077,
+          "nome": "Carolina Ferreira",
+          "data_nascimento": "2005-01-20",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1080,
+          "nome": "Débora Carvalho Santana",
+          "data_nascimento": "2004-07-23",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1081,
+          "nome": "Yasmin Fernandes",
+          "data_nascimento": "2004-04-08",
+          "restricao_alimentar": "Nenhuma"
+        },
+        {
+          "id_aluno": 1082,
+          "nome": "Gustavo Cavalcanti Ferreira",
+          "data_nascimento": "2003-04-02",
+          "restricao_alimentar": "Vegetariano"
+        },
+        {
+          "id_aluno": 1084,
+          "nome": "Clara Teixeira Alves",
+          "data_nascimento": "2005-02-25",
+          "restricao_alimentar": "Nenhuma"
+        }
+      ]
+    }
+  ]
+}

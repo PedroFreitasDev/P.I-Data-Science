@@ -1,0 +1,257 @@
+{
+  "fonte": "API de índices de preços (simulada)",
+  "descricao": "Variação percentual mensal por categoria de produto",
+  "ultimo_mes_publicado": "2020-10",
+  "dados": [
+    {
+      "mes_referencia": "2020-01",
+      "indice_inflacao": 0.52,
+      "categoria_produto": "Salgados"
+    },
+    {
+      "mes_referencia": "2020-01",
+      "indice_inflacao": 0.12,
+      "categoria_produto": "Lanches"
+    },
+    {
+      "mes_referencia": "2020-01",
+      "indice_inflacao": 0.28,
+      "categoria_produto": "Bebidas não alcoólicas"
+    },
+    {
+      "mes_referencia": "2020-01",
+      "indice_inflacao": 0.82,
+      "categoria_produto": "Doces"
+    },
+    {
+      "mes_referencia": "2020-01",
+      "indice_inflacao": 0.37,
+      "categoria_produto": "Sobremesas e sorvetes"
+    },
+    {
+      "mes_referencia": "2020-02",
+      "indice_inflacao": 0.11,
+      "categoria_produto": "Salgados"
+    },
+    {
+      "mes_referencia": "2020-02",
+      "indice_inflacao": 0.2,
+      "categoria_produto": "Lanches"
+    },
+    {
+      "mes_referencia": "2020-02",
+      "indice_inflacao": 0.05,
+      "categoria_produto": "Bebidas não alcoólicas"
+    },
+    {
+      "mes_referencia": "2020-02",
+      "indice_inflacao": 0.16,
+      "categoria_produto": "Doces"
+    },
+    {
+      "mes_referencia": "2020-02",
+      "indice_inflacao": 0.02,
+      "categoria_produto": "Sobremesas e sorvetes"
+    },
+    {
+      "mes_referencia": "2020-03",
+      "indice_inflacao": 0.76,
+      "categoria_produto": "Salgados"
+    },
+    {
+      "mes_referencia": "2020-03",
+      "indice_inflacao": 0.74,
+      "categoria_produto": "Lanches"
+    },
+    {
+      "mes_referencia": "2020-03",
+      "indice_inflacao": 0.69,
+      "categoria_produto": "Bebidas não alcoólicas"
+    },
+    {
+      "mes_referencia": "2020-03",
+      "indice_inflacao": 0.69,
+      "categoria_produto": "Doces"
+    },
+    {
+      "mes_referencia": "2020-03",
+      "indice_inflacao": 0.68,
+      "categoria_produto": "Sobremesas e sorvetes"
+    },
+    {
+      "mes_referencia": "2020-04",
+      "indice_inflacao": 0.34,
+      "categoria_produto": "Salgados"
+    },
+    {
+      "mes_referencia": "2020-04",
+      "indice_inflacao": 0.58,
+      "categoria_produto": "Lanches"
+    },
+    {
+      "mes_referencia": "2020-04",
+      "indice_inflacao": 0.57,
+      "categoria_produto": "Bebidas não alcoólicas"
+    },
+    {
+      "mes_referencia": "2020-04",
+      "indice_inflacao": 0.95,
+      "categoria_produto": "Doces"
+    },
+    {
+      "mes_referencia": "2020-04",
+      "indice_inflacao": 0.55,
+      "categoria_produto": "Sobremesas e sorvetes"
+    },
+    {
+      "mes_referencia": "2020-05",
+      "indice_inflacao": 0.54,
+      "categoria_produto": "Salgados"
+    },
+    {
+      "mes_referencia": "2020-05",
+      "indice_inflacao": 0.31,
+      "categoria_produto": "Lanches"
+    },
+    {
+      "mes_referencia": "2020-05",
+      "indice_inflacao": 0.36,
+      "categoria_produto": "Bebidas não alcoólicas"
+    },
+    {
+      "mes_referencia": "2020-05",
+      "indice_inflacao": 0.63,
+      "categoria_produto": "Doces"
+    },
+    {
+      "mes_referencia": "2020-05",
+      "indice_inflacao": 0.25,
+      "categoria_produto": "Sobremesas e sorvetes"
+    },
+    {
+      "mes_referencia": "2020-06",
+      "indice_inflacao": 0.77,
+      "categoria_produto": "Salgados"
+    },
+    {
+      "mes_referencia": "2020-06",
+      "indice_inflacao": 0.56,
+      "categoria_produto": "Lanches"
+    },
+    {
+      "mes_referencia": "2020-06",
+      "indice_inflacao": 0.29,
+      "categoria_produto": "Bebidas não alcoólicas"
+    },
+    {
+      "mes_referencia": "2020-06",
+      "indice_inflacao": 0.56,
+      "categoria_produto": "Doces"
+    },
+    {
+      "mes_referencia": "2020-06",
+      "indice_inflacao": 0.77,
+      "categoria_produto": "Sobremesas e sorvetes"
+    },
+    {
+      "mes_referencia": "2020-07",
+      "indice_inflacao": 0.31,
+      "categoria_produto": "Salgados"
+    },
+    {
+      "mes_referencia": "2020-07",
+      "indice_inflacao": 0.2,
+      "categoria_produto": "Lanches"
+    },
+    {
+      "mes_referencia": "2020-07",
+      "indice_inflacao": 0.06,
+      "categoria_produto": "Bebidas não alcoólicas"
+    },
+    {
+      "mes_referencia": "2020-07",
+      "indice_inflacao": 0.56,
+      "categoria_produto": "Doces"
+    },
+    {
+      "mes_referencia": "2020-07",
+      "indice_inflacao": null,
+      "categoria_produto": "Sobremesas e sorvetes"
+    },
+    {
+      "mes_referencia": "2020-08",
+      "indice_inflacao": 0.43,
+      "categoria_produto": "Salgados"
+    },
+    {
+      "mes_referencia": "2020-08",
+      "indice_inflacao": 0.0,
+      "categoria_produto": "Lanches"
+    },
+    {
+      "mes_referencia": "2020-08",
+      "indice_inflacao": 0.45,
+      "categoria_produto": "Bebidas não alcoólicas"
+    },
+    {
+      "mes_referencia": "2020-08",
+      "indice_inflacao": 0.58,
+      "categoria_produto": "Doces"
+    },
+    {
+      "mes_referencia": "2020-08",
+      "indice_inflacao": 0.66,
+      "categoria_produto": "Sobremesas e sorvetes"
+    },
+    {
+      "mes_referencia": "2020-09",
+      "indice_inflacao": 0.45,
+      "categoria_produto": "Salgados"
+    },
+    {
+      "mes_referencia": "2020-09",
+      "indice_inflacao": 0.41,
+      "categoria_produto": "Lanches"
+    },
+    {
+      "mes_referencia": "2020-09",
+      "indice_inflacao": 0.09,
+      "categoria_produto": "Bebidas não alcoólicas"
+    },
+    {
+      "mes_referencia": "2020-09",
+      "indice_inflacao": 0.49,
+      "categoria_produto": "Doces"
+    },
+    {
+      "mes_referencia": "2020-09",
+      "indice_inflacao": 0.39,
+      "categoria_produto": "Sobremesas e sorvetes"
+    },
+    {
+      "mes_referencia": "2020-10",
+      "indice_inflacao": 0.19,
+      "categoria_produto": "Salgados"
+    },
+    {
+      "mes_referencia": "2020-10",
+      "indice_inflacao": 0.1,
+      "categoria_produto": "Lanches"
+    },
+    {
+      "mes_referencia": "2020-10",
+      "indice_inflacao": 0.25,
+      "categoria_produto": "Bebidas não alcoólicas"
+    },
+    {
+      "mes_referencia": "2020-10",
+      "indice_inflacao": 0.47,
+      "categoria_produto": "Doces"
+    },
+    {
+      "mes_referencia": "2020-10",
+      "indice_inflacao": 0.41,
+      "categoria_produto": "Sobremesas e sorvetes"
+    }
+  ]
+}

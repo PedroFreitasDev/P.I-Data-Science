@@ -1,0 +1,257 @@
+{
+  "fonte": "API de índices de preços (simulada)",
+  "descricao": "Variação percentual mensal por categoria de produto",
+  "ultimo_mes_publicado": "2022-10",
+  "dados": [
+    {
+      "mes_referencia": "2022-01",
+      "indice_inflacao": 0.31,
+      "categoria_produto": "Salgados"
+    },
+    {
+      "mes_referencia": "2022-01",
+      "indice_inflacao": 0.51,
+      "categoria_produto": "Lanches"
+    },
+    {
+      "mes_referencia": "2022-01",
+      "indice_inflacao": 0.16,
+      "categoria_produto": "Bebidas não alcoólicas"
+    },
+    {
+      "mes_referencia": "2022-01",
+      "indice_inflacao": 0.56,
+      "categoria_produto": "Doces"
+    },
+    {
+      "mes_referencia": "2022-01",
+      "indice_inflacao": 0.13,
+      "categoria_produto": "Sobremesas e sorvetes"
+    },
+    {
+      "mes_referencia": "2022-02",
+      "indice_inflacao": 0.63,
+      "categoria_produto": "Salgados"
+    },
+    {
+      "mes_referencia": "2022-02",
+      "indice_inflacao": 0.98,
+      "categoria_produto": "Lanches"
+    },
+    {
+      "mes_referencia": "2022-02",
+      "indice_inflacao": 0.58,
+      "categoria_produto": "Bebidas não alcoólicas"
+    },
+    {
+      "mes_referencia": "2022-02",
+      "indice_inflacao": 1.05,
+      "categoria_produto": "Doces"
+    },
+    {
+      "mes_referencia": "2022-02",
+      "indice_inflacao": 0.61,
+      "categoria_produto": "Sobremesas e sorvetes"
+    },
+    {
+      "mes_referencia": "2022-03",
+      "indice_inflacao": 0.69,
+      "categoria_produto": "Salgados"
+    },
+    {
+      "mes_referencia": "2022-03",
+      "indice_inflacao": 0.42,
+      "categoria_produto": "Lanches"
+    },
+    {
+      "mes_referencia": "2022-03",
+      "indice_inflacao": 0.49,
+      "categoria_produto": "Bebidas não alcoólicas"
+    },
+    {
+      "mes_referencia": "2022-03",
+      "indice_inflacao": 0.65,
+      "categoria_produto": "Doces"
+    },
+    {
+      "mes_referencia": "2022-03",
+      "indice_inflacao": 0.84,
+      "categoria_produto": "Sobremesas e sorvetes"
+    },
+    {
+      "mes_referencia": "2022-04",
+      "indice_inflacao": 0.4,
+      "categoria_produto": "Salgados"
+    },
+    {
+      "mes_referencia": "2022-04",
+      "indice_inflacao": 0.98,
+      "categoria_produto": "Lanches"
+    },
+    {
+      "mes_referencia": "2022-04",
+      "indice_inflacao": 0.87,
+      "categoria_produto": "Bebidas não alcoólicas"
+    },
+    {
+      "mes_referencia": "2022-04",
+      "indice_inflacao": 0.75,
+      "categoria_produto": "Doces"
+    },
+    {
+      "mes_referencia": "2022-04",
+      "indice_inflacao": 0.57,
+      "categoria_produto": "Sobremesas e sorvetes"
+    },
+    {
+      "mes_referencia": "2022-05",
+      "indice_inflacao": 0.79,
+      "categoria_produto": "Salgados"
+    },
+    {
+      "mes_referencia": "2022-05",
+      "indice_inflacao": 0.31,
+      "categoria_produto": "Lanches"
+    },
+    {
+      "mes_referencia": "2022-05",
+      "indice_inflacao": 0.34,
+      "categoria_produto": "Bebidas não alcoólicas"
+    },
+    {
+      "mes_referencia": "2022-05",
+      "indice_inflacao": 0.26,
+      "categoria_produto": "Doces"
+    },
+    {
+      "mes_referencia": "2022-05",
+      "indice_inflacao": 0.09,
+      "categoria_produto": "Sobremesas e sorvetes"
+    },
+    {
+      "mes_referencia": "2022-06",
+      "indice_inflacao": 0.63,
+      "categoria_produto": "Salgados"
+    },
+    {
+      "mes_referencia": "2022-06",
+      "indice_inflacao": 0.55,
+      "categoria_produto": "Lanches"
+    },
+    {
+      "mes_referencia": "2022-06",
+      "indice_inflacao": 0.41,
+      "categoria_produto": "Bebidas não alcoólicas"
+    },
+    {
+      "mes_referencia": "2022-06",
+      "indice_inflacao": null,
+      "categoria_produto": "Doces"
+    },
+    {
+      "mes_referencia": "2022-06",
+      "indice_inflacao": 0.56,
+      "categoria_produto": "Sobremesas e sorvetes"
+    },
+    {
+      "mes_referencia": "2022-07",
+      "indice_inflacao": 0.39,
+      "categoria_produto": "Salgados"
+    },
+    {
+      "mes_referencia": "2022-07",
+      "indice_inflacao": 0.36,
+      "categoria_produto": "Lanches"
+    },
+    {
+      "mes_referencia": "2022-07",
+      "indice_inflacao": 0.52,
+      "categoria_produto": "Bebidas não alcoólicas"
+    },
+    {
+      "mes_referencia": "2022-07",
+      "indice_inflacao": 0.26,
+      "categoria_produto": "Doces"
+    },
+    {
+      "mes_referencia": "2022-07",
+      "indice_inflacao": 0.65,
+      "categoria_produto": "Sobremesas e sorvetes"
+    },
+    {
+      "mes_referencia": "2022-08",
+      "indice_inflacao": 0.53,
+      "categoria_produto": "Salgados"
+    },
+    {
+      "mes_referencia": "2022-08",
+      "indice_inflacao": 0.23,
+      "categoria_produto": "Lanches"
+    },
+    {
+      "mes_referencia": "2022-08",
+      "indice_inflacao": 0.01,
+      "categoria_produto": "Bebidas não alcoólicas"
+    },
+    {
+      "mes_referencia": "2022-08",
+      "indice_inflacao": 0.62,
+      "categoria_produto": "Doces"
+    },
+    {
+      "mes_referencia": "2022-08",
+      "indice_inflacao": 0.45,
+      "categoria_produto": "Sobremesas e sorvetes"
+    },
+    {
+      "mes_referencia": "2022-09",
+      "indice_inflacao": 0.66,
+      "categoria_produto": "Salgados"
+    },
+    {
+      "mes_referencia": "09/2022",
+      "indice_inflacao": 0.59,
+      "categoria_produto": "Lanches"
+    },
+    {
+      "mes_referencia": "2022-09",
+      "indice_inflacao": 0.32,
+      "categoria_produto": "Bebidas não alcoólicas"
+    },
+    {
+      "mes_referencia": "2022-09",
+      "indice_inflacao": 0.74,
+      "categoria_produto": "Doces"
+    },
+    {
+      "mes_referencia": "2022-09",
+      "indice_inflacao": 0.58,
+      "categoria_produto": "Sobremesas e sorvetes"
+    },
+    {
+      "mes_referencia": "2022-10",
+      "indice_inflacao": 0.7,
+      "categoria_produto": "Salgados"
+    },
+    {
+      "mes_referencia": "2022-10",
+      "indice_inflacao": 0.8,
+      "categoria_produto": "Lanches"
+    },
+    {
+      "mes_referencia": "2022-10",
+      "indice_inflacao": 0.3,
+      "categoria_produto": "Bebidas não alcoólicas"
+    },
+    {
+      "mes_referencia": "2022-10",
+      "indice_inflacao": 0.14,
+      "categoria_produto": "Doces"
+    },
+    {
+      "mes_referencia": "2022-10",
+      "indice_inflacao": 0.23,
+      "categoria_produto": "Sobremesas e sorvetes"
+    }
+  ]
+}

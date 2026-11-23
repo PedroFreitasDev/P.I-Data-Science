@@ -2404,6 +2404,41 @@
       "temperatura_max": 32.2,
       "condicao": "nublado",
       "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2026-11-18",
+      "temperatura_media": 25.5,
+      "temperatura_max": 33.2,
+      "condicao": "parcialmente_nublado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2026-11-19",
+      "temperatura_media": 24.6,
+      "temperatura_max": 29.3,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2026-11-20",
+      "temperatura_media": 22.2,
+      "temperatura_max": 28.9,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2026-11-21",
+      "temperatura_media": 21.7,
+      "temperatura_max": 29.5,
+      "condicao": "ensolarado",
+      "precipitacao_mm": 0.0
+    },
+    {
+      "data": "2026-11-22",
+      "temperatura_media": 20.0,
+      "temperatura_max": 24.0,
+      "condicao": "tempestade",
+      "precipitacao_mm": 47.4
     }
   ]
 }
