@@ -1,23 +1,347 @@
 id_produto,nome_produto,categoria,preco_venda,custo_unitario,vigencia,custo_imputado,preco_sem_reajuste
+1,Coxinha de frango,Salgados,6,2.2,2020-01-27,FALSE,FALSE
+2,Pão de queijo,Salgados,4,1.48,2020-01-27,TRUE,FALSE
+3,Esfiha de carne,Salgados,6,2.3,2020-01-27,FALSE,FALSE
+4,Enroladinho de salsicha,Salgados,5.5,2,2020-01-27,FALSE,FALSE
+5,Pastel assado de queijo,Salgados,6.5,2.4,2020-01-27,FALSE,FALSE
+6,Empada de palmito,Salgados,6.5,2.6,2020-01-27,FALSE,FALSE
+7,Misto quente,Lanches Naturais,8,3,2020-01-27,FALSE,FALSE
+8,Sanduíche natural de frango,Lanches Naturais,9.5,3.8,2020-01-27,FALSE,FALSE
+9,Wrap vegetariano,Lanches Naturais,10,4.2,2020-01-27,FALSE,FALSE
+10,Tapioca de queijo,Lanches Naturais,8.5,3.2,2020-01-27,FALSE,FALSE
+11,Água mineral 500ml,Bebidas,3,1,2020-01-27,FALSE,FALSE
+12,Suco natural de laranja 300ml,Bebidas,6,2.2,2020-01-27,FALSE,FALSE
+13,Refrigerante lata,Bebidas,6,2.08,2020-01-27,TRUE,FALSE
+14,Achocolatado 200ml,Bebidas,4,1.7,2020-01-27,FALSE,FALSE
+15,Chá gelado 300ml,Bebidas,5,1.8,2020-01-27,FALSE,FALSE
+16,Chocolate quente,Bebidas,6,2,2020-01-27,FALSE,FALSE
+17,Café expresso,Bebidas,4,1,2020-01-27,FALSE,FALSE
+18,Brigadeiro,Doces,3.5,1.1,2020-01-27,FALSE,FALSE
+19,Bolo de cenoura (fatia),Doces,5,1.8,2020-01-27,FALSE,FALSE
+20,Cookie,Doces,4.5,1.6,2020-01-27,FALSE,FALSE
+21,Barra de cereal,Doces,3.5,1.5,2020-01-27,FALSE,FALSE
+22,Paçoca,Doces,2,0.6,2020-01-27,FALSE,FALSE
+23,Picolé de fruta,Sobremesas,5,1.9,2020-01-27,FALSE,FALSE
+24,Sorvete de massa (copo),Sobremesas,8,3,2020-01-27,FALSE,FALSE
+25,Salada de frutas,Sobremesas,7,2.8,2020-01-27,FALSE,FALSE
+26,Açaí 300ml,Sobremesas,14,5.5,2020-01-27,FALSE,FALSE
+27,Gelatina (copo),Sobremesas,3.5,1,2020-01-27,FALSE,FALSE
+1,Coxinha de frango,Salgados,6.5,2.25,2020-07-27,FALSE,FALSE
+2,Pão de queijo,Salgados,4.5,1.33,2020-07-27,FALSE,FALSE
+3,Esfiha de carne,Salgados,6.5,2.35,2020-07-27,FALSE,FALSE
+4,Enroladinho de salsicha,Salgados,6,2.05,2020-07-27,FALSE,FALSE
+5,Pastel assado de queijo,Salgados,7,2.45,2020-07-27,FALSE,FALSE
+7,Misto quente,Lanches Naturais,8.5,3.06,2020-07-27,FALSE,FALSE
+8,Sanduíche natural de frango,Lanches Naturais,10,3.87,2020-07-27,FALSE,FALSE
+9,Wrap vegetariano,Lanches Naturais,10.5,4.28,2020-07-27,FALSE,FALSE
+10,Tapioca de queijo,Lanches Naturais,9,3.26,2020-07-27,FALSE,FALSE
+11,Água mineral 500ml,Bebidas,3,1.02,2020-07-27,FALSE,TRUE
+12,Suco natural de laranja 300ml,Bebidas,6.5,2.24,2020-07-27,FALSE,FALSE
+13,Refrigerante lata,Bebidas,6.5,3.06,2020-07-27,FALSE,FALSE
+14,Achocolatado 200ml,Bebidas,4,1.73,2020-07-27,FALSE,TRUE
+16,Chocolate quente,Bebidas,6.5,2.04,2020-07-27,FALSE,FALSE
+17,Café expresso,Bebidas,4.5,1.02,2020-07-27,FALSE,FALSE
+18,Brigadeiro,Doces,4,1.14,2020-07-27,FALSE,FALSE
+19,Bolo de cenoura (fatia),Doces,5.5,1.69,2020-07-27,TRUE,FALSE
+20,Cookie,Doces,5,1.65,2020-07-27,FALSE,FALSE
+21,Barra de cereal,Doces,4,1.55,2020-07-27,FALSE,FALSE
+22,Paçoca,Doces,2.5,0.62,2020-07-27,FALSE,FALSE
+23,Picolé de fruta,Sobremesas,5.5,1.94,2020-07-27,FALSE,FALSE
+24,Sorvete de massa (copo),Sobremesas,8.5,3.06,2020-07-27,FALSE,FALSE
+25,Salada de frutas,Sobremesas,7.5,2.7,2020-07-27,TRUE,FALSE
+26,Açaí 300ml,Sobremesas,14,5.6,2020-07-27,FALSE,TRUE
+27,Gelatina (copo),Sobremesas,4,1.02,2020-07-27,FALSE,FALSE
+28,Pão de batata recheado,Salgados,6,2.25,2020-07-27,FALSE,FALSE
+29,Iogurte com granola,Sobremesas,7.5,3.06,2020-07-27,FALSE,FALSE
+1,Coxinha de frango,Salgados,6,2.2,2021-01-25,FALSE,FALSE
+2,Pão de queijo,Salgados,4,1.3,2021-01-25,FALSE,FALSE
+3,Esfiha de carne,Salgados,6,2.3,2021-01-25,FALSE,FALSE
+4,Enroladinho de salsicha,Salgados,5.5,2,2021-01-25,FALSE,FALSE
+5,Pastel assado de queijo,Salgados,6.5,2.4,2021-01-25,FALSE,FALSE
+6,Empada de palmito,Salgados,6.5,2.6,2021-01-25,FALSE,TRUE
+7,Misto quente,Lanches Naturais,8,3,2021-01-25,FALSE,FALSE
+8,Sanduíche natural de frango,Lanches Naturais,9.5,3.8,2021-01-25,FALSE,FALSE
+9,Wrap vegetariano,Lanches Naturais,10,4.2,2021-01-25,FALSE,FALSE
+10,Tapioca de queijo,Lanches Naturais,8.5,3.2,2021-01-25,FALSE,FALSE
+11,Água mineral 500ml,Bebidas,3,1,2021-01-25,FALSE,TRUE
+12,Suco natural de laranja 300ml,Bebidas,6,2.2,2021-01-25,FALSE,FALSE
+13,Refrigerante lata,Bebidas,6,3,2021-01-25,FALSE,FALSE
+14,Achocolatado 200ml,Bebidas,4,1.7,2021-01-25,FALSE,TRUE
+15,Chá gelado 300ml,Bebidas,5,1.75,2021-01-25,TRUE,TRUE
+16,Chocolate quente,Bebidas,6,2,2021-01-25,FALSE,FALSE
+17,Café expresso,Bebidas,4,1,2021-01-25,FALSE,FALSE
+18,Brigadeiro,Doces,3.5,1.1,2021-01-25,FALSE,FALSE
+19,Bolo de cenoura (fatia),Doces,5,1.8,2021-01-25,FALSE,FALSE
+20,Cookie,Doces,4.5,1.6,2021-01-25,FALSE,FALSE
+21,Barra de cereal,Doces,3.5,1.5,2021-01-25,FALSE,FALSE
+22,Paçoca,Doces,2,0.6,2021-01-25,FALSE,FALSE
+23,Picolé de fruta,Sobremesas,5,1.92,2021-01-25,TRUE,FALSE
+24,Sorvete de massa (copo),Sobremesas,8,3,2021-01-25,FALSE,FALSE
+25,Salada de frutas,Sobremesas,7,2.8,2021-01-25,FALSE,FALSE
+26,Açaí 300ml,Sobremesas,14,5.5,2021-01-25,FALSE,TRUE
+27,Gelatina (copo),Sobremesas,3.5,1,2021-01-25,FALSE,FALSE
+1,Coxinha de frango,Salgados,6.5,2.26,2021-07-26,FALSE,FALSE
+2,Pão de queijo,Salgados,4.5,1.58,2021-07-26,TRUE,FALSE
+3,Esfiha de carne,Salgados,6.5,2.36,2021-07-26,FALSE,FALSE
+4,Enroladinho de salsicha,Salgados,6,2.05,2021-07-26,FALSE,FALSE
+5,Pastel assado de queijo,Salgados,7,2.46,2021-07-26,FALSE,FALSE
+7,Misto quente,Lanches Naturais,8.5,3.09,2021-07-26,FALSE,FALSE
+8,Sanduíche natural de frango,Lanches Naturais,10,3.92,2021-07-26,FALSE,FALSE
+9,Wrap vegetariano,Lanches Naturais,10.5,4.33,2021-07-26,FALSE,FALSE
+10,Tapioca de queijo,Lanches Naturais,8.5,3.33,2021-07-26,TRUE,TRUE
+11,Água mineral 500ml,Bebidas,3.5,1.03,2021-07-26,FALSE,FALSE
+12,Suco natural de laranja 300ml,Bebidas,6.5,2.26,2021-07-26,FALSE,FALSE
+13,Refrigerante lata,Bebidas,6,3.08,2021-07-26,FALSE,TRUE
+14,Achocolatado 200ml,Bebidas,4.5,1.74,2021-07-26,FALSE,FALSE
+16,Chocolate quente,Bebidas,6.5,2.05,2021-07-26,FALSE,FALSE
+17,Café expresso,Bebidas,4.5,1.03,2021-07-26,FALSE,FALSE
+18,Brigadeiro,Doces,3.5,1.13,2021-07-26,FALSE,TRUE
+19,Bolo de cenoura (fatia),Doces,5.5,1.85,2021-07-26,FALSE,FALSE
+20,Cookie,Doces,5,1.64,2021-07-26,FALSE,FALSE
+21,Barra de cereal,Doces,4,1.54,2021-07-26,FALSE,FALSE
+22,Paçoca,Doces,2.5,0.62,2021-07-26,FALSE,FALSE
+23,Picolé de fruta,Sobremesas,5.5,1.93,2021-07-26,FALSE,FALSE
+24,Sorvete de massa (copo),Sobremesas,8.5,3.05,2021-07-26,FALSE,FALSE
+25,Salada de frutas,Sobremesas,7.5,2.85,2021-07-26,FALSE,FALSE
+26,Açaí 300ml,Sobremesas,14.5,5.6,2021-07-26,FALSE,FALSE
+27,Gelatina (copo),Sobremesas,4,1.02,2021-07-26,FALSE,FALSE
+28,Pão de batata recheado,Salgados,6,2.26,2021-07-26,FALSE,TRUE
+29,Iogurte com granola,Sobremesas,7.5,3.05,2021-07-26,FALSE,TRUE
+1,Coxinha de frango,Salgados,6,2.2,2022-01-31,FALSE,FALSE
+2,Pão de queijo,Salgados,4,1.3,2022-01-31,FALSE,FALSE
+3,Esfiha de carne,Salgados,6,2.3,2022-01-31,FALSE,FALSE
+4,Enroladinho de salsicha,Salgados,5.5,2,2022-01-31,FALSE,FALSE
+5,Pastel assado de queijo,Salgados,6.5,2.38,2022-01-31,TRUE,FALSE
+6,Empada de palmito,Salgados,6.5,2.6,2022-01-31,FALSE,TRUE
+7,Misto quente,Lanches Naturais,8,3,2022-01-31,FALSE,FALSE
+8,Sanduíche natural de frango,Lanches Naturais,9.5,3.8,2022-01-31,FALSE,FALSE
+9,Wrap vegetariano,Lanches Naturais,10,4.2,2022-01-31,FALSE,FALSE
+10,Tapioca de queijo,Lanches Naturais,8.5,3.2,2022-01-31,FALSE,TRUE
+11,Água mineral 500ml,Bebidas,3,1,2022-01-31,FALSE,FALSE
+12,Suco natural de laranja 300ml,Bebidas,6,2.2,2022-01-31,FALSE,FALSE
+13,Refrigerante lata,Bebidas,6,3,2022-01-31,FALSE,TRUE
+14,Achocolatado 200ml,Bebidas,4,1.7,2022-01-31,FALSE,FALSE
+15,Chá gelado 300ml,Bebidas,5,1.8,2022-01-31,FALSE,TRUE
+16,Chocolate quente,Bebidas,6,2,2022-01-31,FALSE,FALSE
+17,Café expresso,Bebidas,4,1,2022-01-31,FALSE,FALSE
+18,Brigadeiro,Doces,3.5,1.1,2022-01-31,FALSE,TRUE
+19,Bolo de cenoura (fatia),Doces,5,1.8,2022-01-31,FALSE,FALSE
+20,Cookie,Doces,4.5,1.6,2022-01-31,FALSE,FALSE
+21,Barra de cereal,Doces,3.5,1.5,2022-01-31,FALSE,FALSE
+22,Paçoca,Doces,2,0.6,2022-01-31,FALSE,FALSE
+23,Picolé de fruta,Sobremesas,5,1.9,2022-01-31,FALSE,FALSE
+24,Sorvete de massa (copo),Sobremesas,8,3,2022-01-31,FALSE,FALSE
+25,Salada de frutas,Sobremesas,7,2.64,2022-01-31,TRUE,FALSE
+26,Açaí 300ml,Sobremesas,14,5.5,2022-01-31,FALSE,FALSE
+27,Gelatina (copo),Sobremesas,3.5,1,2022-01-31,FALSE,FALSE
+1,Coxinha de frango,Salgados,6.5,2.29,2022-07-06,TRUE,FALSE
+2,Pão de queijo,Salgados,4.5,1.34,2022-07-06,FALSE,FALSE
+3,Esfiha de carne,Salgados,6.5,2.37,2022-07-06,FALSE,FALSE
+4,Enroladinho de salsicha,Salgados,6,2.06,2022-07-06,FALSE,FALSE
+5,Pastel assado de queijo,Salgados,7,2.47,2022-07-06,FALSE,FALSE
+7,Misto quente,Lanches Naturais,8.5,3.1,2022-07-06,FALSE,FALSE
+8,Sanduíche natural de frango,Lanches Naturais,10,3.92,2022-07-06,FALSE,FALSE
+9,Wrap vegetariano,Lanches Naturais,10.5,4.34,2022-07-06,FALSE,FALSE
+10,Tapioca de queijo,Lanches Naturais,9,3.3,2022-07-06,FALSE,FALSE
+11,Água mineral 500ml,Bebidas,3.5,1.02,2022-07-06,FALSE,FALSE
+12,Suco natural de laranja 300ml,Bebidas,6,2.25,2022-07-06,FALSE,TRUE
+13,Refrigerante lata,Bebidas,6.5,3.07,2022-07-06,FALSE,FALSE
+14,Achocolatado 200ml,Bebidas,4,1.74,2022-07-06,FALSE,TRUE
+16,Chocolate quente,Bebidas,6.5,2.05,2022-07-06,FALSE,FALSE
+17,Café expresso,Bebidas,4.5,1.02,2022-07-06,FALSE,FALSE
+18,Brigadeiro,Doces,4,1.14,2022-07-06,FALSE,FALSE
+19,Bolo de cenoura (fatia),Doces,5.5,1.86,2022-07-06,FALSE,FALSE
+20,Cookie,Doces,5,1.65,2022-07-06,FALSE,FALSE
+21,Barra de cereal,Doces,4,1.55,2022-07-06,FALSE,FALSE
+22,Paçoca,Doces,2,0.62,2022-07-06,FALSE,TRUE
+23,Picolé de fruta,Sobremesas,5.5,1.94,2022-07-06,FALSE,FALSE
+24,Sorvete de massa (copo),Sobremesas,8.5,3.07,2022-07-06,FALSE,FALSE
+25,Salada de frutas,Sobremesas,7.5,2.71,2022-07-06,TRUE,FALSE
+26,Açaí 300ml,Sobremesas,14.5,5.62,2022-07-06,FALSE,FALSE
+27,Gelatina (copo),Sobremesas,4,1.02,2022-07-06,FALSE,FALSE
+28,Pão de batata recheado,Salgados,6,2.26,2022-07-06,FALSE,TRUE
+29,Iogurte com granola,Sobremesas,7.5,3.07,2022-07-06,FALSE,TRUE
+1,Coxinha de frango,Salgados,6,2.2,2023-01-30,FALSE,FALSE
+2,Pão de queijo,Salgados,4,1.3,2023-01-30,FALSE,FALSE
+3,Esfiha de carne,Salgados,6,2.3,2023-01-30,FALSE,FALSE
+4,Enroladinho de salsicha,Salgados,5.5,2.03,2023-01-30,TRUE,FALSE
+5,Pastel assado de queijo,Salgados,6.5,2.4,2023-01-30,FALSE,FALSE
+6,Empada de palmito,Salgados,6.5,2.6,2023-01-30,FALSE,TRUE
+7,Misto quente,Lanches Naturais,8,3,2023-01-30,FALSE,FALSE
+8,Sanduíche natural de frango,Lanches Naturais,9.5,3.8,2023-01-30,FALSE,FALSE
+9,Wrap vegetariano,Lanches Naturais,10,4.2,2023-01-30,FALSE,FALSE
+10,Tapioca de queijo,Lanches Naturais,8.5,3.2,2023-01-30,FALSE,FALSE
+11,Água mineral 500ml,Bebidas,3,1.09,2023-01-30,TRUE,FALSE
+12,Suco natural de laranja 300ml,Bebidas,6,2.2,2023-01-30,FALSE,TRUE
+13,Refrigerante lata,Bebidas,6,3,2023-01-30,FALSE,FALSE
+14,Achocolatado 200ml,Bebidas,4,1.7,2023-01-30,FALSE,TRUE
+15,Chá gelado 300ml,Bebidas,5,1.8,2023-01-30,FALSE,TRUE
+16,Chocolate quente,Bebidas,6,2,2023-01-30,FALSE,FALSE
+17,Café expresso,Bebidas,4,1,2023-01-30,FALSE,FALSE
+18,Brigadeiro,Doces,3.5,1.1,2023-01-30,FALSE,FALSE
+19,Bolo de cenoura (fatia),Doces,5,1.8,2023-01-30,FALSE,FALSE
+20,Cookie,Doces,4.5,1.6,2023-01-30,FALSE,FALSE
+21,Barra de cereal,Doces,3.5,1.5,2023-01-30,FALSE,FALSE
+22,Paçoca,Doces,2,0.6,2023-01-30,FALSE,TRUE
+23,Picolé de fruta,Sobremesas,5,1.9,2023-01-30,FALSE,FALSE
+24,Sorvete de massa (copo),Sobremesas,8,3,2023-01-30,FALSE,FALSE
+25,Salada de frutas,Sobremesas,7,2.8,2023-01-30,FALSE,FALSE
+26,Açaí 300ml,Sobremesas,14,5.5,2023-01-30,FALSE,FALSE
+27,Gelatina (copo),Sobremesas,3.5,1,2023-01-30,FALSE,FALSE
+1,Coxinha de frango,Salgados,6.5,2.25,2023-07-06,FALSE,FALSE
+2,Pão de queijo,Salgados,4.5,1.33,2023-07-06,FALSE,FALSE
+3,Esfiha de carne,Salgados,6.5,2.36,2023-07-06,FALSE,FALSE
+4,Enroladinho de salsicha,Salgados,6,2.05,2023-07-06,FALSE,FALSE
+5,Pastel assado de queijo,Salgados,7,2.42,2023-07-06,TRUE,FALSE
+7,Misto quente,Lanches Naturais,8.5,3.08,2023-07-06,FALSE,FALSE
+8,Sanduíche natural de frango,Lanches Naturais,10,3.9,2023-07-06,FALSE,FALSE
+9,Wrap vegetariano,Lanches Naturais,10,4.31,2023-07-06,FALSE,TRUE
+10,Tapioca de queijo,Lanches Naturais,9,3.28,2023-07-06,FALSE,FALSE
+11,Água mineral 500ml,Bebidas,3,1.02,2023-07-06,FALSE,TRUE
+12,Suco natural de laranja 300ml,Bebidas,6.5,2.23,2023-07-06,FALSE,FALSE
+13,Refrigerante lata,Bebidas,6,3.05,2023-07-06,FALSE,TRUE
+14,Achocolatado 200ml,Bebidas,4.5,1.73,2023-07-06,FALSE,FALSE
+16,Chocolate quente,Bebidas,6.5,2.03,2023-07-06,FALSE,FALSE
+17,Café expresso,Bebidas,4.5,1.02,2023-07-06,FALSE,FALSE
+18,Brigadeiro,Doces,4,1.13,2023-07-06,FALSE,FALSE
+19,Bolo de cenoura (fatia),Doces,5.5,1.85,2023-07-06,FALSE,FALSE
+20,Cookie,Doces,5,1.65,2023-07-06,FALSE,FALSE
+21,Barra de cereal,Doces,4,1.22,2023-07-06,TRUE,FALSE
+22,Paçoca,Doces,2.5,0.62,2023-07-06,FALSE,FALSE
+23,Picolé de fruta,Sobremesas,5.5,1.94,2023-07-06,FALSE,FALSE
+24,Sorvete de massa (copo),Sobremesas,8.5,3.06,2023-07-06,FALSE,FALSE
+25,Salada de frutas,Sobremesas,7.5,2.85,2023-07-06,FALSE,FALSE
+26,Açaí 300ml,Sobremesas,14.5,5.6,2023-07-06,FALSE,FALSE
+27,Gelatina (copo),Sobremesas,4,1.02,2023-07-06,FALSE,FALSE
+28,Pão de batata recheado,Salgados,6,2.25,2023-07-06,FALSE,TRUE
+29,Iogurte com granola,Sobremesas,7.5,3.06,2023-07-06,FALSE,TRUE
+1,Coxinha de frango,Salgados,6,2.2,2024-01-29,FALSE,FALSE
+2,Pão de queijo,Salgados,4,1.3,2024-01-29,FALSE,FALSE
+3,Esfiha de carne,Salgados,6,2.3,2024-01-29,FALSE,FALSE
+4,Enroladinho de salsicha,Salgados,5.5,2,2024-01-29,FALSE,FALSE
+5,Pastel assado de queijo,Salgados,6.5,2.4,2024-01-29,FALSE,FALSE
+6,Empada de palmito,Salgados,6.5,2.6,2024-01-29,FALSE,TRUE
+7,Misto quente,Lanches Naturais,8,3,2024-01-29,FALSE,FALSE
+8,Sanduíche natural de frango,Lanches Naturais,9.5,3.8,2024-01-29,FALSE,FALSE
+9,Wrap vegetariano,Lanches Naturais,10,4.2,2024-01-29,FALSE,TRUE
+10,Tapioca de queijo,Lanches Naturais,8.5,3.2,2024-01-29,FALSE,FALSE
+11,Água mineral 500ml,Bebidas,3,1,2024-01-29,FALSE,TRUE
+12,Suco natural de laranja 300ml,Bebidas,6,2.2,2024-01-29,FALSE,FALSE
+13,Refrigerante lata,Bebidas,6,3,2024-01-29,FALSE,TRUE
+14,Achocolatado 200ml,Bebidas,4,1.39,2024-01-29,TRUE,FALSE
+15,Chá gelado 300ml,Bebidas,5,1.8,2024-01-29,FALSE,TRUE
+16,Chocolate quente,Bebidas,6,2,2024-01-29,FALSE,FALSE
+17,Café expresso,Bebidas,4,1,2024-01-29,FALSE,FALSE
+18,Brigadeiro,Doces,3.5,1.1,2024-01-29,FALSE,FALSE
+19,Bolo de cenoura (fatia),Doces,5,1.8,2024-01-29,FALSE,FALSE
+20,Cookie,Doces,4.5,1.6,2024-01-29,FALSE,FALSE
+21,Barra de cereal,Doces,3.5,1.5,2024-01-29,FALSE,FALSE
+22,Paçoca,Doces,2,0.72,2024-01-29,TRUE,FALSE
+23,Picolé de fruta,Sobremesas,5,1.9,2024-01-29,FALSE,FALSE
+24,Sorvete de massa (copo),Sobremesas,8,3,2024-01-29,FALSE,FALSE
+25,Salada de frutas,Sobremesas,7,2.8,2024-01-29,FALSE,FALSE
+26,Açaí 300ml,Sobremesas,14,5.5,2024-01-29,FALSE,FALSE
+27,Gelatina (copo),Sobremesas,3.5,1,2024-01-29,FALSE,FALSE
+1,Coxinha de frango,Salgados,6.5,2.23,2024-07-29,FALSE,FALSE
+2,Pão de queijo,Salgados,4.5,1.56,2024-07-29,TRUE,FALSE
+3,Esfiha de carne,Salgados,6.5,2.33,2024-07-29,FALSE,FALSE
+4,Enroladinho de salsicha,Salgados,6,2.03,2024-07-29,FALSE,FALSE
+5,Pastel assado de queijo,Salgados,7,2.43,2024-07-29,FALSE,FALSE
+7,Misto quente,Lanches Naturais,8.5,3.02,2024-07-29,FALSE,FALSE
+8,Sanduíche natural de frango,Lanches Naturais,9.5,3.83,2024-07-29,FALSE,TRUE
+9,Wrap vegetariano,Lanches Naturais,10.5,4.23,2024-07-29,FALSE,FALSE
+10,Tapioca de queijo,Lanches Naturais,9,3.22,2024-07-29,FALSE,FALSE
+11,Água mineral 500ml,Bebidas,3.5,1.01,2024-07-29,FALSE,FALSE
+12,Suco natural de laranja 300ml,Bebidas,6.5,2.23,2024-07-29,FALSE,FALSE
+13,Refrigerante lata,Bebidas,6.5,3.03,2024-07-29,FALSE,FALSE
+14,Achocolatado 200ml,Bebidas,4.5,1.72,2024-07-29,FALSE,FALSE
+16,Chocolate quente,Bebidas,6.5,2.02,2024-07-29,FALSE,FALSE
+17,Café expresso,Bebidas,4.5,1.01,2024-07-29,FALSE,FALSE
+18,Brigadeiro,Doces,4,1.13,2024-07-29,FALSE,FALSE
+19,Bolo de cenoura (fatia),Doces,5,1.85,2024-07-29,FALSE,TRUE
+20,Cookie,Doces,4.5,1.47,2024-07-29,TRUE,TRUE
+21,Barra de cereal,Doces,4,1.54,2024-07-29,FALSE,FALSE
+22,Paçoca,Doces,2.5,0.62,2024-07-29,FALSE,FALSE
+23,Picolé de fruta,Sobremesas,5.5,1.94,2024-07-29,FALSE,FALSE
+24,Sorvete de massa (copo),Sobremesas,8.5,3.06,2024-07-29,FALSE,FALSE
+25,Salada de frutas,Sobremesas,7.5,2.86,2024-07-29,FALSE,FALSE
+26,Açaí 300ml,Sobremesas,14.5,5.61,2024-07-29,FALSE,FALSE
+27,Gelatina (copo),Sobremesas,4,1.02,2024-07-29,FALSE,FALSE
+28,Pão de batata recheado,Salgados,6,2.23,2024-07-29,FALSE,TRUE
+29,Iogurte com granola,Sobremesas,7.5,3.06,2024-07-29,FALSE,TRUE
+1,Coxinha de frango,Salgados,6,2.2,2025-01-27,FALSE,FALSE
+2,Pão de queijo,Salgados,4,1.3,2025-01-27,FALSE,FALSE
+3,Esfiha de carne,Salgados,6,2.3,2025-01-27,FALSE,FALSE
+4,Enroladinho de salsicha,Salgados,5.5,2,2025-01-27,FALSE,FALSE
+5,Pastel assado de queijo,Salgados,6.5,2.4,2025-01-27,FALSE,FALSE
+6,Empada de palmito,Salgados,6.5,2.38,2025-01-27,TRUE,TRUE
+7,Misto quente,Lanches Naturais,8,3,2025-01-27,FALSE,FALSE
+8,Sanduíche natural de frango,Lanches Naturais,9.5,3.8,2025-01-27,FALSE,TRUE
+9,Wrap vegetariano,Lanches Naturais,10,4.2,2025-01-27,FALSE,FALSE
+10,Tapioca de queijo,Lanches Naturais,8.5,3.4,2025-01-27,TRUE,FALSE
+11,Água mineral 500ml,Bebidas,3,1,2025-01-27,FALSE,FALSE
+12,Suco natural de laranja 300ml,Bebidas,6,2.2,2025-01-27,FALSE,FALSE
+13,Refrigerante lata,Bebidas,6,3,2025-01-27,FALSE,FALSE
+14,Achocolatado 200ml,Bebidas,4,1.7,2025-01-27,FALSE,FALSE
+15,Chá gelado 300ml,Bebidas,5,1.8,2025-01-27,FALSE,TRUE
+16,Chocolate quente,Bebidas,6,2,2025-01-27,FALSE,FALSE
+17,Café expresso,Bebidas,4,1,2025-01-27,FALSE,FALSE
+18,Brigadeiro,Doces,3.5,1.1,2025-01-27,FALSE,FALSE
+19,Bolo de cenoura (fatia),Doces,5,1.8,2025-01-27,FALSE,TRUE
+20,Cookie,Doces,4.5,1.6,2025-01-27,FALSE,TRUE
+21,Barra de cereal,Doces,3.5,1.5,2025-01-27,FALSE,FALSE
+22,Paçoca,Doces,2,0.6,2025-01-27,FALSE,FALSE
+23,Picolé de fruta,Sobremesas,5,1.9,2025-01-27,FALSE,FALSE
+24,Sorvete de massa (copo),Sobremesas,8,3,2025-01-27,FALSE,FALSE
+25,Salada de frutas,Sobremesas,7,2.8,2025-01-27,FALSE,FALSE
+26,Açaí 300ml,Sobremesas,14,5.5,2025-01-27,FALSE,FALSE
+27,Gelatina (copo),Sobremesas,3.5,1,2025-01-27,FALSE,FALSE
+1,Coxinha de frango,Salgados,6.5,2.27,2025-07-28,TRUE,FALSE
+2,Pão de queijo,Salgados,4.5,1.32,2025-07-28,FALSE,FALSE
+3,Esfiha de carne,Salgados,6.5,2.34,2025-07-28,FALSE,FALSE
+4,Enroladinho de salsicha,Salgados,6,2.04,2025-07-28,FALSE,FALSE
+5,Pastel assado de queijo,Salgados,7,2.44,2025-07-28,FALSE,FALSE
+7,Misto quente,Lanches Naturais,8.5,3.05,2025-07-28,FALSE,FALSE
+8,Sanduíche natural de frango,Lanches Naturais,9.5,3.86,2025-07-28,FALSE,TRUE
+9,Wrap vegetariano,Lanches Naturais,10.5,4.26,2025-07-28,FALSE,FALSE
+10,Tapioca de queijo,Lanches Naturais,9,3.25,2025-07-28,FALSE,FALSE
+11,Água mineral 500ml,Bebidas,3.5,1.01,2025-07-28,FALSE,FALSE
+12,Suco natural de laranja 300ml,Bebidas,6.5,2.23,2025-07-28,FALSE,FALSE
+13,Refrigerante lata,Bebidas,6.5,3.04,2025-07-28,FALSE,FALSE
+14,Achocolatado 200ml,Bebidas,4.5,1.73,2025-07-28,FALSE,FALSE
+16,Chocolate quente,Bebidas,6.5,2.03,2025-07-28,FALSE,FALSE
+17,Café expresso,Bebidas,4.5,1.54,2025-07-28,TRUE,FALSE
+18,Brigadeiro,Doces,3.5,1.13,2025-07-28,FALSE,TRUE
+19,Bolo de cenoura (fatia),Doces,5,1.85,2025-07-28,FALSE,TRUE
+20,Cookie,Doces,5,1.64,2025-07-28,FALSE,FALSE
+21,Barra de cereal,Doces,4,1.54,2025-07-28,FALSE,FALSE
+22,Paçoca,Doces,2.5,0.62,2025-07-28,FALSE,FALSE
+23,Picolé de fruta,Sobremesas,5.5,1.93,2025-07-28,FALSE,FALSE
+24,Sorvete de massa (copo),Sobremesas,8.5,3.04,2025-07-28,FALSE,FALSE
+25,Salada de frutas,Sobremesas,7.5,2.84,2025-07-28,FALSE,FALSE
+26,Açaí 300ml,Sobremesas,14.5,5.58,2025-07-28,FALSE,FALSE
+27,Gelatina (copo),Sobremesas,4,1.01,2025-07-28,FALSE,FALSE
+28,Pão de batata recheado,Salgados,6,2.24,2025-07-28,FALSE,TRUE
+29,Iogurte com granola,Sobremesas,7.5,3.04,2025-07-28,FALSE,TRUE
 1,Coxinha de frango,Salgados,6,2.2,2026-01-26,FALSE,FALSE
 2,Pão de queijo,Salgados,4,1.3,2026-01-26,FALSE,FALSE
 3,Esfiha de carne,Salgados,6,2.3,2026-01-26,FALSE,FALSE
 4,Enroladinho de salsicha,Salgados,5.5,2.03,2026-01-26,TRUE,FALSE
 5,Pastel assado de queijo,Salgados,6.5,2.4,2026-01-26,FALSE,FALSE
-6,Empada de palmito,Salgados,6.5,2.6,2026-01-26,FALSE,FALSE
+6,Empada de palmito,Salgados,6.5,2.6,2026-01-26,FALSE,TRUE
 7,Misto quente,Lanches Naturais,8,3,2026-01-26,FALSE,FALSE
-8,Sanduíche natural de frango,Lanches Naturais,9.5,3.8,2026-01-26,FALSE,FALSE
+8,Sanduíche natural de frango,Lanches Naturais,9.5,3.8,2026-01-26,FALSE,TRUE
 9,Wrap vegetariano,Lanches Naturais,10,3.76,2026-01-26,TRUE,FALSE
 10,Tapioca de queijo,Lanches Naturais,8.5,3.2,2026-01-26,FALSE,FALSE
 11,Água mineral 500ml,Bebidas,3,1,2026-01-26,FALSE,FALSE
 12,Suco natural de laranja 300ml,Bebidas,6,2.2,2026-01-26,FALSE,FALSE
 13,Refrigerante lata,Bebidas,6,3,2026-01-26,FALSE,FALSE
 14,Achocolatado 200ml,Bebidas,4,1.7,2026-01-26,FALSE,FALSE
-15,Chá gelado 300ml,Bebidas,5,1.8,2026-01-26,FALSE,FALSE
+15,Chá gelado 300ml,Bebidas,5,1.8,2026-01-26,FALSE,TRUE
 16,Chocolate quente,Bebidas,6,2,2026-01-26,FALSE,FALSE
 17,Café expresso,Bebidas,4,1,2026-01-26,FALSE,FALSE
-18,Brigadeiro,Doces,3.5,1.1,2026-01-26,FALSE,FALSE
-19,Bolo de cenoura (fatia),Doces,5,1.8,2026-01-26,FALSE,FALSE
+18,Brigadeiro,Doces,3.5,1.1,2026-01-26,FALSE,TRUE
+19,Bolo de cenoura (fatia),Doces,5,1.8,2026-01-26,FALSE,TRUE
 20,Cookie,Doces,4.5,1.6,2026-01-26,FALSE,FALSE
 21,Barra de cereal,Doces,3.5,1.5,2026-01-26,FALSE,FALSE
 22,Paçoca,Doces,2,0.6,2026-01-26,FALSE,FALSE
@@ -51,5 +375,5 @@ id_produto,nome_produto,categoria,preco_venda,custo_unitario,vigencia,custo_impu
 25,Salada de frutas,Sobremesas,7.5,2.84,2026-07-27,FALSE,FALSE
 26,Açaí 300ml,Sobremesas,14.5,5.57,2026-07-27,FALSE,FALSE
 27,Gelatina (copo),Sobremesas,4,1.01,2026-07-27,FALSE,FALSE
-28,Pão de batata recheado,Salgados,6,2.25,2026-07-27,FALSE,FALSE
-29,Iogurte com granola,Sobremesas,7.5,2.68,2026-07-27,TRUE,FALSE
+28,Pão de batata recheado,Salgados,6,2.25,2026-07-27,FALSE,TRUE
+29,Iogurte com granola,Sobremesas,7.5,2.68,2026-07-27,TRUE,TRUE

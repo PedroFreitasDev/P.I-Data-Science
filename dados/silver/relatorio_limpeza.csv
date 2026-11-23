@@ -1,35 +1,59 @@
 tabela,problema,linhas,acao
-cardapio,categoria fora do padrão,2,padronizada
-cardapio,custo_unitario ausente,4,estimado pela proporção custo/preço da categoria (coluna custo_imputado = TRUE)
-cardapio,preço não reajustado na troca de cardápio (desatualizado em relação à inflação),3,mantido e sinalizado na coluna preco_sem_reajuste
-vendas,linha duplicada,2,removida
-vendas,id_venda repetido em vendas diferentes,2,renumerado com o id que faltava na sequência
-vendas,id_aluno/id_produto em formato texto (ALU01234 / P012),588,"convertidos para número, como em alunos, devedores e cardápio"
-vendas,id_aluno vazio,1,"mantida (entra no faturamento, mas fica sem turma)"
-vendas,"produto inexistente no cardápio (P999, P000...)",1,removida
-vendas,preço/valor negativo,3,sinal corrigido
-vendas,"valor_unitario sem a vírgula (450 em vez de 4,50)",1,dividido por 100
-vendas,"quantidade zerada, negativa ou absurda",1,recuperada por valor_total / valor_unitario
-vendas,valor_total diferente de quantidade × valor_unitario,1,recalculado
-vendas,"forma_pagamento digitada fora do padrão (pix, Dinhero, Anotado...)",1,padronizada
-alunos,"id_aluno em formato diferente (001234, ALU01234)",4,convertido para número
-alunos,nome fora do padrão (caixa ou espaços),3,padronizado
-alunos,data de nascimento em outro formato (dd/mm/aaaa),3,convertida para aaaa-mm-dd
-alunos,"data de nascimento inválida (1900, ano futuro, ano 0016)",3,deixada vazia (o notebook preenche a idade pela mediana)
-alunos,restricao_alimentar ausente (campo aninhado),3,preenchida com 'Não informado'
-alunos,turno da turma ausente (campo aninhado) - contagem em turmas,1,deduzido pelo horário das compras dos alunos da turma
-alunos,homônimos (alunos diferentes com o mesmo nome),12,mantidos (a chave é id_aluno); sinalizados em nome_repetido
-devedores,mesmo débito lançado mais de uma vez,1,removido (fica o primeiro id)
-perdas,quantidade zerada ou negativa,1,sinal corrigido ou recuperada por valor_prejuizo / custo
-calendario,tipo_dia digitado fora do padrão,1,padronizado
-calendario,feriado nacional marcado como dia letivo,2,corrigido para feriado
-calendario,turno_letivo ausente,4,deduzido do tipo do dia e da descrição
-calendario,dia letivo sem nenhuma venda (possível greve ou dia sem registro),19,mantido como letivo e sinalizado em houve_vendas = FALSE
-clima,data com fuso horário divergente,5,convertida para o dia correto
-clima,dia com 24 leituras horárias (granularidade diferente) - contagem em dias,1,"agregado: média das temperaturas, máxima das máximas e soma da chuva"
-clima,"temperatura absurda (999,9, sinal trocado, ×10)",4,descartada e interpolada
-clima,dia ausente (falha de requisição),1,incluído e preenchido (imputado = TRUE)
-clima,dia com campos nulos ou descartados,6,temperaturas interpoladas entre os dias vizinhos; condição e chuva estimadas
-inflacao,categoria diferente da usada no cardápio (nome da API ou digitação),27,mapeada para a categoria do cardápio
-inflacao,índice absurdo (sem a vírgula),1,dividido por 100
-inflacao,"meses com vendas e sem índice publicado (defasagem): 2026-10, 2026-11",2,não inventados; a coluna disponivel_em indica quando cada índice sai
+cardapio,nome do produto fora do padrão (caixa alta ou espaços),1,corrigido pela outra versão do cardápio ou caixa padronizada
+cardapio,categoria fora do padrão,10,padronizada
+cardapio,preço absurdo (digitado sem a vírgula),6,dividido por 100
+cardapio,custo_unitario negativo,5,sinal corrigido
+cardapio,custo_unitario ausente,28,estimado pela proporção custo/preço da categoria (coluna custo_imputado = TRUE)
+cardapio,preço não reajustado na troca de cardápio (desatualizado em relação à inflação),63,mantido e sinalizado na coluna preco_sem_reajuste
+vendas,linha duplicada,462,removida
+vendas,id_venda repetido em vendas diferentes,222,renumerado com o id que faltava na sequência
+vendas,data digitada como texto (dd/mm/aaaa ou aaaa-mm-dd),22237,convertida para data/hora
+vendas,id_aluno/id_produto em formato texto (ALU01234 / P012),145124,"convertidos para número, como em alunos, devedores e cardápio"
+vendas,id_aluno vazio,288,"mantida (entra no faturamento, mas fica sem turma)"
+vendas,"produto inexistente no cardápio (P999, P000...)",239,removida
+vendas,preço/valor negativo,378,sinal corrigido
+vendas,"valor_unitario sem a vírgula (450 em vez de 4,50)",287,dividido por 100
+vendas,"quantidade zerada, negativa ou absurda",369,recuperada por valor_total / valor_unitario
+vendas,valor_total diferente de quantidade × valor_unitario,554,recalculado
+vendas,"forma_pagamento digitada fora do padrão (pix, Dinhero, Anotado...)",335,padronizada
+vendas,forma_pagamento vazia,398,preenchida com a forma dos outros itens da mesma compra
+vendas,forma_pagamento vazia sem como deduzir,293,preenchida com 'Não informado'
+vendas,produto ausente do cardápio vigente (estoque remanescente de produto descontinuado),124,mantida e sinalizada em fora_cardapio_vigente
+alunos,"id_aluno em formato diferente (001234, ALU01234)",28,convertido para número
+alunos,nome fora do padrão (caixa ou espaços),19,padronizado
+alunos,data de nascimento em outro formato (dd/mm/aaaa),17,convertida para aaaa-mm-dd
+alunos,"data de nascimento inválida (1900, ano futuro, ano 0016)",22,deixada vazia (o notebook preenche a idade pela mediana)
+alunos,data_nascimento ausente (campo aninhado),11,mantida vazia
+alunos,restricao_alimentar ausente (campo aninhado),9,preenchida com 'Não informado'
+alunos,turno da turma ausente (campo aninhado) - contagem em turmas,5,deduzido pelo horário das compras dos alunos da turma
+alunos,homônimos (alunos diferentes com o mesmo nome),90,mantidos (a chave é id_aluno); sinalizados em nome_repetido
+devedores,mesmo débito lançado mais de uma vez,57,removido (fica o primeiro id)
+devedores,status digitado fora do padrão,52,padronizado (Quitado / Em aberto / Atrasado)
+devedores,id_aluno não localizado na base de alunos,87,recuperado pela venda Fiado do mesmo dia e valor
+devedores,valor_devido negativo,20,sinal corrigido
+devedores,valor_devido absurdo (sem a vírgula),24,dividido por 100
+devedores,valor_devido vazio,25,preenchido com a soma das vendas fiado do aluno no dia
+devedores,data_quitacao anterior à data_divida,75,data apagada; status mantido como Quitado (sinalizado em quitacao_invalida)
+devedores,status desatualizado (referência: 22/11/2026),71,recalculado pela data de quitação e pelos dias em aberto
+perdas,"data em formato diferente (dd/mm/aaaa, dd-mm-aa, aaaa/mm/dd)",68,convertida para aaaa-mm-dd
+perdas,produto sem correspondência no cardápio,129,removida
+perdas,quantidade zerada ou negativa,194,sinal corrigido ou recuperada por valor_prejuizo / custo
+perdas,valor_prejuizo diferente de quantidade × custo_unitario,104,recalculado
+perdas,valor_prejuizo negativo (custo do produto estimado),4,sinal corrigido
+perdas,motivo não preenchido,232,preenchido com 'Não informado'
+calendario,tipo_dia digitado fora do padrão,19,padronizado
+calendario,feriado nacional marcado como dia letivo,14,corrigido para feriado
+calendario,turno_letivo ausente,16,deduzido do tipo do dia e da descrição
+calendario,"dia sem aula no calendário, mas com vendas (reposição não atualizada)",26,marcado como dia letivo de reposição
+calendario,dia letivo sem nenhuma venda (possível greve ou dia sem registro),35,mantido como letivo e sinalizado em houve_vendas = FALSE
+clima,data com fuso horário divergente,35,convertida para o dia correto
+clima,dia com 24 leituras horárias (granularidade diferente) - contagem em dias,12,"agregado: média das temperaturas, máxima das máximas e soma da chuva"
+clima,"temperatura absurda (999,9, sinal trocado, ×10)",13,descartada e interpolada
+clima,precipitação negativa,7,descartada e estimada
+clima,dia ausente (falha de requisição),20,incluído e preenchido (imputado = TRUE)
+clima,dia com campos nulos ou descartados,57,temperaturas interpoladas entre os dias vizinhos; condição e chuva estimadas
+inflacao,mês em outro formato (mm/aaaa),3,convertido para aaaa-mm
+inflacao,categoria diferente da usada no cardápio (nome da API ou digitação),208,mapeada para a categoria do cardápio
+inflacao,índice absurdo (sem a vírgula),4,dividido por 100
+inflacao,índice nulo,2,preenchido com a média das outras categorias no mês
+inflacao,"meses com vendas e sem índice publicado (defasagem): 2020-11, 2020-12, 2021-11, 2021-12, 2022-11, 2022-12, 2023-11, 2023-12, 2024-11, 2024-12, 2025-11, 2025-12, 2026-10, 2026-11",14,não inventados; a coluna disponivel_em indica quando cada índice sai
